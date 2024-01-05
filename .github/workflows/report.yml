@@ -10,7 +10,7 @@ on:
 
 jobs:
   website:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Website
     steps:
       - uses: actions/checkout@v2

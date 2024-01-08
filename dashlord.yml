@@ -25,3 +25,16 @@ tools:
   betagouv: true
 urls:
   - url: https://enseignementsup-recherche.gouv.fr
+  - url: https://enseignementsup-recherche.gouv.fr
+  - url: https://etudiant.gouv.fr
+  - url: https://fetedelascience.fr
+  - url: https://monmaster.gouv.fr
+  - url: https://parcoursup.gouv.fr
+  - url: https://archeologie.culture.gouv.fr
+  - url: https://cathedrale-saint-pierre-de-montpellier.culture.gouv.fr
+  - url: https://cheval-patrimoine.culture.gouv.fr
+  - url: https://culture.gouv.fr
+  - url: https://culturecheznous.gouv.fr
+  - url: https://data.culture.gouv.fr
+  - url: https://ellesfontla.culture.gouv.fr
+  - url: https://etats-generaux-information.fr

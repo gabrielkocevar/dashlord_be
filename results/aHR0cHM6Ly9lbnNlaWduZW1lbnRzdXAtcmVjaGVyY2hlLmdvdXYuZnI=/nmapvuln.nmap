@@ -1,8 +1,8 @@
-# Nmap 7.92 scan initiated Mon Jan  8 13:10:51 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln enseignementsup-recherche.gouv.fr
+# Nmap 7.92 scan initiated Tue Jan  9 22:25:13 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln enseignementsup-recherche.gouv.fr
 Nmap scan report for enseignementsup-recherche.gouv.fr (185.75.143.93)
 Host is up (0.0097s latency).
 rDNS record for 185.75.143.93: men-tandem-lb-vip.dedie.ate.info
-Not shown: 988 filtered tcp ports (no-response), 6 filtered tcp ports (host-prohibited)
+Not shown: 989 filtered tcp ports (no-response), 5 filtered tcp ports (host-prohibited)
 PORT     STATE  SERVICE        VERSION
 22/tcp   open   ssh            OpenSSH 8.0 (protocol 2.0)
 | vulners: 
@@ -18,7 +18,7 @@ PORT     STATE  SERVICE        VERSION
 443/tcp  open   ssl/tcpwrapped
 |_http-server-header: nginx
 2000/tcp open   tcpwrapped
-5060/tcp open   sip?
+5060/tcp open   tcpwrapped
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Jan  8 13:12:11 2024 -- 1 IP address (1 host up) scanned in 79.87 seconds
+# Nmap done at Tue Jan  9 22:25:27 2024 -- 1 IP address (1 host up) scanned in 13.87 seconds

@@ -53,8 +53,8 @@
 <div class="jumbotron">
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.interieur.gouv.fr</pre>
-<p class="lead">Thu Jan 11 20:42:04 2024 – Thu Jan 11 20:44:53 2024<br>1 hosts scanned.
+<pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.mesdroitssociaux.gouv.fr</pre>
+<p class="lead">Thu Jan 11 21:00:27 2024 – Thu Jan 11 21:03:15 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,8 +76,8 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>152.199.22.225</td>
-<td>www.interieur.gouv.fr</td>
+<td>81.80.42.167</td>
+<td>www.mesdroitssociaux.gouv.fr</td>
 <td>4</td>
 <td>0</td>
 </tr></tbody>
@@ -91,10 +91,13 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#152-199-22-225"><h3 class="panel-title">152.199.22.225 - www.interieur.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="152-199-22-225">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#81-80-42-167"><h3 class="panel-title">81.80.42.167 - www.mesdroitssociaux.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="81-80-42-167">
 <h4>Hostnames</h4>
-<ul><li>www.interieur.gouv.fr (user)</li></ul>
+<ul>
+<li>www.mesdroitssociaux.gouv.fr (user)</li>
+<li>ouvrier-paradis.rain.fr (PTR)</li>
+</ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -112,78 +115,67 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">ECAcc (mra/4699)</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest: 
-    HTTP/1.0 404 Not Found
-    Content-Type: text/html
-    Date: Thu, 11 Jan 2024 20:42:15 GMT
-    Server: ECAcc (mra/4699)
-    Content-Length: 345
+  FourOhFourRequest: 
+    HTTP/1.0 403 Forbidden
+    Date: Thu, 11 Jan 2024 21:00:43 GMT
+    Content-Length: 199
     Connection: close
-    &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;404 - Not Found&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;h1&gt;404 - Not Found&lt;/h1&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.0 200 OK
-    Allow: OPTIONS, GET, HEAD, POST
-    Date: Thu, 11 Jan 2024 20:42:15 GMT
-    Server: ECAcc (mra/4699)
-    Content-Length: 0
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;403 Forbidden&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Forbidden&lt;/h1&gt;
+    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.0 403 Forbidden
+    Date: Thu, 11 Jan 2024 21:00:38 GMT
+    Content-Length: 199
     Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;403 Forbidden&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Forbidden&lt;/h1&gt;
+    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  Help: 
+    HTTP/1.1 400 Bad Request
+    Date: Thu, 11 Jan 2024 21:01:04 GMT
+    Content-Length: 226
+    Connection: close
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
-    HTTP/1.0 400 Bad Request
-    Content-Type: text/html
-    Content-Length: 349
+    HTTP/1.1 400 Bad Request
+    Date: Thu, 11 Jan 2024 21:00:38 GMT
+    Content-Length: 226
     Connection: close
-    Date: Thu, 11 Jan 2024 20:42:15 GMT
-    Server: ECLF (mra/46D2)
-    &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;400 - Bad Request&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;h1&gt;400 - Bad Request&lt;/h1&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-  X11Probe: 
-    HTTP/1.0 501 Not Implemented
-    Content-Type: text/html
-    Content-Length: 357
-    Connection: close
-    Date: Thu, 11 Jan 2024 20:42:15 GMT
-    Server: ECLF (mra/46AB)
-    &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;501 - Not Implemented&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;h1&gt;501 - Not Implemented&lt;/h1&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  ECAcc (mra/4699)
-  ECLF (mra/46D2)</pre>
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 <tr class="active">
 <td>113</td>
@@ -199,7 +191,7 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">ECAcc (mra/4699)</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
@@ -207,89 +199,48 @@
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
-    HTTP/1.0 404 Not Found
-    Content-Type: text/html
-    Date: Thu, 11 Jan 2024 20:42:21 GMT
-    Server: ECAcc (mra/4697)
-    Content-Length: 345
+    HTTP/1.1 400 Bad Request
+    Date: Thu, 11 Jan 2024 21:00:45 GMT
+    Content-Length: 226
     Connection: close
-    &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;404 - Not Found&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;h1&gt;404 - Not Found&lt;/h1&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-  GetRequest: 
-    HTTP/1.0 404 Not Found
-    Content-Type: text/html
-    Date: Thu, 11 Jan 2024 20:42:21 GMT
-    Server: ECAcc (mra/4699)
-    Content-Length: 345
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    Date: Thu, 11 Jan 2024 21:00:44 GMT
+    Content-Length: 226
     Connection: close
-    &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;404 - Not Found&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;h1&gt;404 - Not Found&lt;/h1&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.0 200 OK
-    Allow: OPTIONS, GET, HEAD, POST
-    Date: Thu, 11 Jan 2024 20:42:21 GMT
-    Server: ECAcc (mra/4699)
-    Content-Length: 0
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  RTSPRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Thu, 11 Jan 2024 21:00:55 GMT
+    Content-Length: 226
     Connection: close
-  tor-versions: 
-    HTTP/1.0 501 Not Implemented
-    Content-Type: text/html
-    Content-Length: 357
-    Connection: close
-    Date: Thu, 11 Jan 2024 20:42:21 GMT
-    Server: ECLF (mra/46CD)
-    &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-    &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
-    &lt;head&gt;
-    &lt;title&gt;501 - Not Implemented&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;h1&gt;501 - Not Implemented&lt;/h1&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  ECAcc (mra/4697)
-  ECAcc (mra/4699)</pre>
+    Content-Type: text/html; charset=iso-8859-1
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
-<tr class="active">
-<td>1119</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>bnetgame</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>1935</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>rtmp</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 <tr class="success">
 <td title="Port">2000</td>
 <td title="Protocol">tcp</td>
@@ -328,27 +279,27 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>152.199.22.225 - www.interieur.gouv.fr</td>
+<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>ECAcc (mra/4699)</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>152.199.22.225 - www.interieur.gouv.fr</td>
+<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>ECAcc (mra/4699)</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>152.199.22.225 - www.interieur.gouv.fr</td>
+<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
 <td>2000</td>
 <td>tcp</td>
 <td>cisco-sccp</td>
@@ -358,7 +309,7 @@
 <td></td>
 </tr>
 <tr>
-<td>152.199.22.225 - www.interieur.gouv.fr</td>
+<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
 <td>sip</td>

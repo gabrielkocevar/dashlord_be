@@ -26,7 +26,6 @@ tools:
 urls:
   - url: https://1jeune1solution.gouv.fr
   - url: https://academie-renseignement.gouv.fr
-  - url: https://academie-renseignement.gouv.fr
   - url: http://adaptation-changement-climatique.gouv.fr
   - url: https://adoption.gouv.fr
   - url: https://www.aft.gouv.fr
@@ -45,7 +44,6 @@ urls:
   - url: https://arpe.gouv.fr
   - url: https://arretonslesviolences.gouv.fr
   - url: https://associations.gouv.fr
-  - url: https://associations.gouv.fr
   - url: http://autisme.gouv.fr
   - url: https://beta.gouv.fr
   - url: https://biodiversite.gouv.fr
@@ -59,7 +57,6 @@ urls:
   - url: https://www.cheminsdememoire.gouv.fr
   - url: https://choisirleservicepublic.gouv.fr
   - url: https://cigeo.gouv.fr
-  - url: https://civs.gouv.fr
   - url: https://civs.gouv.fr
   - url: https://cnaop.gouv.fr
   - url: https://cnig.gouv.fr
@@ -89,8 +86,6 @@ urls:
   - url: https://douane.gouv.fr
   - url: https://drdjscs.gouv.fr
   - url: https://dreets.gouv.fr
-  - url: https://dreets.gouv.fr
-  - url: https://drogues.gouv.fr
   - url: https://drogues.gouv.fr
   - url: https://ecologie.gouv.fr
   - url: https://education.gouv.fr
@@ -116,15 +111,12 @@ urls:
   - url: https://fse.gouv.fr
   - url: https://garde-nationale.gouv.fr
   - url: http://geoportail.gouv.fr
-  - url: http://geoportail.gouv.fr
   - url: https://georisques.gouv.fr
   - url: https://handicap.gouv.fr
   - url: https://harkis.gouv.fr
   - url: https://haut-conseil-egalite.gouv.fr
   - url: https://horizon-europe.gouv.fr
-  - url: https://horizon-europe.gouv.fr
   - url: https://igas.gouv.fr
-  - url: https://ih2ef.gouv.fr
   - url: https://ih2ef.gouv.fr
   - url: https://imagesdefense.gouv.fr
   - url: https://immobilier-etat.gouv.fr
@@ -140,14 +132,11 @@ urls:
   - url: https://ivg.gouv.fr
   - url: https://jeprotegemonenfant.gouv.fr
   - url: https://jeunes.gouv.fr
-  - url: https://jeunes.gouv.fr
   - url: https://jeveuxaider.gouv.fr
-  - url: https://journal-officiel.gouv.fr
   - url: https://journal-officiel.gouv.fr
   - url: https://justice.gouv.fr
   - url: https://lafrenchtech.gouv.fr
   - url: https://www.le-smv.gouv.fr
-  - url: https://legifrance.gouv.fr
   - url: https://legifrance.gouv.fr
   - url: https://lesentreprises-sengagent.gouv.fr
   - url: http://lheo.gouv.fr
@@ -161,7 +150,6 @@ urls:
   - url: https://merlittoral2030.gouv.fr
   - url: https://mes-aides.gouv.fr
   - url: https://www.mesdroitssociaux.gouv.fr
-  - url: https://modernisation.gouv.fr
   - url: https://modernisation.gouv.fr
   - url: https://moncompteformation.gouv.fr
   - url: https://monmaster.gouv.fr
@@ -177,7 +165,6 @@ urls:
   - url: https://onpe.gouv.fr
   - url: https://outre-mer.gouv.fr
   - url: https://parcoursup.gouv.fr
-  - url: https://participation-citoyenne.gouv.fr
   - url: https://participation-citoyenne.gouv.fr
   - url: https://peren.gouv.fr
   - url: http://permis-de-conduire.gouv.fr
@@ -210,11 +197,9 @@ urls:
   - url: https://solidarites.gouv.fr
   - url: https://solutionsdelus.gouv.fr
   - url: https://sports.gouv.fr
-  - url: https://sports.gouv.fr
   - url: https://sportsdenature.gouv.fr
   - url: https://stationnement.gouv.fr
   - url: http://stop-djihadisme.gouv.fr
-  - url: https://strategie.gouv.fr
   - url: https://strategie.gouv.fr
   - url: https://www.systeme-de-design.gouv.fr
   - url: https://tarifs-bancaires.gouv.fr

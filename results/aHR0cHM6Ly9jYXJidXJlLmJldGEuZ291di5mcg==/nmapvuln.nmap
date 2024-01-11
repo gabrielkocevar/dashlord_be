@@ -1,1 +1,0 @@
-# Nmap 7.92 scan initiated Sun Dec 31 02:52:40 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln carbure.beta.gouv.fr

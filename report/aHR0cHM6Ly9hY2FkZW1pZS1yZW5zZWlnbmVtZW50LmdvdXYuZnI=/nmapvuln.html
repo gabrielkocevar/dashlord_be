@@ -53,8 +53,8 @@
 <div class="jumbotron">
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.mesdroitssociaux.gouv.fr</pre>
-<p class="lead">Thu Jan 11 21:00:27 2024 – Thu Jan 11 21:03:15 2024<br>1 hosts scanned.
+<pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln academie-renseignement.gouv.fr</pre>
+<p class="lead">Thu Jan 11 21:35:44 2024 – Thu Jan 11 21:38:31 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,8 +76,8 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>81.80.42.167</td>
-<td>www.mesdroitssociaux.gouv.fr</td>
+<td>217.70.184.55</td>
+<td>academie-renseignement.gouv.fr</td>
 <td>4</td>
 <td>0</td>
 </tr></tbody>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#81-80-42-167"><h3 class="panel-title">81.80.42.167 - www.mesdroitssociaux.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="81-80-42-167">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#217-70-184-55"><h3 class="panel-title">217.70.184.55 - academie-renseignement.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="217-70-184-55">
 <h4>Hostnames</h4>
 <ul>
-<li>www.mesdroitssociaux.gouv.fr (user)</li>
-<li>ouvrier-paradis.rain.fr (PTR)</li>
+<li>academie-renseignement.gouv.fr (user)</li>
+<li>webredir.gandi.net (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -119,64 +119,7 @@
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.0 403 Forbidden
-    Date: Thu, 11 Jan 2024 21:00:43 GMT
-    Content-Length: 199
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;403 Forbidden&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Forbidden&lt;/h1&gt;
-    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest, HTTPOptions: 
-    HTTP/1.0 403 Forbidden
-    Date: Thu, 11 Jan 2024 21:00:38 GMT
-    Content-Length: 199
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;403 Forbidden&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Forbidden&lt;/h1&gt;
-    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  Help: 
-    HTTP/1.1 400 Bad Request
-    Date: Thu, 11 Jan 2024 21:01:04 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  RTSPRequest: 
-    HTTP/1.1 400 Bad Request
-    Date: Thu, 11 Jan 2024 21:00:38 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="active">
 <td>113</td>
 <td>tcp</td>
@@ -190,57 +133,12 @@
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">https</td>
+<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.1 400 Bad Request
-    Date: Thu, 11 Jan 2024 21:00:45 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest, HTTPOptions: 
-    HTTP/1.1 400 Bad Request
-    Date: Thu, 11 Jan 2024 21:00:44 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  RTSPRequest: 
-    HTTP/1.1 400 Bad Request
-    Date: Thu, 11 Jan 2024 21:00:55 GMT
-    Content-Length: 226
-    Connection: close
-    Content-Type: text/html; charset=iso-8859-1
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="success">
 <td title="Port">2000</td>
 <td title="Protocol">tcp</td>
@@ -279,7 +177,7 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
+<td>217.70.184.55 - academie-renseignement.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
@@ -289,17 +187,17 @@
 <td></td>
 </tr>
 <tr>
-<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
+<td>217.70.184.55 - academie-renseignement.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>https</td>
+<td>tcpwrapped</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
+<td>217.70.184.55 - academie-renseignement.gouv.fr</td>
 <td>2000</td>
 <td>tcp</td>
 <td>cisco-sccp</td>
@@ -309,7 +207,7 @@
 <td></td>
 </tr>
 <tr>
-<td>81.80.42.167 - www.mesdroitssociaux.gouv.fr</td>
+<td>217.70.184.55 - academie-renseignement.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
 <td>sip</td>

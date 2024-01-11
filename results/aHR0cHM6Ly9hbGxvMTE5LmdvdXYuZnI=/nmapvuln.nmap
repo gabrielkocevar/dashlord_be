@@ -1,0 +1,15 @@
+# Nmap 7.92 scan initiated Thu Jan 11 23:19:21 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln allo119.gouv.fr
+Nmap scan report for allo119.gouv.fr (46.18.135.249)
+Host is up (0.0053s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        Apache httpd
+|_http-server-header: Apache
+113/tcp  closed ident
+443/tcp  open   ssl/http    Apache httpd
+|_http-server-header: Apache
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jan 11 23:22:08 2024 -- 1 IP address (1 host up) scanned in 167.10 seconds

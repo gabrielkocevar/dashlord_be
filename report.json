@@ -1,256 +1,11 @@
 [
   {
     "404": null,
-    "url": "https://www.mesdroitssociaux.gouv.fr/accueil",
-    "http": {
-      "url": "https://www.mesdroitssociaux.gouv.fr/accueil",
-      "algorithm_version": 2,
-      "end_time": "Thu, 11 Jan 2024 20:59:20 GMT",
-      "grade": "B+",
-      "hidden": false,
-      "likelihood_indicator": "MEDIUM",
-      "response_headers": {
-        "Accept-Ranges": "bytes",
-        "Cache-Control": "no-store",
-        "Connection": "Keep-Alive",
-        "Content-Length": "732",
-        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://tag.aticdn.net; img-src 'self' https://*.xiti.com https://www.mesdroitssociaux.gouv.fr https://voxusagers.numerique.gouv.fr/static/bouton-bleu.svg data:; style-src 'self' 'unsafe-inline' https://www.gstatic.com; font-src 'self' data:; frame-src 'self' https://www.dailymotion.com; connect-src 'self' https://*.xiti.com https://*.dev-franceconnect.fr https://app.franceconnect.gouv.fr ; object-src 'none'",
-        "Content-Type": "text/html",
-        "Date": "Thu, 11 Jan 2024 20:59:18 GMT",
-        "ETag": "\"6560bb1d-2dc\"",
-        "Keep-Alive": "timeout=5, max=299",
-        "Last-Modified": "Fri, 24 Nov 2023 15:02:53 GMT",
-        "Referrer-Policy": "same-origin",
-        "Server": "MSAWS",
-        "Strict-Transport-Security": "max-age=15768000;",
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "X-XSS-Protection": "1; mode=block"
-      },
-      "scan_id": 46366466,
-      "score": 80,
-      "start_time": "Thu, 11 Jan 2024 20:59:16 GMT",
-      "state": "FINISHED",
-      "status_code": 200,
-      "tests_failed": 1,
-      "tests_passed": 11,
-      "tests_quantity": 12,
-      "details": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "name": "content-security-policy",
-          "output": {
-            "data": {
-              "connect-src": [
-                "'self'",
-                "https://*.dev-franceconnect.fr",
-                "https://app.franceconnect.gouv.fr",
-                "https://*.xiti.com"
-              ],
-              "default-src": [
-                "'self'"
-              ],
-              "font-src": [
-                "'self'",
-                "data:"
-              ],
-              "frame-src": [
-                "'self'",
-                "https://www.dailymotion.com"
-              ],
-              "img-src": [
-                "https://*.xiti.com",
-                "https://voxusagers.numerique.gouv.fr/static/bouton-bleu.svg",
-                "https://www.mesdroitssociaux.gouv.fr",
-                "'self'",
-                "data:"
-              ],
-              "object-src": [
-                "'none'"
-              ],
-              "script-src": [
-                "https://tag.aticdn.net",
-                "'unsafe-eval'",
-                "https://www.gstatic.com",
-                "'unsafe-inline'",
-                "'self'"
-              ],
-              "style-src": [
-                "'self'",
-                "https://www.gstatic.com",
-                "'unsafe-inline'"
-              ]
-            },
-            "http": true,
-            "meta": false,
-            "numPolicies": 1,
-            "policy": {
-              "antiClickjacking": false,
-              "defaultNone": false,
-              "insecureBaseUri": true,
-              "insecureFormAction": true,
-              "insecureSchemeActive": false,
-              "insecureSchemePassive": false,
-              "strictDynamic": false,
-              "unsafeEval": true,
-              "unsafeInline": true,
-              "unsafeInlineStyle": true,
-              "unsafeObjects": false
-            }
-          },
-          "pass": false,
-          "result": "csp-implemented-with-unsafe-inline",
-          "score_description": "Content Security Policy (CSP) implemented unsafely. This includes 'unsafe-inline' or data: inside script-src, overly broad sources such as https: inside object-src or script-src, or not restricting the sources for object-src or script-src.",
-          "score_modifier": -20
-        },
-        "contribute": {
-          "expectation": "contribute-json-only-required-on-mozilla-properties",
-          "name": "contribute",
-          "output": {
-            "data": null
-          },
-          "pass": true,
-          "result": "contribute-json-only-required-on-mozilla-properties",
-          "score_description": "Contribute.json isn't required on websites that don't belong to Mozilla",
-          "score_modifier": 0
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "name": "cookies",
-          "output": {
-            "data": null,
-            "sameSite": null
-          },
-          "pass": true,
-          "result": "cookies-not-found",
-          "score_description": "No cookies detected",
-          "score_modifier": 0
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "name": "cross-origin-resource-sharing",
-          "output": {
-            "data": {
-              "acao": null,
-              "clientaccesspolicy": null,
-              "crossdomain": null
-            }
-          },
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
-          "score_modifier": 0
-        },
-        "public-key-pinning": {
-          "expectation": "hpkp-not-implemented",
-          "name": "public-key-pinning",
-          "output": {
-            "data": null,
-            "includeSubDomains": false,
-            "max-age": null,
-            "numPins": null,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hpkp-not-implemented",
-          "score_description": "HTTP Public Key Pinning (HPKP) header not implemented",
-          "score_modifier": 0
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "name": "redirection",
-          "output": {
-            "destination": "https://www.mesdroitssociaux.gouv.fr/accueil/",
-            "redirects": true,
-            "route": [
-              "http://www.mesdroitssociaux.gouv.fr/",
-              "https://www.mesdroitssociaux.gouv.fr/",
-              "https://www.mesdroitssociaux.gouv.fr/accueil/"
-            ],
-            "status_code": 200
-          },
-          "pass": true,
-          "result": "redirection-to-https",
-          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
-          "score_modifier": 0
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "name": "referrer-policy",
-          "output": {
-            "data": "same-origin",
-            "http": true,
-            "meta": false
-          },
-          "pass": true,
-          "result": "referrer-policy-private",
-          "score_description": "Referrer-Policy header set to \"no-referrer\", \"same-origin\", \"strict-origin\" or \"strict-origin-when-cross-origin\"",
-          "score_modifier": 5
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "name": "strict-transport-security",
-          "output": {
-            "data": "max-age=15768000;",
-            "includeSubDomains": false,
-            "max-age": 15768000,
-            "preload": false,
-            "preloaded": false
-          },
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
-          "score_modifier": 0
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "name": "subresource-integrity",
-          "output": {
-            "data": {}
-          },
-          "pass": true,
-          "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
-          "score_description": "Subresource Integrity (SRI) not implemented, but all scripts are loaded from a similar origin",
-          "score_modifier": 0
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "name": "x-content-type-options",
-          "output": {
-            "data": "nosniff"
-          },
-          "pass": true,
-          "result": "x-content-type-options-nosniff",
-          "score_description": "X-Content-Type-Options header set to \"nosniff\"",
-          "score_modifier": 0
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "name": "x-frame-options",
-          "output": {
-            "data": "SAMEORIGIN"
-          },
-          "pass": true,
-          "result": "x-frame-options-sameorigin-or-deny",
-          "score_description": "X-Frame-Options (XFO) header set to SAMEORIGIN or DENY",
-          "score_modifier": 0
-        },
-        "x-xss-protection": {
-          "expectation": "x-xss-protection-1-mode-block",
-          "name": "x-xss-protection",
-          "output": {
-            "data": "1; mode=block"
-          },
-          "pass": true,
-          "result": "x-xss-protection-enabled-mode-block",
-          "score_description": "X-XSS-Protection header set to \"1; mode=block\"",
-          "score_modifier": 0
-        }
-      }
-    },
+    "url": "https://academie-renseignement.gouv.fr",
+    "http": null,
     "updownio": null,
     "nmap": {
-      "host": "www.mesdroitssociaux.gouv.fr",
+      "host": "academie-renseignement.gouv.fr",
       "protocol": "tcp",
       "closed_ports": "995",
       "open_ports": [
@@ -270,7 +25,7 @@
         },
         {
           "service": {
-            "name": "https",
+            "name": "tcpwrapped",
             "id": "443",
             "vulnerabilities": []
           }
@@ -297,77 +52,70 @@
     "testssl": [
       {
         "id": "service",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No 128 cipher limit bug"
       },
       {
         "id": "SSLv2",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "SSLv3",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "TLS1",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_1",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_2",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "TLS1_3",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "offered with final"
       },
       {
-        "id": "ALPN_HTTP2",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
-        "port": "443",
-        "severity": "OK",
-        "finding": "h2"
-      },
-      {
         "id": "ALPN",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "http/1.1"
+        "finding": "not offered"
       },
       {
         "id": "cipherlist_NULL",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -375,7 +123,7 @@
       },
       {
         "id": "cipherlist_aNULL",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -383,7 +131,7 @@
       },
       {
         "id": "cipherlist_EXPORT",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -391,7 +139,7 @@
       },
       {
         "id": "cipherlist_LOW",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -399,7 +147,7 @@
       },
       {
         "id": "cipherlist_3DES_IDEA",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -407,449 +155,477 @@
       },
       {
         "id": "cipherlist_OBSOLETED",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
-        "severity": "INFO",
+        "severity": "LOW",
         "cwe": "CWE-310",
-        "finding": "not offered"
+        "finding": "offered"
       },
       {
         "id": "cipherlist_STRONG_NOFS",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "cipherlist_STRONG_FS",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cipher_order-tls1_2",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
-        "port": "443",
-        "severity": "OK",
-        "finding": "server"
-      },
-      {
-        "id": "cipherorder_TLSv1_2",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "NOT a cipher order configured"
+      },
+      {
+        "id": "cipher-tls1_2_xc02c",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "OK",
+        "finding": "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH 256   AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "cipher-tls1_2_xc00a",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "TLSv1.2   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH 256   AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+      },
+      {
+        "id": "cipher-tls1_2_xc02b",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "OK",
+        "finding": "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH 256   AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "cipher-tls1_2_xc009",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "TLSv1.2   xc009   ECDHE-ECDSA-AES128-SHA            ECDH 256   AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+      },
+      {
+        "id": "supportedciphers_TLSv1_2",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA"
       },
       {
         "id": "cipher_order",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
-        "severity": "OK",
-        "finding": "server"
+        "severity": "INFO",
+        "finding": "NOT a cipher order configured"
       },
       {
         "id": "FS",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "FS_ciphers",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
+        "finding": "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA"
       },
       {
         "id": "FS_ECDHE_curves",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
-        "finding": "prime256v1 secp384r1 secp521r1"
+        "finding": "prime256v1"
       },
       {
         "id": "TLS_extensions",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'extended master secret/#23'"
+        "finding": "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'key share/#51' 'supported versions/#43' 'extended master secret/#23'"
       },
       {
         "id": "TLS_session_ticket",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "valid for 300 seconds only (<daily)"
       },
       {
         "id": "SSL_sessionID_support",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "yes"
       },
       {
         "id": "sessionresumption_ticket",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "supported"
       },
       {
         "id": "sessionresumption_ID",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "random"
       },
       {
         "id": "certificate_compression",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "clientAuth",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "cert_numbers",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "1"
       },
       {
         "id": "cert_signatureAlgorithm",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "SHA256 with RSA"
       },
       {
         "id": "cert_keySize",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
-        "severity": "INFO",
-        "finding": "RSA 2048 bits (exponent is 65537)"
+        "severity": "OK",
+        "finding": "EC 256 bits (curve P-256)"
       },
       {
         "id": "cert_keyUsage",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "Digital Signature, Key Encipherment"
+        "finding": "Digital Signature"
       },
       {
         "id": "cert_extKeyUsage",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLS Web Server Authentication"
+        "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
       },
       {
         "id": "cert_serialNumber",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "5728B349568A85CF20FCC48B064A4FDB"
+        "finding": "A3E06D205A2946A6C862F82812FA0954"
       },
       {
         "id": "cert_serialNumberLen",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "16"
       },
       {
         "id": "cert_fingerprintSHA1",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "C54D42D1EA18CFF1B21342E102C0EDD5408E1A77"
+        "finding": "1C7F3D2D57AF9A6C4D73637E912F4CD0251EBC22"
       },
       {
         "id": "cert_fingerprintSHA256",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "46B488F11C0B5E88F7B447F1CCBC8748CCF36B7AFB22B1E6711CCCB118DEE238"
+        "finding": "39D9646794495C64103C57F549A70FC10AC2FE167C51C4DBF599706FBCA66CE3"
       },
       {
         "id": "cert",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIFfTCCBGWgAwIBAgIRAKPgbSBaKUamyGL4KBL6CVQwDQYJKoZIhvcNAQELBQAwXzELMAkGA1UEBhMCRlIxDjAMBgNVBAgTBVBhcmlzMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UEChMFR2FuZGkxIDAeBgNVBAMTF0dhbmRpIFN0YW5kYXJkIFNTTCBDQSAyMB4XDTIzMDQxMzAwMDAwMFoXDTI0MDQxMzIzNTk1OVowKTEnMCUGA1UEAxMeYWNhZGVtaWUtcmVuc2VpZ25lbWVudC5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEntdNKWivxBo21yAQqbqrgg+b6GS80vIrx/+XZvK4/SiWGHRMeraXbHkWQMf6MtDLXNbJB+IbwqUcmDDmZ2Zz+aOCAzMwggMvMB8GA1UdIwQYMBaAFLOQp9jJr07NYTyffK1df0H9aTDqMB0GA1UdDgQWBBSmADA3QTw//1oa4RJIKAuVByfDrTAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwSwYDVR0gBEQwQjA2BgsrBgEEAbIxAQICGjAnMCUGCCsGAQUFBwIBFhlodHRwczovL2Nwcy51c2VydHJ1c3QuY29tMAgGBmeBDAECATBBBgNVHR8EOjA4MDagNKAyhjBodHRwOi8vY3JsLnVzZXJ0cnVzdC5jb20vR2FuZGlTdGFuZGFyZFNTTENBMi5jcmwwcwYIKwYBBQUHAQEEZzBlMDwGCCsGAQUFBzAChjBodHRwOi8vY3J0LnVzZXJ0cnVzdC5jb20vR2FuZGlTdGFuZGFyZFNTTENBMi5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wKQYDVR0RBCIwIIIeYWNhZGVtaWUtcmVuc2VpZ25lbWVudC5nb3V2LmZyMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAYd7clGjAAAEAwBHMEUCIHf/NPKSHYHc6H370UA+BxIW4+WCkpop0NPd11AIuRrcAiEAlwa57rWOcTHs4MER+YsqeANJvmmhkIvbtF0bToY+paEAdgDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAYd7clH5AAAEAwBHMEUCIQCZ/xHfkMp4x/6c3viAasZlzULErGYehIXnZrxXW0GQ8AIgfuUT2jcB3tJ0O1REerh6Vj6loQVRbvgKoMipJOyFLjUAdgDuzdBk1dsazsVct520zROiModGfLzs3sNRSFlGcR+1mwAAAYd7clHLAAAEAwBHMEUCIFVwwZuWYh4C76DlXGQdFkWtCW6thaNI2G2Q/x1jKpTjAiEAg5Vi48BE6xpZxWKnFQ99tt+u7fhcWdJAbyovcso0jaYwDQYJKoZIhvcNAQELBQADggEBAG6EgeR2bxRdcPQnK7N+50CvhUfcplSPtsHIXt4R4K3f+x0JQ2a1w/rgQjKzqZJ9VePq89fqkOVcs0oe/lCqUN3HZFC0YmpKEQa6amz8zvxtbgESPEakPVAZJPmRIF/+V9fRDE1il+f9TKUUb4Tnx2cN2Y7FzSdOix17UkamFa3GNonXR7rgfkwGkzOl3JWGICVy5U/W4ZY6eWJoPZPZZXJfgnzu2YBXL3d4D1yaraneoekhSRWWHjHmTgdZDzC3VRGkXrcwvIL3sfQ+larTsbpN72EztsJkklJL4CeB68HoCxK0buFc8jqhhZ2+hdbf3U4m0+sR8sNh0Fdbm+hwzwY=\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
-        "finding": "www.mesdroitssociaux.gouv.fr"
+        "finding": "academie-renseignement.gouv.fr"
       },
       {
         "id": "cert_commonName_wo_SNI",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "www.mesdroitssociaux.gouv.fr"
+        "finding": "request w/o SNI didn't succeed"
       },
       {
         "id": "cert_subjectAltName",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "mesdroitssociaux.gouv.fr www.mesdroitssociaux.gouv.fr"
+        "finding": "academie-renseignement.gouv.fr"
       },
       {
         "id": "cert_trust",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
-        "finding": "Ok via SAN and CN (same w/o SNI)"
+        "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
         "id": "cert_chain_of_trust",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "passed."
       },
       {
         "id": "cert_certificatePolicies_EV",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_expirationStatus",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
-        "finding": "331 >= 60 days"
+        "finding": "93 >= 60 days"
       },
       {
         "id": "cert_notBefore",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "2023-11-06 23:00"
+        "finding": "2023-04-13 00:00"
       },
       {
         "id": "cert_notAfter",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
-        "finding": "2024-12-07 22:59"
+        "finding": "2024-04-13 23:59"
       },
       {
         "id": "cert_extlifeSpan",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "certificate has no extended life time according to browser forum"
       },
       {
         "id": "cert_eTLS",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "not present"
       },
       {
         "id": "cert_crlDistributionPoints",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+        "finding": "http://crl.usertrust.com/GandiStandardSSLCA2.crl"
       },
       {
         "id": "cert_ocspURL",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+        "finding": "http://ocsp.usertrust.com"
       },
       {
         "id": "OCSP_stapling",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
-        "severity": "LOW",
-        "finding": "not offered"
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cert_ocspRevoked",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not revoked"
       },
       {
         "id": "cert_mustStapleExtension",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "DNS_CAArecord",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "LOW",
         "finding": "--"
       },
       {
         "id": "certificate_transparency",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "yes (certificate extension)"
       },
       {
         "id": "certs_countServer",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "2"
       },
       {
         "id": "certs_list_ordering_problem",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_caIssuers",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "Certigna Services CA (DHIMYOTIS from FR)"
+        "finding": "Gandi Standard SSL CA 2 (Gandi from FR)"
       },
       {
         "id": "intermediate_cert <#1>",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+        "finding": "B9F2164323638DCE0B92218B43C41C1B2B2696389329DB19F5CF7AD49B5CB372"
       },
       {
         "id": "intermediate_cert_notBefore <#1>",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "2015-11-25 11:33"
+        "finding": "2014-09-12 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#1>",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
-        "finding": "2025-11-22 11:33"
+        "finding": "2024-09-11 23:59"
       },
       {
         "id": "intermediate_cert_expiration <#1>",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#1>",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "Certigna Services CA <-- Certigna"
+        "finding": "Gandi Standard SSL CA 2 <-- USERTrust RSA Certification Authority"
       },
       {
         "id": "intermediate_cert_badOCSP",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
         "id": "HTTP_status_code",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "301 Moved Permanently ('/')"
       },
       {
         "id": "HTTP_clock_skew",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
-      },
-      {
-        "id": "HTTP_headerTime",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "1705006801"
+        "finding": "Got no HTTP time, maybe try different URL?"
       },
       {
         "id": "HSTS",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "LOW",
         "finding": "not offered"
       },
       {
         "id": "HPKP",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No support for HTTP Public Key Pinning"
       },
       {
         "id": "banner_server",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No Server banner line in header, interesting!"
       },
       {
         "id": "banner_application",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No application banner found"
       },
       {
         "id": "cookie_count",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "0 at '/' (30x detected, better try target URL of 30x)"
       },
       {
         "id": "security_headers",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "MEDIUM",
         "finding": "--"
       },
       {
         "id": "banner_reverseproxy",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-200",
@@ -857,7 +633,7 @@
       },
       {
         "id": "heartbleed",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0160",
@@ -866,7 +642,7 @@
       },
       {
         "id": "CCS",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0224",
@@ -875,7 +651,7 @@
       },
       {
         "id": "ticketbleed",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-9244",
@@ -884,7 +660,7 @@
       },
       {
         "id": "ROBOT",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -893,7 +669,7 @@
       },
       {
         "id": "secure_renego",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-310",
@@ -901,7 +677,7 @@
       },
       {
         "id": "secure_client_renego",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-1473",
@@ -910,7 +686,7 @@
       },
       {
         "id": "CRIME_TLS",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2012-4929",
@@ -919,7 +695,7 @@
       },
       {
         "id": "BREACH",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-3587",
@@ -928,7 +704,7 @@
       },
       {
         "id": "POODLE_SSL",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-3566",
@@ -937,14 +713,14 @@
       },
       {
         "id": "fallback_SCSV",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "no protocol below TLS 1.2 offered"
       },
       {
         "id": "SWEET32",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-2183 CVE-2016-6329",
@@ -953,7 +729,7 @@
       },
       {
         "id": "FREAK",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-0204",
@@ -962,7 +738,7 @@
       },
       {
         "id": "DROWN",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -971,25 +747,16 @@
       },
       {
         "id": "DROWN_hint",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
         "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=46B488F11C0B5E88F7B447F1CCBC8748CCF36B7AFB22B1E6711CCCB118DEE238"
-      },
-      {
-        "id": "LOGJAM-common_primes",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
-        "port": "443",
-        "severity": "INFO",
-        "cve": "CVE-2015-4000",
-        "cwe": "CWE-310",
-        "finding": "RFC3526/Oakley Group 14"
+        "finding": "no RSA certificate, can't be used with SSLv2 elsewhere"
       },
       {
         "id": "LOGJAM",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -997,8 +764,17 @@
         "finding": "not vulnerable, no DH EXPORT ciphers,"
       },
       {
+        "id": "LOGJAM-common_primes",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "no DH key with <= TLS 1.2"
+      },
+      {
         "id": "BEAST",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-3389",
@@ -1007,16 +783,16 @@
       },
       {
         "id": "LUCKY13",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
-        "severity": "OK",
+        "severity": "LOW",
         "cve": "CVE-2013-0169",
         "cwe": "CWE-310",
-        "finding": "not vulnerable"
+        "finding": "potentially vulnerable, uses TLS CBC ciphers"
       },
       {
         "id": "winshock",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-6321",
@@ -1025,7 +801,7 @@
       },
       {
         "id": "RC4",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-2566 CVE-2015-2808",
@@ -1034,332 +810,332 @@
       },
       {
         "id": "clientsimulation-android_60",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_70",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_81",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_90",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_X",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_11",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_12",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chrome_79_win10",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chrome_101_win10",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_66_win81",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_100_win10",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-ie_6_xp",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_win7",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_xp",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win7",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-ie_11_win81",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-ie_11_winphone81",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "No connection"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-ie_11_win10",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-edge_15_win10",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-edge_101_win10_21h2",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_121_ios_122",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
       },
       {
         "id": "clientsimulation-safari_130_osx_10146",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
       },
       {
         "id": "clientsimulation-safari_154_osx_1231",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_7u25",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_8u161",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-java1102",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java1703",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-go_1178",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-libressl_283",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
       },
       {
         "id": "clientsimulation-openssl_102e",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-openssl_110l",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-openssl_111d",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-openssl_303",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-apple_mail_16_0",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-thunderbird_91_9",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "rating_spec",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
       },
       {
         "id": "rating_doc",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
       },
       {
         "id": "protocol_support_score",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "100"
       },
       {
         "id": "protocol_support_score_weighted",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "30"
       },
       {
         "id": "key_exchange_score",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "100"
+      },
+      {
+        "id": "key_exchange_score_weighted",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "30"
+      },
+      {
+        "id": "cipher_strength_score",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "90"
       },
       {
-        "id": "key_exchange_score_weighted",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "27"
-      },
-      {
-        "id": "cipher_strength_score",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "60"
-      },
-      {
         "id": "cipher_strength_score_weighted",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "24"
+        "finding": "36"
       },
       {
         "id": "final_score",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "81"
+        "finding": "96"
       },
       {
         "id": "overall_grade",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "OK",
         "finding": "A"
       },
       {
         "id": "grade_cap_reason_1",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
         "finding": "Grade capped to A. HSTS is not offered"
       },
       {
         "id": "scanTime",
-        "ip": "www.mesdroitssociaux.gouv.fr/81.80.42.167",
+        "ip": "academie-renseignement.gouv.fr/217.70.184.55",
         "port": "443",
         "severity": "INFO",
-        "finding": "42"
+        "finding": "41"
       }
     ],
     "thirdparties": null,
@@ -1368,11 +1144,11 @@
     "nuclei": [],
     "lhr": [
       {
-        "requestedUrl": "https://www.mesdroitssociaux.gouv.fr/accueil",
-        "finalUrl": "https://www.mesdroitssociaux.gouv.fr/accueil/",
-        "fetchTime": "2024-01-11T20:59:03.404Z",
+        "requestedUrl": "https://academie-renseignement.gouv.fr/",
+        "finalUrl": "https://www.academie-renseignement.gouv.fr/",
+        "fetchTime": "2024-01-11T21:20:54.501Z",
         "runWarnings": [
-          "The page may not be loading as expected because your test URL (https://www.mesdroitssociaux.gouv.fr/accueil) was redirected to https://www.mesdroitssociaux.gouv.fr/accueil/. Try testing the second URL directly."
+          "The page may not be loading as expected because your test URL (https://academie-renseignement.gouv.fr/) was redirected to https://www.academie-renseignement.gouv.fr/. Try testing the second URL directly."
         ],
         "categories": {
           "performance": {
@@ -1383,7 +1159,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0
+            "score": 0.9826555252075195
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1394,7 +1170,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 1
+            "score": 0.82
           },
           "best-practices": {
             "title": "Best Practices",
@@ -1404,7 +1180,7 @@
               "snapshot"
             ],
             "id": "best-practices",
-            "score": 0.92
+            "score": 0.83
           },
           "seo": {
             "title": "SEO",
@@ -1415,7 +1191,7 @@
               "snapshot"
             ],
             "id": "seo",
-            "score": 0.77
+            "score": 0.9
           },
           "pwa": {
             "title": "PWA",
@@ -1435,53 +1211,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 16337,
+            "numericValue": 4337,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 9653,
-                  "firstMeaningfulPaint": 11312,
-                  "largestContentfulPaint": 14700,
-                  "interactive": 16337,
-                  "speedIndex": 9653,
-                  "totalBlockingTime": 1127,
-                  "maxPotentialFID": 794,
-                  "cumulativeLayoutShift": 0.0002937804328070747,
-                  "cumulativeLayoutShiftMainFrame": 0.0002937804328070747,
-                  "totalCumulativeLayoutShift": 0.0002937804328070747,
+                  "firstContentfulPaint": 4337,
+                  "firstMeaningfulPaint": 4337,
+                  "largestContentfulPaint": 5913,
+                  "interactive": 4337,
+                  "speedIndex": 4337,
+                  "totalBlockingTime": 0,
+                  "maxPotentialFID": 22,
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0,
+                  "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 543214571819,
+                  "observedTimeOriginTs": 544525666768,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 543214571819,
-                  "observedFirstPaint": 1581,
-                  "observedFirstPaintTs": 543216153074,
-                  "observedFirstContentfulPaint": 1581,
-                  "observedFirstContentfulPaintTs": 543216153074,
-                  "observedFirstContentfulPaintAllFrames": 1581,
-                  "observedFirstContentfulPaintAllFramesTs": 543216153074,
-                  "observedFirstMeaningfulPaint": 1764,
-                  "observedFirstMeaningfulPaintTs": 543216335840,
-                  "observedLargestContentfulPaint": 1581,
-                  "observedLargestContentfulPaintTs": 543216153074,
-                  "observedLargestContentfulPaintAllFrames": 1581,
-                  "observedLargestContentfulPaintAllFramesTs": 543216153074,
-                  "observedTraceEnd": 4112,
-                  "observedTraceEndTs": 543218683771,
-                  "observedLoad": 1260,
-                  "observedLoadTs": 543215831378,
-                  "observedDomContentLoaded": 1259,
-                  "observedDomContentLoadedTs": 543215830532,
-                  "observedCumulativeLayoutShift": 0.0002937804328070747,
-                  "observedCumulativeLayoutShiftMainFrame": 0.0002937804328070747,
-                  "observedTotalCumulativeLayoutShift": 0.0002937804328070747,
-                  "observedFirstVisualChange": 1581,
-                  "observedFirstVisualChangeTs": 543216152819,
-                  "observedLastVisualChange": 1915,
-                  "observedLastVisualChangeTs": 543216486819,
-                  "observedSpeedIndex": 1641,
-                  "observedSpeedIndexTs": 543216212982
+                  "observedNavigationStartTs": 544525666768,
+                  "observedFirstPaint": 306,
+                  "observedFirstPaintTs": 544525973128,
+                  "observedFirstContentfulPaint": 306,
+                  "observedFirstContentfulPaintTs": 544525973128,
+                  "observedFirstContentfulPaintAllFrames": 306,
+                  "observedFirstContentfulPaintAllFramesTs": 544525973128,
+                  "observedFirstMeaningfulPaint": 306,
+                  "observedFirstMeaningfulPaintTs": 544525973128,
+                  "observedLargestContentfulPaint": 365,
+                  "observedLargestContentfulPaintTs": 544526031527,
+                  "observedLargestContentfulPaintAllFrames": 365,
+                  "observedLargestContentfulPaintAllFramesTs": 544526031527,
+                  "observedTraceEnd": 2695,
+                  "observedTraceEndTs": 544528361314,
+                  "observedLoad": 364,
+                  "observedLoadTs": 544526031149,
+                  "observedDomContentLoaded": 285,
+                  "observedDomContentLoadedTs": 544525951816,
+                  "observedCumulativeLayoutShift": 0,
+                  "observedCumulativeLayoutShiftMainFrame": 0,
+                  "observedTotalCumulativeLayoutShift": 0,
+                  "observedFirstVisualChange": 317,
+                  "observedFirstVisualChangeTs": 544525983768,
+                  "observedLastVisualChange": 901,
+                  "observedLastVisualChangeTs": 544526567768,
+                  "observedSpeedIndex": 364,
+                  "observedSpeedIndexTs": 544526031087
                 },
                 {
                   "lcpInvalidated": false
@@ -1499,23 +1275,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 72,
-                  "numScripts": 5,
-                  "numStylesheets": 1,
-                  "numFonts": 5,
-                  "numTasks": 1361,
-                  "numTasksOver10ms": 13,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 2,
+                  "numRequests": 32,
+                  "numScripts": 9,
+                  "numStylesheets": 2,
+                  "numFonts": 0,
+                  "numTasks": 359,
+                  "numTasksOver10ms": 1,
+                  "numTasksOver25ms": 0,
+                  "numTasksOver50ms": 0,
+                  "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 9.043,
-                  "throughput": 37307250.39396841,
-                  "maxRtt": 14.101999999999997,
-                  "maxServerLatency": 16.666000000000004,
-                  "totalByteWeight": 4258838,
-                  "totalTaskTime": 874.4390000000052,
-                  "mainDocumentTransferSize": 1330
+                  "rtt": 8.761000000000003,
+                  "throughput": 58606366.49007555,
+                  "maxRtt": 16.494,
+                  "maxServerLatency": 1.9920000000000009,
+                  "totalByteWeight": 1139511,
+                  "totalTaskTime": 100.20600000000017,
+                  "mainDocumentTransferSize": 5810
                 }
               ]
             }
@@ -1545,11 +1321,14 @@
     "declaration-rgpd": [
       {
         "slug": "ml",
-        "mention": null,
-        "maxScore": 0,
-        "score": 0,
-        "missingWords": [],
-        "missingTrackers": []
+        "mention": "Mentions légales",
+        "maxScore": 4,
+        "score": 3,
+        "missingWords": [
+          "éditeur (ou) édité par (ou) editeur (ou) edité par"
+        ],
+        "missingTrackers": [],
+        "declarationUrl": "https://academie-renseignement.gouv.fr/mentions-legales.html"
       },
       {
         "slug": "pc",
@@ -1564,28 +1343,27 @@
     "ecoindex": null,
     "sonarcloud": null,
     "summary": {
-      "httpGrade": "B+",
       "nmapGrade": "B",
       "nmapOpenPortsCount": 5,
       "nmapOpenPortsGrade": "F",
       "testsslExpireSoon": false,
-      "testsslExpireDate": "2024-12-07T22:59:00.000Z",
+      "testsslExpireDate": "2024-04-13T23:59:00.000Z",
       "testsslGrade": "A",
-      "lighthouse_performance": 0,
-      "lighthouse_performanceGrade": "F",
-      "lighthouse_accessibility": 1,
-      "lighthouse_accessibilityGrade": "A",
-      "lighthouse_best-practices": 0.92,
-      "lighthouse_best-practicesGrade": "A",
-      "lighthouse_seo": 0.77,
-      "lighthouse_seoGrade": "B",
+      "lighthouse_performance": 0.9826555252075195,
+      "lighthouse_performanceGrade": "A",
+      "lighthouse_accessibility": 0.82,
+      "lighthouse_accessibilityGrade": "B",
+      "lighthouse_best-practices": 0.83,
+      "lighthouse_best-practicesGrade": "B",
+      "lighthouse_seo": 0.9,
+      "lighthouse_seoGrade": "A",
       "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E",
       "statsGrade": "F",
       "githubRepositoryGrade": "F",
       "budgetPageGrade": "F",
       "declaration-a11y": "F",
-      "declaration-rgpd-ml": "F",
+      "declaration-rgpd-ml": "D",
       "declaration-rgpd-pc": "F"
     }
   }

@@ -1,0 +1,17 @@
+# Nmap 7.92 scan initiated Fri Jan 12 13:26:33 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-lyon.gouv.fr
+Nmap scan report for ira-lyon.gouv.fr (94.228.187.212)
+Host is up (0.012s latency).
+rDNS record for 94.228.187.212: www.ira-lyon.gouv.fr
+Not shown: 994 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+21/tcp   closed ftp
+80/tcp   open   http        Apache httpd
+|_http-server-header: Apache
+113/tcp  closed ident
+443/tcp  open   ssl/http    Apache httpd
+|_http-server-header: Apache
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 12 13:29:21 2024 -- 1 IP address (1 host up) scanned in 168.71 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Jan 12 15:52:15 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln merlittoral2030.gouv.fr
+Host: 79.137.76.37 (vps381334.ovh.net)	Status: Up
+Host: 79.137.76.37 (vps381334.ovh.net)	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
+# Nmap done at Fri Jan 12 15:55:09 2024 -- 1 IP address (1 host up) scanned in 174.21 seconds

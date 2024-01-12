@@ -1,0 +1,24 @@
+# Nmap 7.92 scan initiated Fri Jan 12 08:41:39 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln devenirenseignant.gouv.fr
+Nmap scan report for devenirenseignant.gouv.fr (185.75.143.93)
+Host is up (0.020s latency).
+rDNS record for 185.75.143.93: men-tandem-lb-vip.dedie.ate.info
+Not shown: 987 filtered tcp ports (no-response), 7 filtered tcp ports (host-prohibited)
+PORT     STATE  SERVICE        VERSION
+22/tcp   open   ssh            OpenSSH 8.0 (protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:8.0: 
+|     	CVE-2020-15778	6.8	https://vulners.com/cve/CVE-2020-15778
+|     	C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	6.8	https://vulners.com/githubexploit/C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	*EXPLOIT*
+|     	10213DBE-F683-58BB-B6D3-353173626207	6.8	https://vulners.com/githubexploit/10213DBE-F683-58BB-B6D3-353173626207	*EXPLOIT*
+|     	PRION:CVE-2016-20012	5.0	https://vulners.com/prion/PRION:CVE-2016-20012
+|_    	PRION:CVE-2010-4816	5.0	https://vulners.com/prion/PRION:CVE-2010-4816
+80/tcp   open   tcpwrapped
+|_http-server-header: nginx
+113/tcp  closed ident
+443/tcp  open   ssl/tcpwrapped
+|_http-server-header: nginx
+2000/tcp open   tcpwrapped
+5060/tcp open   sip?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 12 08:42:45 2024 -- 1 IP address (1 host up) scanned in 65.26 seconds

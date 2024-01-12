@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Jan 12 20:28:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sgae.gouv.fr
+Host: 193.17.19.225 ()	Status: Up
+Host: 193.17.19.225 ()	Ports: 80/open/tcp//http//Apache httpd/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
+# Nmap done at Fri Jan 12 20:31:01 2024 -- 1 IP address (1 host up) scanned in 167.20 seconds

@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"scanProblem","permis-de-conduire.gouv.fr/204.74.99.100","443","FATAL","Can't connect to '204.74.99.100:443' Make sure a firewall is not between you and your scanning target!","",""

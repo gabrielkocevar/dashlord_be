@@ -1,0 +1,20 @@
+# Nmap 7.92 scan initiated Fri Jan 12 10:46:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln formationgestiondecrise.gouv.fr
+Nmap scan report for formationgestiondecrise.gouv.fr (54.38.173.236)
+Host is up (0.010s latency).
+rDNS record for 54.38.173.236: e-learning.programmepagc.fr
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        Apache httpd
+|_http-server-header: Apache
+110/tcp  closed pop3
+113/tcp  closed ident
+143/tcp  closed imap
+443/tcp  open   ssl/http    Apache httpd
+|_http-server-header: Apache
+993/tcp  closed imaps
+995/tcp  closed pop3s
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 12 10:49:14 2024 -- 1 IP address (1 host up) scanned in 167.78 seconds

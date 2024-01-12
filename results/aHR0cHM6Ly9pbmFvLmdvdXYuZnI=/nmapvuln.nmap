@@ -1,0 +1,16 @@
+# Nmap 7.92 scan initiated Fri Jan 12 12:49:47 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln inao.gouv.fr
+Nmap scan report for inao.gouv.fr (80.87.225.235)
+Host is up (0.012s latency).
+rDNS record for 80.87.225.235: svr225235.actimage.net
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        Apache httpd
+|_http-server-header: Apache
+113/tcp  closed ident
+443/tcp  open   ssl/http    Apache httpd
+|_http-server-header: Apache
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 12 12:52:34 2024 -- 1 IP address (1 host up) scanned in 167.69 seconds

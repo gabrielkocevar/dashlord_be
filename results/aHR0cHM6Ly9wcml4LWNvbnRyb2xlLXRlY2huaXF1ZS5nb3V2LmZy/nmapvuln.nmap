@@ -1,0 +1,17 @@
+# Nmap 7.92 scan initiated Fri Jan 12 19:01:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln prix-controle-technique.gouv.fr
+Nmap scan report for prix-controle-technique.gouv.fr (94.23.6.91)
+Host is up (0.036s latency).
+rDNS record for 94.23.6.91: ns367849.ip-94-23-6.eu
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE    SERVICE    VERSION
+22/tcp   filtered ssh
+80/tcp   open     http       nginx
+443/tcp  open     ssl/http   nginx
+2000/tcp open     tcpwrapped
+3000/tcp filtered ppp
+3001/tcp filtered nessus
+5060/tcp open     tcpwrapped
+8080/tcp filtered http-proxy
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 12 19:01:56 2024 -- 1 IP address (1 host up) scanned in 16.26 seconds

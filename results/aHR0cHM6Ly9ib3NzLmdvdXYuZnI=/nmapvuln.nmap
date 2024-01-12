@@ -1,0 +1,39 @@
+# Nmap 7.92 scan initiated Fri Jan 12 00:31:26 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln boss.gouv.fr
+Nmap scan report for boss.gouv.fr (91.209.25.94)
+Host is up (0.013s latency).
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (admin-prohibited)
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.0 301 Moved permanently
+|     Location: https:///
+|     Connection: close
+|     Cache-Control: no-cache
+|     Pragma: no-cache
+|   SIPOptions: 
+|     HTTP/1.0 301 Moved permanently
+|     Location: https://sip:nm
+|     Connection: close
+|     Cache-Control: no-cache
+|_    Pragma: no-cache
+113/tcp  closed ident
+443/tcp  open   ssl/http    Apache httpd
+|_http-server-header: Apache
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=1/12%Time=65A08869%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,75,"HTTP/1\.0\x20301\x20Moved\x20permanently\r\nLocation:\x
+SF:20https:///\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nPr
+SF:agma:\x20no-cache\r\n\r\n")%r(HTTPOptions,75,"HTTP/1\.0\x20301\x20Moved
+SF:\x20permanently\r\nLocation:\x20https:///\r\nConnection:\x20close\r\nCa
+SF:che-Control:\x20no-cache\r\nPragma:\x20no-cache\r\n\r\n")%r(RTSPRequest
+SF:,75,"HTTP/1\.0\x20301\x20Moved\x20permanently\r\nLocation:\x20https:///
+SF:\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nPragma:\x20no
+SF:-cache\r\n\r\n")%r(SIPOptions,7A,"HTTP/1\.0\x20301\x20Moved\x20permanen
+SF:tly\r\nLocation:\x20https://sip:nm\r\nConnection:\x20close\r\nCache-Con
+SF:trol:\x20no-cache\r\nPragma:\x20no-cache\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 12 00:34:14 2024 -- 1 IP address (1 host up) scanned in 167.69 seconds

@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cybermalveillance.gouv.fr/87.252.1.29",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "60 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (58)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "cybermalveillance.gouv.fr/87.252.1.29",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-03-12 22:59"
           }
 ,         {
@@ -507,7 +507,7 @@
               "ip"           : "cybermalveillance.gouv.fr/87.252.1.29",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705045287"
+              "finding"      : "1705212695"
           }
 ,         {
               "id"           : "HSTS",
@@ -1063,6 +1063,6 @@
               "ip"           : "cybermalveillance.gouv.fr/87.252.1.29",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "51"
           }
 ]

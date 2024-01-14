@@ -374,7 +374,7 @@
               "ip"           : "numerique.gouv.fr/51.68.121.50",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "82 >= 30 days"
+              "finding"      : "81 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,14 +570,14 @@
               "ip"           : "numerique.gouv.fr/51.68.121.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+1187 seconds from localtime"
+              "finding"      : "+1192 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "numerique.gouv.fr/51.68.121.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705079740"
+              "finding"      : "1705245304"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "numerique.gouv.fr/51.68.121.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "35"
+              "finding"      : "34"
           }
 ]

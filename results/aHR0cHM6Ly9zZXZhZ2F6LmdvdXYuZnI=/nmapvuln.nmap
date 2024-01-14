@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 20:22:50 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sevagaz.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 18:10:53 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sevagaz.gouv.fr
 Nmap scan report for sevagaz.gouv.fr (51.254.145.84)
-Host is up (0.011s latency).
+Host is up (0.0085s latency).
 rDNS record for 51.254.145.84: ip84.ip-51-254-145.eu
 Not shown: 994 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -35,7 +35,7 @@ PORT     STATE  SERVICE     VERSION
 |     </body></html>
 |   FourOhFourRequest: 
 |     HTTP/1.1 403 Forbidden
-|     Date: Fri, 12 Jan 2024 20:23:07 GMT
+|     Date: Sun, 14 Jan 2024 18:11:10 GMT
 |     Strict-Transport-Security: max-age=63072000; includeSubDomains
 |     Content-Length: 199
 |     Connection: close
@@ -59,7 +59,7 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/12%Time=65A19FA5%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=65A423B8%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,78,"HTTP/1\.1\x20302\x20Found\r\nCache-Control:\x20no-cache
 SF:\r\nContent-length:\x200\r\nLocation:\x20https://sevagaz\.gouv\.fr\r\nC
 SF:onnection:\x20close\r\n\r\n")%r(HTTPOptions,78,"HTTP/1\.1\x20302\x20Fou
@@ -92,14 +92,14 @@ SF:ontent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request<
 SF:/h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></h
 SF:tml>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/12%Time=65A19FAB%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A423BE%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,74,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nCont
 SF:ent-length:\x200\r\nLocation:\x20https://sevagaz\.gouv\.fr/sevagaz/\r\n
 SF:Connection:\x20close\r\n\r\n")%r(HTTPOptions,74,"HTTP/1\.1\x20301\x20Mo
 SF:ved\x20Permanently\r\nContent-length:\x200\r\nLocation:\x20https://seva
 SF:gaz\.gouv\.fr/sevagaz/\r\nConnection:\x20close\r\n\r\n")%r(FourOhFourRe
-SF:quest,1F2,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x2012\x20Jan\
-SF:x202024\x2020:23:07\x20GMT\r\nStrict-Transport-Security:\x20max-age=630
+SF:quest,1F2,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Sun,\x2014\x20Jan\
+SF:x202024\x2018:11:10\x20GMT\r\nStrict-Transport-Security:\x20max-age=630
 SF:72000;\x20includeSubDomains\r\nContent-Length:\x20199\r\nConnection:\x2
 SF:0close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nStrict-T
 SF:ransport-Security:\x20max-age=63072000;\x20includeSubDomains\r\nX-Robot
@@ -124,4 +124,4 @@ SF:<h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invali
 SF:d\x20request\.\n</body></html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 20:25:40 2024 -- 1 IP address (1 host up) scanned in 170.02 seconds
+# Nmap done at Sun Jan 14 18:13:43 2024 -- 1 IP address (1 host up) scanned in 170.48 seconds

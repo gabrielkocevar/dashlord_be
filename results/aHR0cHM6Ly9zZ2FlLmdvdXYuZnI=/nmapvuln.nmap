@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 20:28:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sgae.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 18:16:20 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sgae.gouv.fr
 Nmap scan report for sgae.gouv.fr (193.17.19.225)
-Host is up (0.010s latency).
+Host is up (0.012s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http        Apache httpd
@@ -14,4 +14,4 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 20:31:01 2024 -- 1 IP address (1 host up) scanned in 167.20 seconds
+# Nmap done at Sun Jan 14 18:19:07 2024 -- 1 IP address (1 host up) scanned in 167.89 seconds

@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Jan 12 21:49:29 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln travail-emploi.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 19:45:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln travail-emploi.gouv.fr
 Host: 185.194.82.27 ()	Status: Up
 Host: 185.194.82.27 ()	Ports: 80/open/tcp//tcpwrapped///, 113/closed/tcp//ident///, 443/open/tcp//tcpwrapped///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Fri Jan 12 21:52:22 2024 -- 1 IP address (1 host up) scanned in 173.69 seconds
+# Nmap done at Sun Jan 14 19:48:40 2024 -- 1 IP address (1 host up) scanned in 174.46 seconds

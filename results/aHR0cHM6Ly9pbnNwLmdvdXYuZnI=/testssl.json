@@ -199,7 +199,7 @@
               "ip"           : "insp.gouv.fr/46.105.203.79",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "insp.gouv.fr/46.105.203.79",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "86 >= 30 days"
+              "finding"      : "84 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "insp.gouv.fr/46.105.203.79",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705064077"
+              "finding"      : "1705230376"
           }
 ,         {
               "id"           : "ipv4_in_header",

@@ -339,7 +339,7 @@
               "ip"           : "participation-citoyenne.gouv.fr/51.68.27.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "300 >= 60 days"
+              "finding"      : "298 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "participation-citoyenne.gouv.fr/51.68.27.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705081137"
+              "finding"      : "1705246695"
           }
 ,         {
               "id"           : "HSTS",

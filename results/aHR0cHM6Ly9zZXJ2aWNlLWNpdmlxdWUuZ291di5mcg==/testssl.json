@@ -346,7 +346,7 @@
               "ip"           : "service-civique.gouv.fr/34.77.159.134",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "43 >= 30 days"
+              "finding"      : "41 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "service-civique.gouv.fr/34.77.159.134",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705090061"
+              "finding"      : "1705255211"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1126,6 +1126,6 @@
               "ip"           : "service-civique.gouv.fr/34.77.159.134",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "37"
+              "finding"      : "36"
           }
 ]

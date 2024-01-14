@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Jan 12 01:30:51 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 04:44:08 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnaop.gouv.fr
 Nmap scan report for cnaop.gouv.fr (185.194.82.142)
 Host is up (0.0058s latency).
 Not shown: 995 filtered tcp ports (no-response)
@@ -28,7 +28,7 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/12%Time=65A0965B%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A366AA%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenti
 SF:cate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length:
 SF:\x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbi
@@ -42,4 +42,4 @@ SF:nnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 01:33:38 2024 -- 1 IP address (1 host up) scanned in 167.09 seconds
+# Nmap done at Sun Jan 14 04:46:57 2024 -- 1 IP address (1 host up) scanned in 168.76 seconds

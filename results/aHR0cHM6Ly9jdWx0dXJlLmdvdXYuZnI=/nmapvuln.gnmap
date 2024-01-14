@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Jan 12 02:40:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln culture.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 05:51:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln culture.gouv.fr
 Host: 143.126.211.160 (gov-p0-lba401.culture.fr)	Status: Up
 Host: 143.126.211.160 (gov-p0-lba401.culture.fr)	Ports: 80/open/tcp//tcpwrapped///, 113/closed/tcp//ident///, 443/open/tcp//tcpwrapped///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Fri Jan 12 02:43:40 2024 -- 1 IP address (1 host up) scanned in 174.34 seconds
+# Nmap done at Sun Jan 14 05:54:34 2024 -- 1 IP address (1 host up) scanned in 174.17 seconds

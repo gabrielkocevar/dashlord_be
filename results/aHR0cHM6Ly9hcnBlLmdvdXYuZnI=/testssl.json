@@ -346,7 +346,7 @@
               "ip"           : "arpe.gouv.fr/37.187.155.112",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "46 >= 30 days"
+              "finding"      : "44 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,14 +542,14 @@
               "ip"           : "arpe.gouv.fr/37.187.155.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "arpe.gouv.fr/37.187.155.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705017483"
+              "finding"      : "1705200899"
           }
 ,         {
               "id"           : "HSTS",
@@ -1105,6 +1105,6 @@
               "ip"           : "arpe.gouv.fr/37.187.155.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "53"
           }
 ]

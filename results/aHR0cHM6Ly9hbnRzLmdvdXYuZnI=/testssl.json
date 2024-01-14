@@ -346,7 +346,7 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "138 >= 60 days"
+              "finding"      : "136 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705016969"
+              "finding"      : "1705200430"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -577,7 +577,7 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-fe304c71-11dc-4cd1-aaa9-13821d28cc66';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
+              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-e9f0ab53-0a81-40fd-8fcd-c0a55ee2894c';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -1105,6 +1105,6 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "47"
+              "finding"      : "44"
           }
 ]

@@ -346,7 +346,7 @@
               "ip"           : "lesentreprises-sengagent.gouv.fr/185.231.164.8",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "236 >= 60 days"
+              "finding"      : "234 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "lesentreprises-sengagent.gouv.fr/185.231.164.8",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705071143"
+              "finding"      : "1705237347"
           }
 ,         {
               "id"           : "HSTS_time",

@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 01:50:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln collecte-pro.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 05:01:32 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln collecte-pro.gouv.fr
 Nmap scan report for collecte-pro.gouv.fr (185.194.82.232)
-Host is up (0.0050s latency).
+Host is up (0.0058s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http
@@ -30,7 +30,7 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=1/12%Time=65A09ADE%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=65A36AB7%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,5D,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\x
 SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r
 SF:(HTTPOptions,5D,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\
@@ -46,4 +46,4 @@ SF:Options,62,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\x20ht
 SF:tps://sip:nm\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 01:53:12 2024 -- 1 IP address (1 host up) scanned in 181.30 seconds
+# Nmap done at Sun Jan 14 05:04:33 2024 -- 1 IP address (1 host up) scanned in 180.92 seconds

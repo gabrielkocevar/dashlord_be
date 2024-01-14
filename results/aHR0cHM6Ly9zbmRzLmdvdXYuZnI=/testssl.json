@@ -367,7 +367,7 @@
               "ip"           : "snds.gouv.fr/93.174.145.177",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "230 >= 60 days"
+              "finding"      : "228 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1107,6 +1107,6 @@
               "ip"           : "snds.gouv.fr/93.174.145.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "37"
+              "finding"      : "38"
           }
 ]

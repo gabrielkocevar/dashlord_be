@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 00:20:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln beta.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 03:19:38 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln beta.gouv.fr
 Nmap scan report for beta.gouv.fr (5.104.101.30)
-Host is up (0.0080s latency).
+Host is up (0.0059s latency).
 Other addresses for beta.gouv.fr (not scanned): 109.232.236.90
 rDNS record for 5.104.101.30: ows-5-104-101-30.eu-west-2.compute.outscale.com
 Not shown: 995 filtered tcp ports (no-response)
@@ -9,7 +9,7 @@ PORT     STATE  SERVICE     VERSION
 | fingerprint-strings: 
 |   GetRequest, HTTPOptions: 
 |     HTTP/1.1 404 Not Found
-|     Date: Fri, 12 Jan 2024 00:20:54 GMT
+|     Date: Sun, 14 Jan 2024 03:19:49 GMT
 |     Content-Type: text/html
 |     Content-Length: 15436
 |     Connection: close
@@ -20,7 +20,7 @@ PORT     STATE  SERVICE     VERSION
 | fingerprint-strings: 
 |   GetRequest, HTTPOptions: 
 |     HTTP/1.1 404 Not Found
-|     Date: Fri, 12 Jan 2024 00:21:00 GMT
+|     Date: Sun, 14 Jan 2024 03:19:55 GMT
 |     Content-Type: text/html
 |     Content-Length: 15436
 |     Connection: close
@@ -30,9 +30,9 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/12%Time=65A085E6%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,3890,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x20
-SF:12\x20Jan\x202024\x2000:20:54\x20GMT\r\nContent-Type:\x20text/html\r\nC
+SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=65A352D5%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,32E8,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Sun,\x20
+SF:14\x20Jan\x202024\x2003:19:49\x20GMT\r\nContent-Type:\x20text/html\r\nC
 SF:ontent-Length:\x2015436\r\nConnection:\x20close\r\nContent-Encoding:\x2
 SF:0identity\r\n\r\n<!DOCTYPE\x20html><html><head><meta\x20http-equiv=\"co
 SF:ntent-type\"\x20content=\"text/html;\x20charset=UTF-8\"><meta\x20charse
@@ -48,8 +48,8 @@ SF:top/100%\x20100%\x20no-repeat\x20#1864ab;\x20background:\x20linear-grad
 SF:ient\(to\x20bottom,\x20#1864ab,\x20#099ec9\)\x20left\x20top/100%\x20100
 SF:%\x20no-repeat\x20#1864ab;\x20color:\x20white;}#wrapper\x20{\x20positio
 SF:n:\x20relative;\x20top:\x2040%;\x20-webkit")%r(HTTPOptions,3890,"HTTP/1
-SF:\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x2012\x20Jan\x202024\x2000:
-SF:20:54\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x2015436\
+SF:\.1\x20404\x20Not\x20Found\r\nDate:\x20Sun,\x2014\x20Jan\x202024\x2003:
+SF:19:49\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x2015436\
 SF:r\nConnection:\x20close\r\nContent-Encoding:\x20identity\r\n\r\n<!DOCTY
 SF:PE\x20html><html><head><meta\x20http-equiv=\"content-type\"\x20content=
 SF:\"text/html;\x20charset=UTF-8\"><meta\x20charset=\"utf-8\"><meta\x20con
@@ -66,9 +66,9 @@ SF:1864ab,\x20#099ec9\)\x20left\x20top/100%\x20100%\x20no-repeat\x20#1864a
 SF:b;\x20color:\x20white;}#wrapper\x20{\x20position:\x20relative;\x20top:\
 SF:x2040%;\x20-webkit");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/12%Time=65A085EC%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,3CEA,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20F
-SF:ri,\x2012\x20Jan\x202024\x2000:21:00\x20GMT\r\nContent-Type:\x20text/ht
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A352DB%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,3CEA,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20S
+SF:un,\x2014\x20Jan\x202024\x2003:19:55\x20GMT\r\nContent-Type:\x20text/ht
 SF:ml\r\nContent-Length:\x2015436\r\nConnection:\x20close\r\nContent-Encod
 SF:ing:\x20identity\r\n\r\n<!DOCTYPE\x20html><html><head><meta\x20http-equ
 SF:iv=\"content-type\"\x20content=\"text/html;\x20charset=UTF-8\"><meta\x2
@@ -84,8 +84,8 @@ SF:eft\x20top/100%\x20100%\x20no-repeat\x20#1864ab;\x20background:\x20line
 SF:ar-gradient\(to\x20bottom,\x20#1864ab,\x20#099ec9\)\x20left\x20top/100%
 SF:\x20100%\x20no-repeat\x20#1864ab;\x20color:\x20white;}#wrapper\x20{\x20
 SF:position:\x20relative;\x20top:\x2040%;\x20-webkit")%r(HTTPOptions,3CEA,
-SF:"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x2012\x20Jan\x202024
-SF:\x2000:21:00\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Sun,\x2014\x20Jan\x202024
+SF:\x2003:19:55\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
 SF:015436\r\nConnection:\x20close\r\nContent-Encoding:\x20identity\r\n\r\n
 SF:<!DOCTYPE\x20html><html><head><meta\x20http-equiv=\"content-type\"\x20c
 SF:ontent=\"text/html;\x20charset=UTF-8\"><meta\x20charset=\"utf-8\"><meta
@@ -103,4 +103,4 @@ SF:0#1864ab;\x20color:\x20white;}#wrapper\x20{\x20position:\x20relative;\x
 SF:20top:\x2040%;\x20-webkit");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 00:23:30 2024 -- 1 IP address (1 host up) scanned in 167.17 seconds
+# Nmap done at Sun Jan 14 03:22:25 2024 -- 1 IP address (1 host up) scanned in 167.55 seconds

@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Jan 11 23:44:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln antai.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 02:42:29 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln antai.gouv.fr
 Host: 90.102.74.9 ()	Status: Up
 Host: 90.102.74.9 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//BigIP/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Thu Jan 11 23:47:03 2024 -- 1 IP address (1 host up) scanned in 167.63 seconds
+# Nmap done at Sun Jan 14 02:45:16 2024 -- 1 IP address (1 host up) scanned in 167.14 seconds

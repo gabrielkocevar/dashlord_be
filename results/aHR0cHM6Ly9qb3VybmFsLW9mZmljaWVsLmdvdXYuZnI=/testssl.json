@@ -206,7 +206,7 @@
               "ip"           : "journal-officiel.gouv.fr/109.232.232.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -353,7 +353,7 @@
               "ip"           : "journal-officiel.gouv.fr/109.232.232.161",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (15)"
+              "finding"      : "expires < 30 days (13)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -514,7 +514,7 @@
               "ip"           : "journal-officiel.gouv.fr/109.232.232.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705068092"
+              "finding"      : "1705235103"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1112,6 +1112,6 @@
               "ip"           : "journal-officiel.gouv.fr/109.232.232.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "169"
+              "finding"      : "168"
           }
 ]

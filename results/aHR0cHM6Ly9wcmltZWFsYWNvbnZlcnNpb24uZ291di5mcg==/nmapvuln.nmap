@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 18:41:17 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln primealaconversion.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 16:46:49 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln primealaconversion.gouv.fr
 Nmap scan report for primealaconversion.gouv.fr (217.109.233.87)
-Host is up (0.011s latency).
+Host is up (0.0088s latency).
 rDNS record for 217.109.233.87: d96de957.fsp.oleane.fr
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -26,7 +26,7 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=1/12%Time=65A187D8%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=65A41004%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,5D,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\x
 SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r
 SF:(HTTPOptions,5D,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\
@@ -40,4 +40,4 @@ SF:rmanently\r\nLocation:\x20https://sip:nm\r\nConnection:\x20close\r\nCon
 SF:tent-Length:\x200\r\n\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 18:44:32 2024 -- 1 IP address (1 host up) scanned in 194.87 seconds
+# Nmap done at Sun Jan 14 16:50:03 2024 -- 1 IP address (1 host up) scanned in 194.45 seconds

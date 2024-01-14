@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 01:41:50 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnle.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 04:54:04 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnle.gouv.fr
 Nmap scan report for cnle.gouv.fr (185.194.82.141)
-Host is up (0.0060s latency).
+Host is up (0.0053s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http-proxy  F5 BIG-IP load balancer http proxy
@@ -28,7 +28,7 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/12%Time=65A098F0%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A368FE%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenti
 SF:cate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length:
 SF:\x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbi
@@ -42,4 +42,4 @@ SF:nnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 01:44:42 2024 -- 1 IP address (1 host up) scanned in 171.86 seconds
+# Nmap done at Sun Jan 14 04:56:52 2024 -- 1 IP address (1 host up) scanned in 168.05 seconds

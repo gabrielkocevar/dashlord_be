@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Jan 12 09:51:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ecologie.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 07:46:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ecologie.gouv.fr
 Host: 37.235.89.97 (medde-sen-proxy01.dedie.ate.info)	Status: Up
 Host: 37.235.89.97 (medde-sen-proxy01.dedie.ate.info)	Ports: 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Fri Jan 12 09:54:02 2024 -- 1 IP address (1 host up) scanned in 167.72 seconds
+# Nmap done at Sun Jan 14 07:49:33 2024 -- 1 IP address (1 host up) scanned in 167.95 seconds

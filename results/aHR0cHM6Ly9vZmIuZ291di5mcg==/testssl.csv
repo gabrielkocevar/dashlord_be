@@ -50,7 +50,7 @@
 "cert_trust","ofb.gouv.fr/83.118.214.134","443","OK","Ok via SAN (SNI mandatory)","",""
 "cert_chain_of_trust","ofb.gouv.fr/83.118.214.134","443","OK","passed.","",""
 "cert_certificatePolicies_EV","ofb.gouv.fr/83.118.214.134","443","INFO","no","",""
-"cert_expirationStatus","ofb.gouv.fr/83.118.214.134","443","OK","337 >= 60 days","",""
+"cert_expirationStatus","ofb.gouv.fr/83.118.214.134","443","OK","335 >= 60 days","",""
 "cert_notBefore","ofb.gouv.fr/83.118.214.134","443","INFO","2023-12-19 00:00","",""
 "cert_notAfter","ofb.gouv.fr/83.118.214.134","443","OK","2024-12-14 23:59","",""
 "cert_extlifeSpan","ofb.gouv.fr/83.118.214.134","443","OK","certificate has no extended life time according to browser forum","",""

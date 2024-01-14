@@ -339,7 +339,7 @@
               "ip"           : "oned.gouv.fr/46.18.135.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "30 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "oned.gouv.fr/46.18.135.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705079541"
+              "finding"      : "1705245093"
           }
 ,         {
               "id"           : "HSTS",
@@ -1119,6 +1119,6 @@
               "ip"           : "oned.gouv.fr/46.18.135.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "42"
           }
 ]

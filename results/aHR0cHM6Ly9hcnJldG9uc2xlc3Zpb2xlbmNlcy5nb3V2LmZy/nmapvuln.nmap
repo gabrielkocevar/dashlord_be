@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 00:03:44 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln arretonslesviolences.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 03:00:09 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln arretonslesviolences.gouv.fr
 Nmap scan report for arretonslesviolences.gouv.fr (185.194.82.16)
-Host is up (0.0060s latency).
+Host is up (0.0055s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http-proxy  F5 BIG-IP load balancer http proxy
@@ -15,7 +15,7 @@ PORT     STATE  SERVICE     VERSION
 |     ERROR
 |   GetRequest: 
 |     HTTP/1.0 200 OK
-|     Date: Fri, 12 Jan 2024 00:04:01 GMT
+|     Date: Sun, 14 Jan 2024 03:00:26 GMT
 |     X-Content-Type-Options: nosniff
 |     Cache-Control: max-age=43200, public
 |     X-Drupal-Dynamic-Cache: MISS
@@ -24,16 +24,16 @@ PORT     STATE  SERVICE     VERSION
 |     X-Content-Type-Options: nosniff
 |     X-Frame-Options: sameorigin
 |     Expires: Sun, 19 Nov 1978 05:00:00 GMT
-|     Last-Modified: Tue, 09 Jan 2024 23:39:48 GMT
+|     Last-Modified: Sun, 14 Jan 2024 03:00:26 GMT
 |     Vary: Cookie,Accept-Encoding
-|     X-Drupal-Cache: HIT
+|     X-Drupal-Cache: MISS
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     X-XSS-Protection: 1; mode=block
 |     Referrer-Policy: strict-origin
 |     Connection: close
 |     Content-Type: text/html; charset=UTF-8
-|     Set-Cookie: BIGipServerpool-dicom-arlv.cegedim.cloud-HTTP=!Qg0/1RVQ/cL2PL1WDPlD0yXzT0UGhi9FkdwODWdEeVgO4iY/UfOVPxw00hwKK+K/PthTl/w2b+6FXzy/9IFX3pZ7X48=; path=/; Httponly; Secure
-|     Set-Cookie: TS01cf5a77=01352d381169f639572a47a050d8e501cdc973f9224e6db9cc4ec108c282bc17878e15c3da1901951d366f3bef1f567f5062c95f83;
+|     Set-Cookie: BIGipServerpool-dicom-arlv.cegedim.cloud-HTTP=!ZZpl238hVJjxbh1WDPlD0yXzT0UGhue1ZB8oXv4IEfIVF29PQdDan3s+2VWPG4NEDszK2eyJX8fXfXr+OR8iugtNIeo=; path=/; Httponly; Secure
+|     Set-Cookie: TS01cf5a77=01352d381175bf8d710a2e645b53ea81bd71e9f21b155a76a1557227da3a351c19bea121c08a642730c827d00bd9e90d11fa772371;
 |   HTTPOptions: 
 |     HTTP/1.0 403 Forbidden
 |     Connection: close
@@ -47,31 +47,31 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/12%Time=65A081F1%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,441C,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Fri,\x2012\
-SF:x20Jan\x202024\x2000:04:01\x20GMT\r\nX-Content-Type-Options:\x20nosniff
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A34E4A%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,441D,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sun,\x2014\
+SF:x20Jan\x202024\x2003:00:26\x20GMT\r\nX-Content-Type-Options:\x20nosniff
 SF:\r\nCache-Control:\x20max-age=43200,\x20public\r\nX-Drupal-Dynamic-Cach
 SF:e:\x20MISS\r\nX-UA-Compatible:\x20IE=edge\r\nContent-language:\x20fr\r\
 SF:nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20sameorigin\r
 SF:\nExpires:\x20Sun,\x2019\x20Nov\x201978\x2005:00:00\x20GMT\r\nLast-Modi
-SF:fied:\x20Tue,\x2009\x20Jan\x202024\x2023:39:48\x20GMT\r\nVary:\x20Cooki
-SF:e,Accept-Encoding\r\nX-Drupal-Cache:\x20HIT\r\nStrict-Transport-Securit
-SF:y:\x20max-age=31536000;\x20includeSubDomains\r\nX-XSS-Protection:\x201;
-SF:\x20mode=block\r\nReferrer-Policy:\x20strict-origin\r\nConnection:\x20c
-SF:lose\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nSet-Cookie:\x20
-SF:BIGipServerpool-dicom-arlv\.cegedim\.cloud-HTTP=!Qg0/1RVQ/cL2PL1WDPlD0y
-SF:XzT0UGhi9FkdwODWdEeVgO4iY/UfOVPxw00hwKK\+K/PthTl/w2b\+6FXzy/9IFX3pZ7X48
-SF:=;\x20path=/;\x20Httponly;\x20Secure\r\nSet-Cookie:\x20TS01cf5a77=01352
-SF:d381169f639572a47a050d8e501cdc973f9224e6db9cc4ec108c282bc17878e15c3da19
-SF:01951d366f3bef1f567f5062c95f83;\x20")%r(HTTPOptions,49,"HTTP/1\.0\x2040
-SF:3\x20Forbidden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n4
-SF:03\x20ERROR")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\x20Not\x20Found\
-SF:r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n404\x20ERROR")%r
-SF:(RTSPRequest,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20c
-SF:lose\r\nContent-Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTT
-SF:P/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Leng
-SF:th:\x209\r\n\r\n400\x20ERROR");
+SF:fied:\x20Sun,\x2014\x20Jan\x202024\x2003:00:26\x20GMT\r\nVary:\x20Cooki
+SF:e,Accept-Encoding\r\nX-Drupal-Cache:\x20MISS\r\nStrict-Transport-Securi
+SF:ty:\x20max-age=31536000;\x20includeSubDomains\r\nX-XSS-Protection:\x201
+SF:;\x20mode=block\r\nReferrer-Policy:\x20strict-origin\r\nConnection:\x20
+SF:close\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nSet-Cookie:\x2
+SF:0BIGipServerpool-dicom-arlv\.cegedim\.cloud-HTTP=!ZZpl238hVJjxbh1WDPlD0
+SF:yXzT0UGhue1ZB8oXv4IEfIVF29PQdDan3s\+2VWPG4NEDszK2eyJX8fXfXr\+OR8iugtNIe
+SF:o=;\x20path=/;\x20Httponly;\x20Secure\r\nSet-Cookie:\x20TS01cf5a77=0135
+SF:2d381175bf8d710a2e645b53ea81bd71e9f21b155a76a1557227da3a351c19bea121c08
+SF:a642730c827d00bd9e90d11fa772371;")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x
+SF:20Forbidden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n403\
+SF:x20ERROR")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\x20Not\x20Found\r\n
+SF:Connection:\x20close\r\nContent-Length:\x209\r\n\r\n404\x20ERROR")%r(RT
+SF:SPRequest,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20clos
+SF:e\r\nContent-Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP/1
+SF:\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:
+SF:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 00:06:31 2024 -- 1 IP address (1 host up) scanned in 167.68 seconds
+# Nmap done at Sun Jan 14 03:02:57 2024 -- 1 IP address (1 host up) scanned in 167.57 seconds

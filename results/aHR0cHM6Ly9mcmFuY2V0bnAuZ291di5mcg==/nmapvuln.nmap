@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 11:31:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 09:23:36 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr
 Nmap scan report for francetnp.gouv.fr (87.252.16.12)
-Host is up (0.012s latency).
+Host is up (0.0090s latency).
 rDNS record for 87.252.16.12: mae-divers-web.oxyd.net
 Not shown: 983 filtered tcp ports (no-response)
 PORT     STATE  SERVICE      VERSION
@@ -27,11 +27,11 @@ PORT     STATE  SERVICE      VERSION
 5060/tcp open   sip?
 5432/tcp closed postgresql
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port53-TCP:V=7.92%I=7%D=1/12%Time=65A1233C%P=x86_64-alpine-linux-musl%r
+SF-Port53-TCP:V=7.92%I=7%D=1/14%Time=65A3A828%P=x86_64-alpine-linux-musl%r
 SF:(DNSVersionBindReqTCP,3F,"\0=\0\x06\x85\0\0\x01\0\x01\0\x01\0\0\x07vers
 SF:ion\x04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\x05\x04none\xc0
 SF:\x0c\0\x02\0\x03\0\0\0\0\0\x02\xc0\x0c");
 Service Info: Host:  mae-divers-web.oxyd.net
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 11:34:43 2024 -- 1 IP address (1 host up) scanned in 167.32 seconds
+# Nmap done at Sun Jan 14 09:26:26 2024 -- 1 IP address (1 host up) scanned in 169.63 seconds

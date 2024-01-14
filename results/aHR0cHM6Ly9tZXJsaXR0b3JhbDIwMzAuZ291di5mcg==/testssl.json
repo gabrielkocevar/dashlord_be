@@ -374,7 +374,7 @@
               "ip"           : "merlittoral2030.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "87 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,7 +584,7 @@
               "ip"           : "merlittoral2030.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705074710"
+              "finding"      : "1705240274"
           }
 ,         {
               "id"           : "HSTS_time",

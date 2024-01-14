@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Thu Jan 11 22:47:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln agence-cohesion-territoires.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 01:51:59 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln agence-cohesion-territoires.gouv.fr
 Nmap scan report for agence-cohesion-territoires.gouv.fr (217.115.162.32)
-Host is up (0.0057s latency).
+Host is up (0.0048s latency).
 rDNS record for 217.115.162.32: prod1-datar-cger-anct.integra.fr
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -13,4 +13,4 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Jan 11 22:50:38 2024 -- 1 IP address (1 host up) scanned in 172.31 seconds
+# Nmap done at Sun Jan 14 01:54:51 2024 -- 1 IP address (1 host up) scanned in 171.82 seconds

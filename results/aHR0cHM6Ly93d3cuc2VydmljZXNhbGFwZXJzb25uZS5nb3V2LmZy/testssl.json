@@ -353,7 +353,7 @@
               "ip"           : "www.servicesalapersonne.gouv.fr/80.87.236.14",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "83 >= 60 days"
+              "finding"      : "81 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -514,7 +514,7 @@
               "ip"           : "www.servicesalapersonne.gouv.fr/80.87.236.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705090622"
+              "finding"      : "1705255506"
           }
 ,         {
               "id"           : "HSTS_time",

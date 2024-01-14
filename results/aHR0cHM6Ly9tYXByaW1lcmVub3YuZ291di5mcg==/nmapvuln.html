@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maprimerenov.gouv.fr</pre>
-<p class="lead">Fri Jan 12 15:22:20 2024 – Fri Jan 12 15:25:07 2024<br>1 hosts scanned.
+<p class="lead">Sun Jan 14 13:27:49 2024 – Sun Jan 14 13:30:42 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>178.237.111.233</td>
 <td>maprimerenov.gouv.fr</td>
-<td>2</td>
+<td>4</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -107,6 +107,16 @@
 <th>Extra Info</th>
 </tr></thead>
 <tbody>
+<tr class="success">
+<td title="Port">80</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">http-proxy</td>
+<td title="Product">HAProxy http proxy</td>
+<td title="Version">1.3.1 or later</td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:haproxy:haproxy">cpe:/a:haproxy:haproxy</a></td></tr>
 <tr class="active">
 <td>113</td>
 <td>tcp</td>
@@ -116,6 +126,16 @@
 <td></td>
 <td></td>
 </tr>
+<tr class="success">
+<td title="Port">443</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">http-proxy</td>
+<td title="Product">HAProxy http proxy</td>
+<td title="Version">1.3.1 or later</td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:haproxy:haproxy">cpe:/a:haproxy:haproxy</a></td></tr>
 <tr class="success">
 <td title="Port">2000</td>
 <td title="Protocol">tcp</td>
@@ -153,6 +173,26 @@
 <th>Extra info</th>
 </tr></thead>
 <tbody>
+<tr>
+<td>178.237.111.233 - maprimerenov.gouv.fr</td>
+<td>80</td>
+<td>tcp</td>
+<td>http-proxy</td>
+<td>HAProxy http proxy</td>
+<td>1.3.1 or later</td>
+<td>cpe:/a:haproxy:haproxy</td>
+<td></td>
+</tr>
+<tr>
+<td>178.237.111.233 - maprimerenov.gouv.fr</td>
+<td>443</td>
+<td>tcp</td>
+<td>http-proxy</td>
+<td>HAProxy http proxy</td>
+<td>1.3.1 or later</td>
+<td>cpe:/a:haproxy:haproxy</td>
+<td></td>
+</tr>
 <tr>
 <td>178.237.111.233 - maprimerenov.gouv.fr</td>
 <td>2000</td>

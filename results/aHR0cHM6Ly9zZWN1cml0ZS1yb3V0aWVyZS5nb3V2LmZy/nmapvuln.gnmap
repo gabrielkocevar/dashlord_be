@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Jan 12 19:57:21 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln securite-routiere.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 17:46:51 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln securite-routiere.gouv.fr
 Host: 77.159.252.145 (145.252.159.77.rev.sfr.net)	Status: Up
 Host: 77.159.252.145 (145.252.159.77.rev.sfr.net)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Fri Jan 12 20:00:08 2024 -- 1 IP address (1 host up) scanned in 167.27 seconds
+# Nmap done at Sun Jan 14 17:49:39 2024 -- 1 IP address (1 host up) scanned in 167.75 seconds

@@ -367,7 +367,7 @@
               "ip"           : "alim-confiance.gouv.fr/185.161.46.229",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "229 >= 60 days"
+              "finding"      : "226 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,7 +570,7 @@
               "ip"           : "alim-confiance.gouv.fr/185.161.46.229",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705014778"
+              "finding"      : "1705198421"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1156,6 +1156,6 @@
               "ip"           : "alim-confiance.gouv.fr/185.161.46.229",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "80"
+              "finding"      : "75"
           }
 ]

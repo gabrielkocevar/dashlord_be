@@ -353,7 +353,7 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "267 >= 60 days"
+              "finding"      : "264 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,21 +549,21 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+225 seconds from localtime"
+              "finding"      : "+185 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705014422"
+              "finding"      : "1705198072"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "225 seconds"
+              "finding"      : "186 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -615,13 +615,6 @@
               "finding"      : "0 at '/'"
           }
 ,         {
-              "id"           : "X-Content-Type-Options_multiple",
-              "ip"           : "agriculture.gouv.fr/185.161.46.228",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Content-Type-Options headers. Using first header: nosniff"
-          }
-,         {
               "id"           : "X-Content-Type-Options",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
@@ -634,13 +627,6 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "interest-cohort=()"
-          }
-,         {
-              "id"           : "X-UA-Compatible_multiple",
-              "ip"           : "agriculture.gouv.fr/185.161.46.228",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-UA-Compatible headers. Using first header: IE=edge"
           }
 ,         {
               "id"           : "X-UA-Compatible",
@@ -1175,6 +1161,6 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "80"
+              "finding"      : "75"
           }
 ]

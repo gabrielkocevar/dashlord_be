@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 01:17:12 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln choisirleservicepublic.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 04:27:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln choisirleservicepublic.gouv.fr
 Nmap scan report for choisirleservicepublic.gouv.fr (54.38.250.204)
-Host is up (0.026s latency).
+Host is up (0.038s latency).
 Not shown: 996 closed tcp ports (reset)
 PORT     STATE SERVICE    VERSION
 80/tcp   open  http       Apache httpd 2
@@ -139,7 +139,6 @@ PORT     STATE SERVICE    VERSION
 |     	E5C174E5-D6E8-56E0-8403-D287DE52EB3F	5.0	https://vulners.com/githubexploit/E5C174E5-D6E8-56E0-8403-D287DE52EB3F	*EXPLOIT*
 |     	E-193	5.0	https://vulners.com/dsquare/E-193	*EXPLOIT*
 |     	DB6E1BBD-08B1-574D-A351-7D6BB9898A4A	5.0	https://vulners.com/githubexploit/DB6E1BBD-08B1-574D-A351-7D6BB9898A4A	*EXPLOIT*
-|     	CVE-2023-31122	5.0	https://vulners.com/cve/CVE-2023-31122
 |     	CVE-2022-37436	5.0	https://vulners.com/cve/CVE-2022-37436
 |     	CVE-2022-30556	5.0	https://vulners.com/cve/CVE-2022-30556
 |     	CVE-2022-29404	5.0	https://vulners.com/cve/CVE-2022-29404
@@ -200,7 +199,6 @@ PORT     STATE SERVICE    VERSION
 |_    	SSV:60250	1.2	https://vulners.com/seebug/SSV:60250	*EXPLOIT*
 |_http-server-header: Apache/2
 443/tcp  open  ssl/http   Apache httpd 2
-|_http-server-header: Apache/2
 | vulners: 
 |   cpe:/a:apache:http_server:2: 
 |     	SSV:68271	10.0	https://vulners.com/seebug/SSV:68271	*EXPLOIT*
@@ -336,7 +334,6 @@ PORT     STATE SERVICE    VERSION
 |     	E5C174E5-D6E8-56E0-8403-D287DE52EB3F	5.0	https://vulners.com/githubexploit/E5C174E5-D6E8-56E0-8403-D287DE52EB3F	*EXPLOIT*
 |     	E-193	5.0	https://vulners.com/dsquare/E-193	*EXPLOIT*
 |     	DB6E1BBD-08B1-574D-A351-7D6BB9898A4A	5.0	https://vulners.com/githubexploit/DB6E1BBD-08B1-574D-A351-7D6BB9898A4A	*EXPLOIT*
-|     	CVE-2023-31122	5.0	https://vulners.com/cve/CVE-2023-31122
 |     	CVE-2022-37436	5.0	https://vulners.com/cve/CVE-2022-37436
 |     	CVE-2022-30556	5.0	https://vulners.com/cve/CVE-2022-30556
 |     	CVE-2022-29404	5.0	https://vulners.com/cve/CVE-2022-29404
@@ -395,9 +392,10 @@ PORT     STATE SERVICE    VERSION
 |     	SSV:11498	4.0	https://vulners.com/seebug/SSV:11498	*EXPLOIT*
 |     	SSV:12628	2.6	https://vulners.com/seebug/SSV:12628	*EXPLOIT*
 |_    	SSV:60250	1.2	https://vulners.com/seebug/SSV:60250	*EXPLOIT*
+|_http-server-header: Apache/2
 2000/tcp open  tcpwrapped
 5060/tcp open  tcpwrapped
-Service Info: Hosts: lonsdale-biep2.ovh.bearstech.com, lonsdale-biep1.ovh.bearstech.com
+Service Info: Host: lonsdale-biep2.ovh.bearstech.com
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 01:17:27 2024 -- 1 IP address (1 host up) scanned in 15.30 seconds
+# Nmap done at Sun Jan 14 04:27:30 2024 -- 1 IP address (1 host up) scanned in 16.03 seconds

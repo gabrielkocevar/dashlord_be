@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 13:06:46 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-bastia.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 11:31:39 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-bastia.gouv.fr
 Nmap scan report for ira-bastia.gouv.fr (109.234.160.111)
-Host is up (0.026s latency).
+Host is up (0.024s latency).
 rDNS record for 109.234.160.111: 109-234-160-111.reverse.odns.fr
 Not shown: 930 filtered tcp ports (no-response), 57 closed tcp ports (reset)
 PORT     STATE SERVICE     VERSION
@@ -11,7 +11,7 @@ PORT     STATE SERVICE     VERSION
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Fri, 12 Jan 2024 13:06:56 GMT
+|     Date: Sun, 14 Jan 2024 11:31:49 GMT
 |     Content-Type: text/html
 |     Connection: close
 |     Cache-Control: no-cache, no-store, must-revalidate
@@ -39,7 +39,7 @@ PORT     STATE SERVICE     VERSION
 |     section, f
 |   HTTPOptions: 
 |     HTTP/1.1 429 Too Many Requests
-|     Date: Fri, 12 Jan 2024 13:06:56 GMT
+|     Date: Sun, 14 Jan 2024 11:31:49 GMT
 |     Content-Type: text/html
 |     Connection: close
 |     Vary: Accept-Encoding
@@ -56,7 +56,7 @@ PORT     STATE SERVICE     VERSION
 |     curit
 |     fakegoogle dans cPanel. Cette s
 |     curit
-|_    bloque les robots se faisant passer pour les robots Google."; HTTP_Code = "429""; Request_ID = "42924989a4b9bec0f50235568f84ae56"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOf
+|_    bloque les robots se faisant passer pour les robots Google."; HTTP_Code = "429""; Request_ID = "ecdd2b8e5aca94d5aeba937a7d8a2b3f"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOf
 |_http-server-header: o2switch-PowerBoost-v3
 110/tcp  open  pop3        Dovecot pop3d
 143/tcp  open  imap        Dovecot imapd
@@ -64,7 +64,7 @@ PORT     STATE SERVICE     VERSION
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 429 Too Many Requests
-|     Date: Fri, 12 Jan 2024 13:07:02 GMT
+|     Date: Sun, 14 Jan 2024 11:31:55 GMT
 |     Content-Type: text/html
 |     Connection: close
 |     Vary: Accept-Encoding
@@ -73,7 +73,7 @@ PORT     STATE SERVICE     VERSION
 |     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 |     Expires: Thu, 01 Jan 1970 00:00:01 GMT
 |     Access-Control-Allow-Origin: *
-|     <!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "bf3e1a6a481e51345ddcd6af30c27de6"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+|     <!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "8e15ebfb3b525c4eb14f6e1b5fa4c8ce"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
 |     <!DOCTYPE HTML>
 |     <html lang="en-US">
 |     <head>
@@ -82,7 +82,7 @@ PORT     STATE SERVICE     VERSION
 |     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"
 |   HTTPOptions: 
 |     HTTP/1.1 429 Too Many Requests
-|     Date: Fri, 12 Jan 2024 13:07:02 GMT
+|     Date: Sun, 14 Jan 2024 11:31:55 GMT
 |     Content-Type: text/html
 |     Connection: close
 |     Vary: Accept-Encoding
@@ -91,7 +91,7 @@ PORT     STATE SERVICE     VERSION
 |     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
 |     Expires: Thu, 01 Jan 1970 00:00:01 GMT
 |     Access-Control-Allow-Origin: *
-|     <!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "d857a684692396add4f8e1beb8fe1d70"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+|     <!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "b2d99f53720140948eb02fd41d3e1021"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
 |     <!DOCTYPE HTML>
 |     <html lang="en-US">
 |     <head>
@@ -107,9 +107,9 @@ PORT     STATE SERVICE     VERSION
 5060/tcp open  sip?
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/12%Time=65A13970%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,1640,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Fri,\x
-SF:2012\x20Jan\x202024\x2013:06:56\x20GMT\r\nContent-Type:\x20text/html\r\
+SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=65A3C625%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,1640,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x
+SF:2014\x20Jan\x202024\x2011:31:49\x20GMT\r\nContent-Type:\x20text/html\r\
 SF:nConnection:\x20close\r\nCache-Control:\x20no-cache,\x20no-store,\x20mu
 SF:st-revalidate\r\nPragma:\x20no-cache\r\nExpires:\x200\r\nServer:\x20o2s
 SF:witch-PowerBoost-v3\r\n\r\n\n\n\n<!DOCTYPE\x20html>\n<html>\n\x20\x20\x
@@ -129,9 +129,9 @@ SF:20\x20\x20\x20\x20\x20background-color:\x20#ffffff;\n\x20\x20\x20\x20\x
 SF:20\x20\x20\x20\x20\x20\x20\x20color:\x20#2F3230;\n\x20\x20\x20\x20\x20\
 SF:x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x20\x20\x20
 SF:\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\
-SF:x20\x20\x20\x20\x20\x20\x20\x20section,\x20f")%r(HTTPOptions,1640,"HTTP
-SF:/1\.1\x20429\x20Too\x20Many\x20Requests\r\nDate:\x20Fri,\x2012\x20Jan\x
-SF:202024\x2013:06:56\x20GMT\r\nContent-Type:\x20text/html\r\nConnection:\
+SF:x20\x20\x20\x20\x20\x20\x20\x20section,\x20f")%r(HTTPOptions,10B0,"HTTP
+SF:/1\.1\x20429\x20Too\x20Many\x20Requests\r\nDate:\x20Sun,\x2014\x20Jan\x
+SF:202024\x2011:31:49\x20GMT\r\nContent-Type:\x20text/html\r\nConnection:\
 SF:x20close\r\nVary:\x20Accept-Encoding\r\nServer:\x20o2switch-PowerBoost-
 SF:v3\r\nTiger-Protect-Security:\x20https://faq\.o2switch\.fr/hebergement-
 SF:mutualise/tutoriels-cpanel/tiger-protect\r\nCache-Control:\x20private,\
@@ -144,13 +144,13 @@ SF:xc3\xa9\x20suite\x20\xc3\xa0\x20l'activation\x20de\x20la\x20s\xc3\xa9cu
 SF:rit\xc3\xa9\x20fakegoogle\x20dans\x20cPanel\.\x20Cette\x20s\xc3\xa9curi
 SF:t\xc3\xa9\x20bloque\x20les\x20robots\x20se\x20faisant\x20passer\x20pour
 SF:\x20les\x20robots\x20Google\.\";\x20HTTP_Code\x20=\x20\"429\"\";\x20Req
-SF:uest_ID\x20=\x20\"42924989a4b9bec0f50235568f84ae56\";\x20Support\x20=\x
+SF:uest_ID\x20=\x20\"ecdd2b8e5aca94d5aeba937a7d8a2b3f\";\x20Support\x20=\x
 SF:20\"support@o2switch\.fr\";\x20Link\x20=\x20\"https://faq\.o2switch\.fr
 SF:/hebergement-mutualise/tutoriels-cpanel/tiger-protect\"\]\]\x20EndOf");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/12%Time=65A13976%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,1000,"HTTP/1\.1\x20429\x20Too\x20Many\x20Requests\r\
-SF:nDate:\x20Fri,\x2012\x20Jan\x202024\x2013:07:02\x20GMT\r\nContent-Type:
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A3C62B%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,1964,"HTTP/1\.1\x20429\x20Too\x20Many\x20Requests\r\
+SF:nDate:\x20Sun,\x2014\x20Jan\x202024\x2011:31:55\x20GMT\r\nContent-Type:
 SF:\x20text/html\r\nConnection:\x20close\r\nVary:\x20Accept-Encoding\r\nSe
 SF:rver:\x20o2switch-PowerBoost-v3\r\nTiger-Protect-Security:\x20https://f
 SF:aq\.o2switch\.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect\r
@@ -158,16 +158,16 @@ SF:\nCache-Control:\x20private,\x20max-age=0,\x20no-store,\x20no-cache,\x2
 SF:0must-revalidate,\x20post-check=0,\x20pre-check=0\r\nExpires:\x20Thu,\x
 SF:2001\x20Jan\x201970\x2000:00:01\x20GMT\r\nAccess-Control-Allow-Origin:\
 SF:x20\*\r\n\r\n<!--Debug\x20\[\[Security_Rule\x20=\x20\"\";\x20More_info\
-SF:x20=\x20\"\";\x20HTTP_Code\x20=\x20\"429\"\";\x20Request_ID\x20=\x20\"b
-SF:f3e1a6a481e51345ddcd6af30c27de6\";\x20Support\x20=\x20\"support@o2switc
+SF:x20=\x20\"\";\x20HTTP_Code\x20=\x20\"429\"\";\x20Request_ID\x20=\x20\"8
+SF:e15ebfb3b525c4eb14f6e1b5fa4c8ce\";\x20Support\x20=\x20\"support@o2switc
 SF:h\.fr\";\x20Link\x20=\x20\"https://faq\.o2switch\.fr/hebergement-mutual
 SF:ise/tutoriels-cpanel/tiger-protect\"\]\]\x20EndOfDebug-->\n<!DOCTYPE\x2
 SF:0HTML>\n<html\x20lang=\"en-US\">\n<head>\n\x20\x20<meta\x20charset=\"UT
 SF:F-8\"\x20/>\n\x20\x20<meta\x20http-equiv=\"Content-Type\"\x20content=\"
 SF:text/html;\x20charset=UTF-8\"\x20/>\n\x20\x20<meta\x20http-equiv=\"X-UA
 SF:-Compatible\"\x20content=\"IE=Edge,chrome=1\"")%r(HTTPOptions,1000,"HTT
-SF:P/1\.1\x20429\x20Too\x20Many\x20Requests\r\nDate:\x20Fri,\x2012\x20Jan\
-SF:x202024\x2013:07:02\x20GMT\r\nContent-Type:\x20text/html\r\nConnection:
+SF:P/1\.1\x20429\x20Too\x20Many\x20Requests\r\nDate:\x20Sun,\x2014\x20Jan\
+SF:x202024\x2011:31:55\x20GMT\r\nContent-Type:\x20text/html\r\nConnection:
 SF:\x20close\r\nVary:\x20Accept-Encoding\r\nServer:\x20o2switch-PowerBoost
 SF:-v3\r\nTiger-Protect-Security:\x20https://faq\.o2switch\.fr/hebergement
 SF:-mutualise/tutoriels-cpanel/tiger-protect\r\nCache-Control:\x20private,
@@ -175,8 +175,8 @@ SF:\x20max-age=0,\x20no-store,\x20no-cache,\x20must-revalidate,\x20post-ch
 SF:eck=0,\x20pre-check=0\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:00
 SF::01\x20GMT\r\nAccess-Control-Allow-Origin:\x20\*\r\n\r\n<!--Debug\x20\[
 SF:\[Security_Rule\x20=\x20\"\";\x20More_info\x20=\x20\"\";\x20HTTP_Code\x
-SF:20=\x20\"429\"\";\x20Request_ID\x20=\x20\"d857a684692396add4f8e1beb8fe1
-SF:d70\";\x20Support\x20=\x20\"support@o2switch\.fr\";\x20Link\x20=\x20\"h
+SF:20=\x20\"429\"\";\x20Request_ID\x20=\x20\"b2d99f53720140948eb02fd41d3e1
+SF:021\";\x20Support\x20=\x20\"support@o2switch\.fr\";\x20Link\x20=\x20\"h
 SF:ttps://faq\.o2switch\.fr/hebergement-mutualise/tutoriels-cpanel/tiger-p
 SF:rotect\"\]\]\x20EndOfDebug-->\n<!DOCTYPE\x20HTML>\n<html\x20lang=\"en-U
 SF:S\">\n<head>\n\x20\x20<meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20<meta\x
@@ -186,4 +186,4 @@ SF:E=Edge,chrome=1\"");
 Service Info: Host: mnt.o2switch.net
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 13:09:51 2024 -- 1 IP address (1 host up) scanned in 185.76 seconds
+# Nmap done at Sun Jan 14 11:34:30 2024 -- 1 IP address (1 host up) scanned in 171.26 seconds

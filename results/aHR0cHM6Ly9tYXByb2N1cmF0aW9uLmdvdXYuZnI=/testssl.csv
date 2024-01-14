@@ -46,7 +46,7 @@
 "cert_trust","maprocuration.gouv.fr/45.60.74.33","443","OK","Ok via SAN (SNI mandatory)","",""
 "cert_chain_of_trust","maprocuration.gouv.fr/45.60.74.33","443","CRITICAL","Some certificate trust checks failed -> Java (chain incomplete) Apple (chain incomplete)  , OK -> Mozilla Microsoft Linux","",""
 "cert_certificatePolicies_EV","maprocuration.gouv.fr/45.60.74.33","443","INFO","no","",""
-"cert_expirationStatus","maprocuration.gouv.fr/45.60.74.33","443","OK","250 >= 60 days","",""
+"cert_expirationStatus","maprocuration.gouv.fr/45.60.74.33","443","OK","248 >= 60 days","",""
 "cert_notBefore","maprocuration.gouv.fr/45.60.74.33","443","INFO","2023-09-19 22:00","",""
 "cert_notAfter","maprocuration.gouv.fr/45.60.74.33","443","OK","2024-09-18 21:59","",""
 "cert_extlifeSpan","maprocuration.gouv.fr/45.60.74.33","443","OK","certificate has no extended life time according to browser forum","",""

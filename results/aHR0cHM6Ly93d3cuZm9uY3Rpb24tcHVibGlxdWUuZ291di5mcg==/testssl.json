@@ -339,7 +339,7 @@
               "ip"           : "www.fonction-publique.gouv.fr/46.105.198.39",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "89 >= 60 days"
+              "finding"      : "87 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "www.fonction-publique.gouv.fr/46.105.198.39",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705056032"
+              "finding"      : "1705221187"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -1162,6 +1162,6 @@
               "ip"           : "www.fonction-publique.gouv.fr/46.105.198.39",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "40"
+              "finding"      : "41"
           }
 ]

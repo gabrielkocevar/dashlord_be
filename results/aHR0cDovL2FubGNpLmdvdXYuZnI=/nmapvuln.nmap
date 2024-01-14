@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Thu Jan 11 23:38:35 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anlci.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 02:36:18 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anlci.gouv.fr
 Nmap scan report for anlci.gouv.fr (5.39.65.54)
-Host is up (0.012s latency).
+Host is up (0.011s latency).
 rDNS record for 5.39.65.54: ns239073.ovh.net
 Not shown: 982 filtered tcp ports (no-response)
 PORT      STATE  SERVICE     VERSION
@@ -93,4 +93,4 @@ PORT      STATE  SERVICE     VERSION
 Service Info: Host: default-5_39_65_54; OS: Unix
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Jan 11 23:41:22 2024 -- 1 IP address (1 host up) scanned in 167.02 seconds
+# Nmap done at Sun Jan 14 02:39:05 2024 -- 1 IP address (1 host up) scanned in 167.13 seconds

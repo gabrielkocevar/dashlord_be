@@ -346,7 +346,7 @@
               "ip"           : "premar-atlantique.gouv.fr/87.252.1.29",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "74 >= 30 days"
+              "finding"      : "72 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "premar-atlantique.gouv.fr/87.252.1.29",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705083828"
+              "finding"      : "1705249534"
           }
 ,         {
               "id"           : "HSTS",

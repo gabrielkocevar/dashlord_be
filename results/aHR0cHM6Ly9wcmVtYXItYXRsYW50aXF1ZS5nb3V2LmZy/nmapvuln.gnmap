@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Jan 12 18:24:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln premar-atlantique.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 16:26:12 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln premar-atlantique.gouv.fr
 Host: 87.252.1.29 (oxd-mutu-01.oxyd.net)	Status: Up
 Host: 87.252.1.29 (oxd-mutu-01.oxyd.net)	Ports: 21/open/tcp//ftp//ProFTPD/, 25/open/tcp//smtp//Postfix smtpd/, 53/open/tcp//domain//(unknown banner: none)/, 80/open/tcp//http//nginx/, 106/open/tcp//tcpwrapped///, 110/open/tcp//pop3//Dovecot pop3d/, 143/open/tcp//imap//Dovecot imapd/, 443/open/tcp//ssl|http//nginx/, 465/open/tcp//ssl|smtp//Postfix smtpd/, 587/open/tcp//smtp//Postfix smtpd/, 993/open/tcp//ssl|imap//Dovecot imapd/, 995/open/tcp//ssl|pop3//Dovecot pop3d/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///, 8443/open/tcp//ssl|https-alt//sw-cp-server/
-# Nmap done at Fri Jan 12 18:27:12 2024 -- 1 IP address (1 host up) scanned in 166.63 seconds
+# Nmap done at Sun Jan 14 16:28:58 2024 -- 1 IP address (1 host up) scanned in 166.73 seconds

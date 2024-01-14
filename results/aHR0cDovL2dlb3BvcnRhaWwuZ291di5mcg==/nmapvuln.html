@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln geoportail.gouv.fr</pre>
-<p class="lead">Fri Jan 12 11:47:39 2024 – Fri Jan 12 11:50:26 2024<br>1 hosts scanned.
+<p class="lead">Sun Jan 14 09:38:35 2024 – Sun Jan 14 09:42:58 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>192.134.136.11</td>
+<td>192.134.136.10</td>
 <td>geoportail.gouv.fr</td>
 <td>4</td>
 <td>0</td>
@@ -91,8 +91,8 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#192-134-136-11"><h3 class="panel-title">192.134.136.11 - geoportail.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="192-134-136-11">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#192-134-136-10"><h3 class="panel-title">192.134.136.10 - geoportail.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="192-134-136-10">
 <h4>Hostnames</h4>
 <ul>
 <li>geoportail.gouv.fr (user)</li>
@@ -123,34 +123,12 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
+<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, RTSPRequest, X11Probe: 
-    HTTP/1.1 400 Bad request
-    Content-length: 90
-    Cache-Control: no-cache
-    Connection: close
-    Content-Type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
-    &lt;/body&gt;&lt;/html&gt;
-  FourOhFourRequest: 
-    HTTP/1.1 301 Moved Permanently
-    content-length: 0
-    location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-    connection: close
-  GetRequest, HTTPOptions: 
-    HTTP/1.1 301 Moved Permanently
-    content-length: 0
-    location: https:///
-    connection: close</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="active">
 <td>113</td>
 <td>tcp</td>
@@ -164,45 +142,12 @@
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">https</td>
+<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.1 403 Forbidden
-    cache-control: no-store
-    content-length: 228
-    content-type: application/json
-    connection: close
-    "errors" : [ { "status" : "403", "title" : "Forbidden", "detail" : "Request GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0 forbidden by administrative rules. Unique ID: 5C67500C595D9F5CC086880B01BB65A126EC2FA6AD7F777" } ] }
-  GetRequest: 
-    HTTP/1.1 403 Forbidden
-    cache-control: no-store
-    content-length: 193
-    content-type: application/json
-    connection: close
-    "errors" : [ { "status" : "403", "title" : "Forbidden", "detail" : "Request GET / HTTP/1.0 forbidden by administrative rules. Unique ID: 5C67500C595D88C2C086880B01BB65A126E621B6AD7F66D" } ] }
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    cache-control: no-store
-    content-length: 197
-    content-type: application/json
-    connection: close
-    "errors" : [ { "status" : "403", "title" : "Forbidden", "detail" : "Request OPTIONS / HTTP/1.0 forbidden by administrative rules. Unique ID: 5C67500C595D9F5AC086880B01BB65A126EC2766AD7F6EF" } ] }
-  RTSPRequest, tor-versions: 
-    HTTP/1.1 400 Bad request
-    Content-length: 90
-    Cache-Control: no-cache
-    Connection: close
-    Content-Type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
-    &lt;/body&gt;&lt;/html&gt;</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="success">
 <td title="Port">2000</td>
 <td title="Protocol">tcp</td>
@@ -224,88 +169,7 @@
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="active">
-<td>50000</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>ibm-db2</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50001</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50002</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>iiimsf</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50003</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
 <td>50006</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50300</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50389</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50500</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50636</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="active">
-<td>50800</td>
 <td>tcp</td>
 <td>closed<br>reset</td>
 <td>unknown</td>
@@ -331,27 +195,27 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>192.134.136.11 - geoportail.gouv.fr</td>
+<td>192.134.136.10 - geoportail.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>http</td>
+<td>tcpwrapped</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>192.134.136.11 - geoportail.gouv.fr</td>
+<td>192.134.136.10 - geoportail.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>https</td>
+<td>tcpwrapped</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>192.134.136.11 - geoportail.gouv.fr</td>
+<td>192.134.136.10 - geoportail.gouv.fr</td>
 <td>2000</td>
 <td>tcp</td>
 <td>cisco-sccp</td>
@@ -361,7 +225,7 @@
 <td></td>
 </tr>
 <tr>
-<td>192.134.136.11 - geoportail.gouv.fr</td>
+<td>192.134.136.10 - geoportail.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
 <td>sip</td>

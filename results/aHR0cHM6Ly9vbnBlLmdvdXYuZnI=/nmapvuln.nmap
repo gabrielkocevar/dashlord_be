@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 12 17:18:01 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln onpe.gouv.fr
+# Nmap 7.92 scan initiated Sun Jan 14 15:17:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln onpe.gouv.fr
 Nmap scan report for onpe.gouv.fr (46.18.135.249)
-Host is up (0.0050s latency).
+Host is up (0.0053s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http        Apache httpd
@@ -12,4 +12,4 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 12 17:20:49 2024 -- 1 IP address (1 host up) scanned in 167.93 seconds
+# Nmap done at Sun Jan 14 15:19:58 2024 -- 1 IP address (1 host up) scanned in 167.45 seconds

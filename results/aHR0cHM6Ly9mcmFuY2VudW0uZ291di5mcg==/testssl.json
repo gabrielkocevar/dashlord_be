@@ -339,7 +339,7 @@
               "ip"           : "francenum.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "357 >= 60 days"
+              "finding"      : "354 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "francenum.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705223454"
+              "finding"      : "1705514505"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1063,6 +1063,6 @@
               "ip"           : "francenum.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "39"
+              "finding"      : "38"
           }
 ]

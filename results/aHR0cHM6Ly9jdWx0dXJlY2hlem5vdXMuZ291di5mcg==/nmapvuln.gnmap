@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 06:06:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln culturecheznous.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 14:08:48 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln culturecheznous.gouv.fr
 Host: 217.70.184.55 (webredir.gandi.net)	Status: Up
 Host: 217.70.184.55 (webredir.gandi.net)	Ports: 80/open/tcp//http?///, 113/closed/tcp//ident///, 443/open/tcp//ssl|tcpwrapped///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 06:09:31 2024 -- 1 IP address (1 host up) scanned in 167.32 seconds
+# Nmap done at Wed Jan 17 14:11:35 2024 -- 1 IP address (1 host up) scanned in 167.49 seconds

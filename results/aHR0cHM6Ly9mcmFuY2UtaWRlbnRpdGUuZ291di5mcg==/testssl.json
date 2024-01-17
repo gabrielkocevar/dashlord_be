@@ -269,7 +269,7 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "037EBD613A00484C158D30416AD097C7DFF0"
+              "finding"      : "048284D829C77BB57C595BE91BFD1EF90AF3"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "8BCA8B29F027D0F300A5452D2E6AAD51BB81BDC4"
+              "finding"      : "2BACF803452B2D43B132C07F9DF73D5FEA876359"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "8208422A2DB012111311ED26723D7D359257BAC27F7B2776BDD27D90D414827E"
+              "finding"      : "A28413628FF5F0AE6341D5393FF87B3D2DA5CB81F2D49D0BA0F1C4E07EA22B3C"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE/DCCA+SgAwIBAgISA369YToASEwVjTBBatCXx9/wMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzExMTUxMTA5MTdaFw0yNDAyMTMxMTA5MTZaMCIxIDAeBgNVBAMTF2ZyYW5jZS1pZGVudGl0ZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzWnNxZo7tq8ORoxDbmasTsD2WmCpa0Vz9c0mJxJcHyMA6uOi50BkjU/wBDPJIm3cuCD/JlEYFC8JxL0VrRczKLj8QPLEANG7hHT8f7yc12ZKz11XFLyvToMgk6HM9GIgCXP0dMR0oDTLIAdP/sG+nKU8aXUpygNvFvSzdr0r1MWQUKK5KKT33agTqZH0u7ZnwpEY/vdXoOPv0j9mwr9vF0/LJz62FIJCn/6lgxqBdFb3SjkbjIfWAvGOKzmQI+Nlzd+YmUQytpcmkmuXiwnssmAODShTX0xzwnmuBOjuzlx/af8HhZwZa6NeBu6PIXeE8ga6T3Jz1w8FTitSWPogbwIDAQABo4ICGjCCAhYwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRpl49DHp9KTyxH2fL5SsWA5zwduTAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAiBgNVHREEGzAZghdmcmFuY2UtaWRlbnRpdGUuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABi9LiwYEAAAQDAEcwRQIgPnK0yeZI1EnBgTIEFaJjuXolLmBXvIQyzKycC+tryQkCIQCbtxHfH98RQ2fxGONhmHyYMY0GoZpSvjTWpM+x8+naPQB3ADtTd3U+LbmAToswWwb+QDtn2E/D9Me9AA0tcm/h+tQXAAABi9LiwXsAAAQDAEgwRgIhAP/iQbRQWxw/f4AsGDUMrQipI6JzPYG221Wb/p96kFj4AiEAssqJ6/QQP/NAZNlhRk3u4deUPIIJi+z5RoRYJqDEt3wwDQYJKoZIhvcNAQELBQADggEBAIC314Tb6FZjAL5o6i5V9FyLUk3iz8+JRBk2IiivNbOjk2AbVp5zsY/ZsW6efoCNx9RK5jRtSZQugBnfx9QKMW+nUAbgBFiy6NIp8tlj5nGIPYYulUip1yaD2KlTXpYZCOFZH+COUgDEXhUgpQkcxRXz8qkLy1KZ8DZthnrJLGYuRZF13lY1BT7tydGTe63VY6uUIFb7TqryK/k/HUkaT5tnuRV5Bcbc18oTpiBeOijZ8XhQfZUJHsDALuTTzMSdY46ro7005AjuKwZD0LdSSb3MNns/sGGUWE8wNgpWFoc9ZH1tEhjDeglm+ay7de3uA4c4FPzij4YH54okg+NyYVU=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE/TCCA+WgAwIBAgISBIKE2CnHe7V8WVvpG/0e+QrzMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDAxMTQxMTEwMDhaFw0yNDA0MTMxMTEwMDdaMCIxIDAeBgNVBAMTF2ZyYW5jZS1pZGVudGl0ZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqF6/Gg+Axf3Wz4O86Tvf3cxNPUcgZSJkoXmmcEpKlmlZZVkTS+S3Hhf2I6w4kdVc0hwy5K7LyqzDK14zu5S4RkwpKW4DQFGvbqb3L/TdBId7sMDvpT6kMpI05ss4ir9bYpZO5AarR4klwLqcDr1zh/zf0EIGSxNN/E+McXUI09NfEohYhpvHguJe8y7Z0Z4tBCUCPJqfw6d8zNCgUSeVB2223Cso9lIgozmgPS007A9+12e2Q/SXopzhgpP+236x4PgTa+PERmD4M8DUFrRu/20y6eoTXb0aa6lSgxMP0eLc5Y6OksH9e63x1da1Mv30b5o7aVRxUtrt+2UpSUAwbwIDAQABo4ICGzCCAhcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTJvkPtpOtY8RZ4+KA4QaLK90xxOTAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAiBgNVHREEGzAZghdmcmFuY2UtaWRlbnRpdGUuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQYGCisGAQQB1nkCBAIEgfcEgfQA8gB3ADtTd3U+LbmAToswWwb+QDtn2E/D9Me9AA0tcm/h+tQXAAABjQfhF2UAAAQDAEgwRgIhAJZGp/fILQxWhhVGqareZxnGDkIOeEKjIFoyrc1f1XyaAiEAzVbX+0fCxnRYmCecUPIhVO3DSlGZ4uqukLcnRUIRL3YAdwB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAY0H4ReJAAAEAwBIMEYCIQDDzW/UP1DaqaGcTMJFFka8Fh4DFQfMYGFhPIkuoXq+cwIhAL08hFoBNFrpwjIqsezYCHKV/8pMdzLzYTjaLCxfCYsuMA0GCSqGSIb3DQEBCwUAA4IBAQALEghQ1G2tRMZ2ukwLEaCU4aaqF0ETO+cozxzvMDOuJDjs7cPEL2PHnwJ4+0TvLd/6nzEvHix5GRgobMmngsFeL4EBvaC4UMxrAmiXNOWdmSHx8xqJdfEByQD0TSR9qj5Iaf+hmggZQMxrwiT6CYJ8X0AR4aD8MipDykurAmsk9NdF7ZbzL1PSKiJHHpd2/9u5H+cG070D/WkvyZT3SxItFQCCYyeC3q7IqA3YFVfOrB5qf6Hy+985PNf9CoTZUjhFnm6Br4v/UQx2F4SO9qmSVNTxJvg6+VXryUvoxcVq7xJE4CeGyUZj6zNs6fQ2/5oH26QwybDWVSe7mVUzNL7s\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "30 >= 30 days"
+              "finding"      : "86 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-11-15 11:09"
+              "finding"      : "2024-01-14 11:10"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-02-13 11:09"
+              "finding"      : "2024-04-13 11:10"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -549,7 +549,7 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705222005"
+              "finding"      : "1705512990"
           }
 ,         {
               "id"           : "HSTS_multiple",
@@ -785,7 +785,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=8208422A2DB012111311ED26723D7D359257BAC27F7B2776BDD27D90D414827E"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A28413628FF5F0AE6341D5393FF87B3D2DA5CB81F2D49D0BA0F1C4E07EA22B3C"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1161,6 +1161,6 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "42"
           }
 ]

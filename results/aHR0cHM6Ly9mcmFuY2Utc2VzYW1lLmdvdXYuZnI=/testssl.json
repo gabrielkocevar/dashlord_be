@@ -339,7 +339,7 @@
               "ip"           : "france-sesame.gouv.fr/92.173.76.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "75 >= 60 days"
+              "finding"      : "72 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "france-sesame.gouv.fr/92.173.76.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+3600 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "france-sesame.gouv.fr/92.173.76.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705226267"
+              "finding"      : "1705513676"
           }
 ,         {
               "id"           : "HSTS_time",

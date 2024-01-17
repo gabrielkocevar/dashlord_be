@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 06:51:39 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln depistagecovid.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 14:52:37 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln depistagecovid.gouv.fr
 Nmap scan report for depistagecovid.gouv.fr (164.131.212.140)
-Host is up (0.012s latency).
+Host is up (0.0095s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http        web
@@ -16,7 +16,7 @@ PORT     STATE  SERVICE     VERSION
 |     Content-Type: text/html; charset=utf-8
 |     Pragma: no-cache
 |     Content-Length: 247
-|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215806523893<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
+|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215831956720<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
 |   RTSPRequest: 
 |     HTTP/1.1 200 OK
 |     X-Frame-Options: SAMEORIGIN
@@ -27,7 +27,7 @@ PORT     STATE  SERVICE     VERSION
 |     Content-Type: text/html; charset=utf-8
 |     Pragma: no-cache
 |     Content-Length: 247
-|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215809035009<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
+|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215830879395<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
 |   SIPOptions: 
 |     HTTP/1.1 200 OK
 |     X-Frame-Options: SAMEORIGIN
@@ -38,7 +38,7 @@ PORT     STATE  SERVICE     VERSION
 |     Content-Type: text/html; charset=utf-8
 |     Pragma: no-cache
 |     Content-Length: 247
-|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215811607200<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
+|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215828939570<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
 |   TerminalServerCookie: 
 |     HTTP/1.1 200 OK
 |     X-Frame-Options: SAMEORIGIN
@@ -49,13 +49,13 @@ PORT     STATE  SERVICE     VERSION
 |     Content-Type: text/html; charset=utf-8
 |     Pragma: no-cache
 |     Content-Length: 247
-|_    <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215810930103<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
+|_    <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: 16967957215837954662<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>
 113/tcp  closed ident
 443/tcp  closed https
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=65A38486%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=1/17%Time=65A7E9C1%P=x86_64-alpine-linux-musl%r
 SF:(RTSPRequest,1E4,"HTTP/1\.1\x20200\x20OK\r\nX-Frame-Options:\x20SAMEORI
 SF:GIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:
 SF:\x20nosniff\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nCo
@@ -63,7 +63,7 @@ SF:ntent-Type:\x20text/html;\x20charset=utf-8\r\nPragma:\x20no-cache\r\nCo
 SF:ntent-Length:\x20247\r\n\r\n<html><head><title>Request\x20Rejected</tit
 SF:le></head><body>The\x20requested\x20URL\x20was\x20rejected\.\x20Please\
 SF:x20consult\x20with\x20your\x20administrator\.<br><br>Your\x20support\x2
-SF:0ID\x20is:\x2016967957215809035009<br><br><a\x20href='javascript:histor
+SF:0ID\x20is:\x2016967957215830879395<br><br><a\x20href='javascript:histor
 SF:y\.back\(\);'>\[Go\x20Back\]</a></body></html>")%r(FourOhFourRequest,1E
 SF:4,"HTTP/1\.1\x20200\x20OK\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Pr
 SF:otection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\n
@@ -72,7 +72,7 @@ SF:text/html;\x20charset=utf-8\r\nPragma:\x20no-cache\r\nContent-Length:\x
 SF:20247\r\n\r\n<html><head><title>Request\x20Rejected</title></head><body
 SF:>The\x20requested\x20URL\x20was\x20rejected\.\x20Please\x20consult\x20w
 SF:ith\x20your\x20administrator\.<br><br>Your\x20support\x20ID\x20is:\x201
-SF:6967957215806523893<br><br><a\x20href='javascript:history\.back\(\);'>\
+SF:6967957215831956720<br><br><a\x20href='javascript:history\.back\(\);'>\
 SF:[Go\x20Back\]</a></body></html>")%r(TerminalServerCookie,1E4,"HTTP/1\.1
 SF:\x20200\x20OK\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x2
 SF:01;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nCache-Contro
@@ -80,8 +80,8 @@ SF:l:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x
 SF:20charset=utf-8\r\nPragma:\x20no-cache\r\nContent-Length:\x20247\r\n\r\
 SF:n<html><head><title>Request\x20Rejected</title></head><body>The\x20requ
 SF:ested\x20URL\x20was\x20rejected\.\x20Please\x20consult\x20with\x20your\
-SF:x20administrator\.<br><br>Your\x20support\x20ID\x20is:\x201696795721581
-SF:0930103<br><br><a\x20href='javascript:history\.back\(\);'>\[Go\x20Back\
+SF:x20administrator\.<br><br>Your\x20support\x20ID\x20is:\x201696795721583
+SF:7954662<br><br><a\x20href='javascript:history\.back\(\);'>\[Go\x20Back\
 SF:]</a></body></html>")%r(SIPOptions,1E4,"HTTP/1\.1\x20200\x20OK\r\nX-Fra
 SF:me-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX
 SF:-Content-Type-Options:\x20nosniff\r\nCache-Control:\x20no-cache\r\nConn
@@ -89,8 +89,8 @@ SF:ection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nPra
 SF:gma:\x20no-cache\r\nContent-Length:\x20247\r\n\r\n<html><head><title>Re
 SF:quest\x20Rejected</title></head><body>The\x20requested\x20URL\x20was\x2
 SF:0rejected\.\x20Please\x20consult\x20with\x20your\x20administrator\.<br>
-SF:<br>Your\x20support\x20ID\x20is:\x2016967957215811607200<br><br><a\x20h
+SF:<br>Your\x20support\x20ID\x20is:\x2016967957215828939570<br><br><a\x20h
 SF:ref='javascript:history\.back\(\);'>\[Go\x20Back\]</a></body></html>");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 06:54:40 2024 -- 1 IP address (1 host up) scanned in 180.92 seconds
+# Nmap done at Wed Jan 17 14:55:39 2024 -- 1 IP address (1 host up) scanned in 181.46 seconds

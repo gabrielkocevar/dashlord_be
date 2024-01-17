@@ -339,7 +339,7 @@
               "ip"           : "enfance.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "121 >= 60 days"
+              "finding"      : "118 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,7 +493,7 @@
               "ip"           : "enfance.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-61339 seconds from localtime"
+              "finding"      : "-351428 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
@@ -507,7 +507,7 @@
               "ip"           : "enfance.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5697 seconds"
+              "finding"      : "4634 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -607,7 +607,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: HITX-Cache-Hits: 32"
+              "finding"      : "X-Cache: HITX-Cache-Hits: 40"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1113,6 +1113,6 @@
               "ip"           : "enfance.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "45"
           }
 ]

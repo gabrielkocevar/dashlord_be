@@ -339,7 +339,7 @@
               "ip"           : "conseil-national-industrie.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "81 >= 60 days"
+              "finding"      : "78 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "conseil-national-industrie.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705209881"
+              "finding"      : "1705498101"
           }
 ,         {
               "id"           : "HSTS_time",

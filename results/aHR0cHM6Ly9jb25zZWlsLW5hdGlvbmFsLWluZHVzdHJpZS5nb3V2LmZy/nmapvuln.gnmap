@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 05:25:06 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln conseil-national-industrie.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 13:28:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln conseil-national-industrie.gouv.fr
 Host: 80.87.236.17 (svr236017.actimage.net)	Status: Up
 Host: 80.87.236.17 (svr236017.actimage.net)	Ports: 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 05:27:53 2024 -- 1 IP address (1 host up) scanned in 167.24 seconds
+# Nmap done at Wed Jan 17 13:31:35 2024 -- 1 IP address (1 host up) scanned in 169.31 seconds

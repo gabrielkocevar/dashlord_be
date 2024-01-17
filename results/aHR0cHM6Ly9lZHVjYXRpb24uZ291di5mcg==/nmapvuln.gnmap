@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 07:52:02 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln education.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 15:55:10 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln education.gouv.fr
 Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Status: Up
 Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 80/open/tcp//tcpwrapped///, 113/closed/tcp//ident///, 443/open/tcp//ssl|tcpwrapped///, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//sip?///	Ignored State: filtered (994)
-# Nmap done at Sun Jan 14 07:53:05 2024 -- 1 IP address (1 host up) scanned in 63.35 seconds
+# Nmap done at Wed Jan 17 15:56:06 2024 -- 1 IP address (1 host up) scanned in 56.25 seconds

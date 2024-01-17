@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 04:00:52 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.centre-documentation-spm.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 11:20:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.centre-documentation-spm.gouv.fr
 Nmap scan report for www.centre-documentation-spm.gouv.fr (195.154.54.74)
-Host is up (0.014s latency).
+Host is up (0.026s latency).
 rDNS record for 195.154.54.74: mainstream.afi-sa.net
 Not shown: 978 filtered tcp ports (no-response)
 PORT      STATE  SERVICE     VERSION
@@ -36,7 +36,7 @@ PORT      STATE  SERVICE     VERSION
 64623/tcp closed unknown
 64680/tcp closed unknown
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port21-TCP:V=7.92%I=7%D=1/14%Time=65A35C7E%P=x86_64-alpine-linux-musl%r
+SF-Port21-TCP:V=7.92%I=7%D=1/17%Time=65A7B7F6%P=x86_64-alpine-linux-musl%r
 SF:(NULL,49,"220\x20proxy-ftp\x20FTP\x20server\x20\(Version\x201\.9\.2\.4\
 SF:x20-\x202005/01/11\x2013:03:28\)\x20ready\.\r\n")%r(GenericLines,49,"22
 SF:0\x20proxy-ftp\x20FTP\x20server\x20\(Version\x201\.9\.2\.4\x20-\x202005
@@ -50,4 +50,4 @@ SF:tp\x20FTP\x20server\x20\(Version\x201\.9\.2\.4\x20-\x202005/01/11\x2013
 SF::03:28\)\x20ready\.\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 04:03:39 2024 -- 1 IP address (1 host up) scanned in 166.73 seconds
+# Nmap done at Wed Jan 17 11:22:58 2024 -- 1 IP address (1 host up) scanned in 167.05 seconds

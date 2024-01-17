@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 08:44:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 17:34:09 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr
 Nmap scan report for fr-alert.gouv.fr (145.239.193.186)
-Host is up (0.14s latency).
+Host is up (0.034s latency).
 Not shown: 996 closed tcp ports (reset)
 PORT     STATE SERVICE    VERSION
 80/tcp   open  http       Apache httpd 2.4.58
@@ -22,17 +22,17 @@ PORT     STATE SERVICE    VERSION
 |     x-generator: Drupal 9 (https://www.drupal.org)
 |     x-drupal-cache: MISS
 |     content-type: text/html; charset=UTF-8
-|     x-varnish: 630801
+|     x-varnish: 471668
 |     age: 0
 |     via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
-|     x-iplb-request-id: 500C595D:8998_91EFC1BA:01BB_65A39EF8_1E916D:452E
+|     x-iplb-request-id: 500C595D:DDDC_91EFC1BA:01BB_65A80F9F_21E9CF:452E
 |     x-iplb-instance: 56269
 |     connection: close
 |     <!DOCTYPE html>
 |     <html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdf
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     date: Thu, 11 Jan 2024 16:15:37 GMT
+|     date: Tue, 16 Jan 2024 09:44:11 GMT
 |     server: Apache/2.4.58 (Ubuntu)
 |     cache-control: must-revalidate, no-cache, private
 |     x-drupal-dynamic-cache: MISS
@@ -45,18 +45,18 @@ PORT     STATE SERVICE    VERSION
 |     x-drupal-cache: HIT
 |     vary: Accept-Encoding
 |     content-type: text/html; charset=UTF-8
-|     x-varnish: 630798
+|     x-varnish: 471665
 |     age: 0
 |     via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
 |     accept-ranges: bytes
-|     x-iplb-request-id: 500C595D:897E_91EFC1BA:01BB_65A39EF1_1E9167:452E
+|     x-iplb-request-id: 500C595D:DDBE_91EFC1BA:01BB_65A80F98_21E9CC:452E
 |     x-iplb-instance: 56269
 |     connection: close
 |     <!DOCTYPE html>
 |     <html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     date: Sun, 14 Jan 2024 08:44:40 GMT
+|     date: Wed, 17 Jan 2024 17:34:22 GMT
 |     server: Apache/2.4.58 (Ubuntu)
 |     allow: GET, POST
 |     cache-control: must-revalidate, no-cache, private
@@ -68,45 +68,45 @@ PORT     STATE SERVICE    VERSION
 |     x-generator: Drupal 9 (https://www.drupal.org)
 |     content-length: 0
 |     content-type: text/html; charset=UTF-8
-|     x-varnish: 160421
+|     x-varnish: 726719
 |     age: 0
 |     via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
 |     keep-alive: timeout=5, max=100
-|     x-iplb-request-id: 500C595D:898C_91EFC1BA:01BB_65A39EF8_1E916C:452E
-|     x-iplb-instance: 56269
+|     x-iplb-request-id: 500C595D:DDCE_91EFC1BA:01BB_65A80F9E_21F66E:6269
+|     x-iplb-instance: 56206
 |_    connection: close
 2000/tcp open  tcpwrapped
 5060/tcp open  tcpwrapped
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A39EF7%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,3380,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Thu,\x2011\
-SF:x20Jan\x202024\x2016:15:37\x20GMT\r\nserver:\x20Apache/2\.4\.58\x20\(Ub
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/17%Time=65A80F9E%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,3380,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Tue,\x2016\
+SF:x20Jan\x202024\x2009:44:11\x20GMT\r\nserver:\x20Apache/2\.4\.58\x20\(Ub
 SF:untu\)\r\ncache-control:\x20must-revalidate,\x20no-cache,\x20private\r\
 SF:nx-drupal-dynamic-cache:\x20MISS\r\nx-ua-compatible:\x20IE=edge\r\ncont
 SF:ent-language:\x20fr\r\nx-content-type-options:\x20nosniff\r\nx-frame-op
 SF:tions:\x20SAMEORIGIN\r\nexpires:\x20Sun,\x2019\x20Nov\x201978\x2005:00:
 SF:00\x20GMT\r\nx-generator:\x20Drupal\x209\x20\(https://www\.drupal\.org\
 SF:)\r\nx-drupal-cache:\x20HIT\r\nvary:\x20Accept-Encoding\r\ncontent-type
-SF::\x20text/html;\x20charset=UTF-8\r\nx-varnish:\x20630798\r\nage:\x200\r
+SF::\x20text/html;\x20charset=UTF-8\r\nx-varnish:\x20471665\r\nage:\x200\r
 SF:\nvia:\x201\.1\x20prd-s1-front-varnish-02\x20\(Varnish/7\.2\)\r\naccept
-SF:-ranges:\x20bytes\r\nx-iplb-request-id:\x20500C595D:897E_91EFC1BA:01BB_
-SF:65A39EF1_1E9167:452E\r\nx-iplb-instance:\x2056269\r\nconnection:\x20clo
+SF:-ranges:\x20bytes\r\nx-iplb-request-id:\x20500C595D:DDBE_91EFC1BA:01BB_
+SF:65A80F98_21E9CC:452E\r\nx-iplb-instance:\x2056269\r\nconnection:\x20clo
 SF:se\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"fr\"\x20dir=\"ltr\"\x20pr
 SF:efix=\"content:\x20http://purl\.org/rss/1\.0/modules/content/\x20\x20dc
 SF::\x20http://purl\.org/dc/terms/\x20\x20foaf:\x20http://xmlns\.com/foaf/
 SF:0\.1/\x20\x20og:\x20http://ogp\.me/ns#\x20\x20rdfs:\x20http://www\.w3\.
 SF:org/2000/01/rdf-schema#\x20\x20schema")%r(HTTPOptions,279,"HTTP/1\.1\x2
-SF:0200\x20OK\r\ndate:\x20Sun,\x2014\x20Jan\x202024\x2008:44:40\x20GMT\r\n
+SF:0200\x20OK\r\ndate:\x20Wed,\x2017\x20Jan\x202024\x2017:34:22\x20GMT\r\n
 SF:server:\x20Apache/2\.4\.58\x20\(Ubuntu\)\r\nallow:\x20GET,\x20POST\r\nc
 SF:ache-control:\x20must-revalidate,\x20no-cache,\x20private\r\nx-ua-compa
 SF:tible:\x20IE=edge\r\ncontent-language:\x20fr\r\nx-content-type-options:
 SF:\x20nosniff\r\nx-frame-options:\x20SAMEORIGIN\r\nexpires:\x20Sun,\x2019
 SF:\x20Nov\x201978\x2005:00:00\x20GMT\r\nx-generator:\x20Drupal\x209\x20\(
 SF:https://www\.drupal\.org\)\r\ncontent-length:\x200\r\ncontent-type:\x20
-SF:text/html;\x20charset=UTF-8\r\nx-varnish:\x20160421\r\nage:\x200\r\nvia
+SF:text/html;\x20charset=UTF-8\r\nx-varnish:\x20726719\r\nage:\x200\r\nvia
 SF::\x201\.1\x20prd-s1-front-varnish-02\x20\(Varnish/7\.2\)\r\nkeep-alive:
-SF:\x20timeout=5,\x20max=100\r\nx-iplb-request-id:\x20500C595D:898C_91EFC1
-SF:BA:01BB_65A39EF8_1E916C:452E\r\nx-iplb-instance:\x2056269\r\nconnection
+SF:\x20timeout=5,\x20max=100\r\nx-iplb-request-id:\x20500C595D:DDCE_91EFC1
+SF:BA:01BB_65A80F9E_21F66E:6269\r\nx-iplb-instance:\x2056206\r\nconnection
 SF::\x20close\r\n\r\n")%r(FourOhFourRequest,335A,"HTTP/1\.1\x20404\x20Not\
 SF:x20Found\r\ndate:\x20Thu,\x2009\x20Nov\x202023\x2015:01:41\x20GMT\r\nse
 SF:rver:\x20Apache/2\.4\.58\x20\(Ubuntu\)\r\ncache-control:\x20must-revali
@@ -115,9 +115,9 @@ SF:-compatible:\x20IE=edge\r\ncontent-language:\x20fr\r\nx-content-type-op
 SF:tions:\x20nosniff\r\nx-frame-options:\x20SAMEORIGIN\r\nexpires:\x20Sun,
 SF:\x2019\x20Nov\x201978\x2005:00:00\x20GMT\r\nx-generator:\x20Drupal\x209
 SF:\x20\(https://www\.drupal\.org\)\r\nx-drupal-cache:\x20MISS\r\ncontent-
-SF:type:\x20text/html;\x20charset=UTF-8\r\nx-varnish:\x20630801\r\nage:\x2
+SF:type:\x20text/html;\x20charset=UTF-8\r\nx-varnish:\x20471668\r\nage:\x2
 SF:00\r\nvia:\x201\.1\x20prd-s1-front-varnish-02\x20\(Varnish/7\.2\)\r\nx-
-SF:iplb-request-id:\x20500C595D:8998_91EFC1BA:01BB_65A39EF8_1E916D:452E\r\
+SF:iplb-request-id:\x20500C595D:DDDC_91EFC1BA:01BB_65A80F9F_21E9CF:452E\r\
 SF:nx-iplb-instance:\x2056269\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20
 SF:html>\n<html\x20lang=\"fr\"\x20dir=\"ltr\"\x20prefix=\"content:\x20http
 SF:://purl\.org/rss/1\.0/modules/content/\x20\x20dc:\x20http://purl\.org/d
@@ -127,4 +127,4 @@ SF:\x20\x20schema:\x20http://schema\.org/\x20\x20sioc:\x20http://rdf");
 Service Info: Host: www.fr-alert.gouv.fr
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 08:44:48 2024 -- 1 IP address (1 host up) scanned in 22.56 seconds
+# Nmap done at Wed Jan 17 17:34:31 2024 -- 1 IP address (1 host up) scanned in 21.61 seconds

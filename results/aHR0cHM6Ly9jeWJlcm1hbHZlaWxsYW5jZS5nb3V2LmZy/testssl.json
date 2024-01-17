@@ -346,7 +346,7 @@
               "ip"           : "cybermalveillance.gouv.fr/87.252.1.29",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (58)"
+              "finding"      : "expires < 60 days (55)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "cybermalveillance.gouv.fr/87.252.1.29",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705212695"
+              "finding"      : "1705500848"
           }
 ,         {
               "id"           : "HSTS",
@@ -1063,6 +1063,6 @@
               "ip"           : "cybermalveillance.gouv.fr/87.252.1.29",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "51"
+              "finding"      : "55"
           }
 ]

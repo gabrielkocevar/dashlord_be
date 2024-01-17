@@ -866,7 +866,7 @@
               "ip"           : "anlci.gouv.fr/5.39.65.54",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "off by +904 seconds from your localtime"
+              "finding"      : "off by +908 seconds from your localtime"
           }
 ,         {
               "id"           : "cert_compression",
@@ -1125,14 +1125,14 @@
               "ip"           : "anlci.gouv.fr/5.39.65.54",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+904 seconds from localtime"
+              "finding"      : "+908 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "anlci.gouv.fr/5.39.65.54",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705200626"
+              "finding"      : "1705486046"
           }
 ,         {
               "id"           : "HSTS",

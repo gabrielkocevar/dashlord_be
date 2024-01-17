@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 09:03:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francearchives.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 17:53:54 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francearchives.gouv.fr
 Nmap scan report for francearchives.gouv.fr (51.210.253.164)
-Host is up (0.046s latency).
+Host is up (0.086s latency).
 Not shown: 996 closed tcp ports (reset)
 PORT     STATE SERVICE    VERSION
 80/tcp   open  http       nginx (reverse proxy)
@@ -11,4 +11,4 @@ PORT     STATE SERVICE    VERSION
 5060/tcp open  tcpwrapped
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 09:04:04 2024 -- 1 IP address (1 host up) scanned in 19.59 seconds
+# Nmap done at Wed Jan 17 17:54:15 2024 -- 1 IP address (1 host up) scanned in 20.82 seconds

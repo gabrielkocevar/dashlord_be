@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 02:31:07 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln amendes.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 09:48:04 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln amendes.gouv.fr
 Nmap scan report for amendes.gouv.fr (160.92.148.108)
-Host is up (0.026s latency).
+Host is up (0.034s latency).
 rDNS record for 160.92.148.108: prod-tai-tfi-as.ca-zne-tlp.as8677.net
 Not shown: 997 closed tcp ports (reset)
 PORT     STATE SERVICE    VERSION
@@ -39,7 +39,7 @@ PORT     STATE SERVICE    VERSION
 2000/tcp open  tcpwrapped
 5060/tcp open  tcpwrapped
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A34778%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/17%Time=65A7A261%P=x86_64-alpine-linux
 SF:-musl%r(HTTPOptions,117F,"HTTP/1\.1\x20403\x20Forbidden\r\nX-Frame-Opti
 SF:ons:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type
 SF:-Options:\x20nosniff\r\nCache-Control:\x20no-cache\r\nConnection:\x20cl
@@ -84,4 +84,4 @@ SF:0font-family:Tahoma;\r\n\t\tcolor:white;\r\n\x20\x20\x20\x20\x20\x20}\x
 SF:20\x20\x20\x20\r\n\x20\x20\x20\x20\x20");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 02:33:24 2024 -- 1 IP address (1 host up) scanned in 136.97 seconds
+# Nmap done at Wed Jan 17 09:50:21 2024 -- 1 IP address (1 host up) scanned in 137.12 seconds

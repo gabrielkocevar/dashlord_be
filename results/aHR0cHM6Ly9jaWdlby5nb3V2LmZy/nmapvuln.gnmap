@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 04:29:44 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cigeo.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 12:33:13 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cigeo.gouv.fr
 Host: 79.137.76.37 (vps381334.ovh.net)	Status: Up
 Host: 79.137.76.37 (vps381334.ovh.net)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https?///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 04:32:40 2024 -- 1 IP address (1 host up) scanned in 176.64 seconds
+# Nmap done at Wed Jan 17 12:36:09 2024 -- 1 IP address (1 host up) scanned in 176.25 seconds

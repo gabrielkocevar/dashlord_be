@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 01:30:58 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 1jeune1solution.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 08:26:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 1jeune1solution.gouv.fr
 Host: 5.104.101.30 (ows-5-104-101-30.eu-west-2.compute.outscale.com)	Status: Up
 Host: 5.104.101.30 (ows-5-104-101-30.eu-west-2.compute.outscale.com)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 01:33:46 2024 -- 1 IP address (1 host up) scanned in 167.49 seconds
+# Nmap done at Wed Jan 17 08:29:13 2024 -- 1 IP address (1 host up) scanned in 168.68 seconds

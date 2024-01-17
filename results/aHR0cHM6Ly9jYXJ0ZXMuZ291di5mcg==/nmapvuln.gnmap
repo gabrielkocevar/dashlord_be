@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 03:54:59 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cartes.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 11:17:42 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cartes.gouv.fr
 Host: 57.128.40.173 ()	Status: Up
 Host: 57.128.40.173 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//tcpwrapped///	Ignored State: closed (996)
-# Nmap done at Sun Jan 14 03:55:19 2024 -- 1 IP address (1 host up) scanned in 19.20 seconds
+# Nmap done at Wed Jan 17 11:18:01 2024 -- 1 IP address (1 host up) scanned in 19.26 seconds

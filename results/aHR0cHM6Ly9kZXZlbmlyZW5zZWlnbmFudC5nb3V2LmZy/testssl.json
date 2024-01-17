@@ -374,7 +374,7 @@
               "ip"           : "devenirenseignant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "195 >= 60 days"
+              "finding"      : "192 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,7 +584,7 @@
               "ip"           : "devenirenseignant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705215472"
+              "finding"      : "1705503470"
           }
 ,         {
               "id"           : "HSTS_time",

@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 06:47:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln demission-reconversion.gouv.fr
+# Nmap 7.92 scan initiated Wed Jan 17 14:48:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln demission-reconversion.gouv.fr
 Nmap scan report for demission-reconversion.gouv.fr (40.114.143.169)
-Host is up (0.019s latency).
+Host is up (0.020s latency).
 Not shown: 990 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 22/tcp   open   ssh         OpenSSH 7.4 (protocol 2.0)
@@ -41,4 +41,4 @@ PORT     STATE  SERVICE     VERSION
 8443/tcp closed https-alt
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 06:50:14 2024 -- 1 IP address (1 host up) scanned in 166.95 seconds
+# Nmap done at Wed Jan 17 14:51:27 2024 -- 1 IP address (1 host up) scanned in 167.03 seconds

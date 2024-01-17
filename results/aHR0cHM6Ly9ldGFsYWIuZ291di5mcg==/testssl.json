@@ -346,7 +346,7 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "49 >= 30 days"
+              "finding"      : "46 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705220386"
+              "finding"      : "1705511002"
           }
 ,         {
               "id"           : "HSTS",

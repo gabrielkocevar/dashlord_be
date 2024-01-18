@@ -206,7 +206,7 @@
               "ip"           : "retraitesdeletat.gouv.fr/145.242.11.25",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "off by -1 seconds from your localtime"
+              "finding"      : "off by 0 seconds from your localtime"
           }
 ,         {
               "id"           : "cert_compression",
@@ -339,7 +339,7 @@
               "ip"           : "retraitesdeletat.gouv.fr/145.242.11.25",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "198 >= 60 days"
+              "finding"      : "194 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "retraitesdeletat.gouv.fr/145.242.11.25",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705253353"
+              "finding"      : "1705602524"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -620,7 +620,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "Via: dpapusx012"
+              "finding"      : "Via: dpapusx010"
           }
 ,         {
               "id"           : "heartbleed",

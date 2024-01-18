@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 17:29:52 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln retraitesdeletat.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 18:29:23 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln retraitesdeletat.gouv.fr
 Host: 145.242.11.25 (www.jepaiemesserviceslocaux.dgfip.finances.gouv.fr)	Status: Up
 Host: 145.242.11.25 (www.jepaiemesserviceslocaux.dgfip.finances.gouv.fr)	Ports: 80/open/tcp//http//Apache httpd/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 17:32:40 2024 -- 1 IP address (1 host up) scanned in 167.59 seconds
+# Nmap done at Thu Jan 18 18:32:12 2024 -- 1 IP address (1 host up) scanned in 168.80 seconds

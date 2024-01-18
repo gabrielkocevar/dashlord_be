@@ -339,7 +339,7 @@
               "ip"           : "tourisme-handicap.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "241 >= 60 days"
+              "finding"      : "237 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "tourisme-handicap.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705260250"
+              "finding"      : "1705609699"
           }
 ,         {
               "id"           : "HSTS",
@@ -1063,6 +1063,6 @@
               "ip"           : "tourisme-handicap.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "39"
+              "finding"      : "40"
           }
 ]

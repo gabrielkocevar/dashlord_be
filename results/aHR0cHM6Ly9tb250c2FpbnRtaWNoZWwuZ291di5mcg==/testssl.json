@@ -199,7 +199,7 @@
               "ip"           : "montsaintmichel.gouv.fr/51.91.236.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "montsaintmichel.gouv.fr/51.91.236.193",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "30 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (26)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "montsaintmichel.gouv.fr/51.91.236.193",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-02-14 01:29"
           }
 ,         {
@@ -542,7 +542,7 @@
               "ip"           : "montsaintmichel.gouv.fr/51.91.236.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705243120"
+              "finding"      : "1705589707"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "montsaintmichel.gouv.fr/51.91.236.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "43"
+              "finding"      : "44"
           }
 ]

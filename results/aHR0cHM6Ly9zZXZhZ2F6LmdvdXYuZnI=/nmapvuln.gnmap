@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 18:10:53 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sevagaz.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 19:19:08 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sevagaz.gouv.fr
 Host: 51.254.145.84 (ip84.ip-51-254-145.eu)	Status: Up
 Host: 51.254.145.84 (ip84.ip-51-254-145.eu)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///, 2000/open/tcp//cisco-sccp?///, 2222/open/tcp//tcpwrapped///, 5060/open/tcp//sip?///	Ignored State: filtered (994)
-# Nmap done at Sun Jan 14 18:13:43 2024 -- 1 IP address (1 host up) scanned in 170.48 seconds
+# Nmap done at Thu Jan 18 19:21:59 2024 -- 1 IP address (1 host up) scanned in 170.74 seconds

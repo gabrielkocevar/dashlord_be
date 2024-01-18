@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 12:07:59 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln jeprotegemonenfant.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 09:24:41 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln jeprotegemonenfant.gouv.fr
 Host: 185.31.40.18 (http8.paris1.alwaysdata.com)	Status: Up
 Host: 185.31.40.18 (http8.paris1.alwaysdata.com)	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https//Apache/, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//tcpwrapped///	Ignored State: closed (996)
-# Nmap done at Sun Jan 14 12:08:23 2024 -- 1 IP address (1 host up) scanned in 24.55 seconds
+# Nmap done at Thu Jan 18 09:25:06 2024 -- 1 IP address (1 host up) scanned in 24.76 seconds

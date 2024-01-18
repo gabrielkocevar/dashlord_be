@@ -46,7 +46,7 @@
 "cert_trust","prefectures-regions.gouv.fr/45.60.74.33","443","OK","Ok via SAN (same w/o SNI)","",""
 "cert_chain_of_trust","prefectures-regions.gouv.fr/45.60.74.33","443","OK","passed.","",""
 "cert_certificatePolicies_EV","prefectures-regions.gouv.fr/45.60.74.33","443","INFO","no","",""
-"cert_expirationStatus","prefectures-regions.gouv.fr/45.60.74.33","443","OK","148 >= 60 days","",""
+"cert_expirationStatus","prefectures-regions.gouv.fr/45.60.74.33","443","OK","144 >= 60 days","",""
 "cert_notBefore","prefectures-regions.gouv.fr/45.60.74.33","443","INFO","2023-12-14 11:19","",""
 "cert_notAfter","prefectures-regions.gouv.fr/45.60.74.33","443","OK","2024-06-11 11:19","",""
 "cert_extlifeSpan","prefectures-regions.gouv.fr/45.60.74.33","443","OK","certificate has no extended life time according to browser forum","",""

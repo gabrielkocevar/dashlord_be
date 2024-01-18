@@ -339,7 +339,7 @@
               "ip"           : "outre-mer.gouv.fr/37.235.90.50",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "329 >= 60 days"
+              "finding"      : "325 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "outre-mer.gouv.fr/37.235.90.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705245741"
+              "finding"      : "1705592918"
           }
 ,         {
               "id"           : "HSTS_multiple",
@@ -1112,6 +1112,6 @@
               "ip"           : "outre-mer.gouv.fr/37.235.90.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "43"
+              "finding"      : "44"
           }
 ]

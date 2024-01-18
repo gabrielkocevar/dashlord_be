@@ -367,7 +367,7 @@
               "ip"           : "permisdeconduire.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "297 >= 60 days"
+              "finding"      : "293 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -612,7 +612,7 @@
               "ip"           : "permisdeconduire.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705247621"
+              "finding"      : "1705596953"
           }
 ,         {
               "id"           : "HSTS",
@@ -1175,6 +1175,6 @@
               "ip"           : "permisdeconduire.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "39"
+              "finding"      : "37"
           }
 ]

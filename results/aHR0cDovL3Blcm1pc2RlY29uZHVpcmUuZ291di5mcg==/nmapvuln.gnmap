@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 15:54:08 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln permisdeconduire.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 16:56:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln permisdeconduire.gouv.fr
 Host: 195.64.164.87 (basicplus.mailclub.fr)	Status: Up
 Host: 195.64.164.87 (basicplus.mailclub.fr)	Ports: 25/closed/tcp//smtp///, 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (994)
-# Nmap done at Sun Jan 14 15:56:56 2024 -- 1 IP address (1 host up) scanned in 167.86 seconds
+# Nmap done at Thu Jan 18 16:59:06 2024 -- 1 IP address (1 host up) scanned in 167.91 seconds

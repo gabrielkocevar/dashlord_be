@@ -661,7 +661,7 @@
               "ip"           : "inao.gouv.fr/80.87.225.235",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "197 >= 60 days"
+              "finding"      : "193 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -829,7 +829,7 @@
               "ip"           : "inao.gouv.fr/80.87.225.235",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705229243"
+              "finding"      : "1705566752"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1422,6 +1422,6 @@
               "ip"           : "inao.gouv.fr/80.87.225.235",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "68"
+              "finding"      : "69"
           }
 ]

@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 15:03:51 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofb.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 15:27:23 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofb.gouv.fr
 Nmap scan report for ofb.gouv.fr (83.118.214.134)
-Host is up (0.0077s latency).
+Host is up (0.0066s latency).
 rDNS record for 83.118.214.134: 134.214.118.83.in-addr.arpa.celeste.fr
 Not shown: 993 filtered tcp ports (no-response)
 PORT     STATE  SERVICE       VERSION
@@ -109,7 +109,7 @@ PORT     STATE  SERVICE       VERSION
 |_    text-align: cent
 4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=65A3F7E2%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=1/18%Time=65A94369%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-len
 SF:gth:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")%r
 SF:(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-le
@@ -142,7 +142,7 @@ SF:nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x2
 SF:0text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20b
 SF:rowser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A3F7E8%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/18%Time=65A9436F%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,652,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\nc
 SF:ache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<!DOCTYP
 SF:E\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//
@@ -188,7 +188,7 @@ SF:;\n\x20\x20\x20\x20}\n\x20\x20\x20\x20#header{\n\x20\x20\x20\x20\x20\x2
 SF:0\x20\x20padding:\x206px\x20;\n\x20\x20\x20\x20\x20\x20\x20\x20text-ali
 SF:gn:\x20cent");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port8080-TCP:V=7.92%I=7%D=1/14%Time=65A3F7E2%P=x86_64-alpine-linux-musl
+SF-Port8080-TCP:V=7.92%I=7%D=1/18%Time=65A94369%P=x86_64-alpine-linux-musl
 SF:%r(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-l
 SF:ength:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")
 SF:%r(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-
@@ -221,7 +221,7 @@ SF:r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\
 SF:x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x2
 SF:0browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port8443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A3F7E8%P=x86_64-alpine-linu
+SF-Port8443-TCP:V=7.92%T=SSL%I=7%D=1/18%Time=65A9436F%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,652,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\n
 SF:cache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<!DOCTY
 SF:PE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional/
@@ -268,4 +268,4 @@ SF:20\x20\x20padding:\x206px\x20;\n\x20\x20\x20\x20\x20\x20\x20\x20text-al
 SF:ign:\x20cent");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 15:06:38 2024 -- 1 IP address (1 host up) scanned in 167.20 seconds
+# Nmap done at Thu Jan 18 15:30:14 2024 -- 1 IP address (1 host up) scanned in 171.21 seconds

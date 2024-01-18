@@ -367,7 +367,7 @@
               "ip"           : "ofb.gouv.fr/83.118.214.134",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "335 >= 60 days"
+              "finding"      : "331 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1149,6 +1149,6 @@
               "ip"           : "ofb.gouv.fr/83.118.214.134",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "52"
+              "finding"      : "54"
           }
 ]

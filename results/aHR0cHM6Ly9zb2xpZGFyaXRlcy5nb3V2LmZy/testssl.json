@@ -339,7 +339,7 @@
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "73 >= 60 days"
+              "finding"      : "69 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,21 +493,21 @@
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-90319 seconds from localtime"
+              "finding"      : "-22317 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705156715"
+              "finding"      : "1705577634"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "10417 seconds"
+              "finding"      : "7088 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -607,7 +607,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: HITX-Cache-Hits: 117"
+              "finding"      : "X-Cache: HITX-Cache-Hits: 72"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1113,6 +1113,6 @@
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "36"
           }
 ]

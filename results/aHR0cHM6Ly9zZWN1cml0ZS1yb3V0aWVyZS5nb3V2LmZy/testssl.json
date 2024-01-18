@@ -199,7 +199,7 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "332 >= 60 days"
+              "finding"      : "328 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-49 seconds from localtime"
+              "finding"      : "-50 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705254339"
+              "finding"      : "1705603426"
           }
 ,         {
               "id"           : "HTTP_headerAge",

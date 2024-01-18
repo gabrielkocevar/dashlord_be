@@ -1,8 +1,8 @@
-# Nmap 7.92 scan initiated Sun Jan 14 18:32:13 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln snu.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 19:38:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln snu.gouv.fr
 Nmap scan report for snu.gouv.fr (185.75.143.93)
-Host is up (0.026s latency).
+Host is up (0.028s latency).
 rDNS record for 185.75.143.93: men-tandem-lb-vip.dedie.ate.info
-Not shown: 989 filtered tcp ports (no-response), 5 filtered tcp ports (host-prohibited)
+Not shown: 988 filtered tcp ports (no-response), 6 filtered tcp ports (host-prohibited)
 PORT     STATE  SERVICE        VERSION
 22/tcp   open   ssh            OpenSSH 8.0 (protocol 2.0)
 | vulners: 
@@ -17,8 +17,8 @@ PORT     STATE  SERVICE        VERSION
 113/tcp  closed ident
 443/tcp  open   ssl/tcpwrapped
 |_http-server-header: nginx
-2000/tcp open   cisco-sccp?
-5060/tcp open   tcpwrapped
+2000/tcp open   tcpwrapped
+5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 18:33:01 2024 -- 1 IP address (1 host up) scanned in 47.84 seconds
+# Nmap done at Thu Jan 18 19:39:18 2024 -- 1 IP address (1 host up) scanned in 61.29 seconds

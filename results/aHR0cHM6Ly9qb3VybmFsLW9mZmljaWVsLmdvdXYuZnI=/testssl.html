@@ -25,21 +25,9 @@
  (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
 
 
-<span style="font-weight:bold;">Testing all IPv4 addresses (port 443): </span>171.33.103.241 109.232.232.161
+<span style="font-weight:bold;">Testing all IPv4 addresses (port 443): </span>109.232.232.161 171.33.103.241
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2024-01-14 12:22:39                --&gt;&gt; 171.33.103.241:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
-
- Further IP addresses:   109.232.232.161 
- rDNS (171.33.103.241):  ows-171-33-103-241.eu-west-2.compute.outscale.com.<span style="color:#cd00cd;"> Oops: TCP connect problem</span>
-
-<span style="color:#cd00cd;">Unable to open a socket to 171.33.103.241:443. </span>
-<span style="color:#be32d0;font-weight:bold;">Fatal error: Couldn&apos;t connect to 171.33.103.241:443, proceeding with next IP (if any)</span>
-
-
-<span style="color:white;background-color:black;"> Done 2024-01-14 12:24:50 [ 132s] --&gt;&gt; 171.33.103.241:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
-
------------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2024-01-14 12:24:50                --&gt;&gt; 109.232.232.161:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-01-18 10:05:16                --&gt;&gt; 109.232.232.161:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
 
  Further IP addresses:   171.33.103.241 
  rDNS (109.232.232.161): ows-109-232-232-161.eu-west-2.compute.outscale.com.
@@ -109,7 +97,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;extended master secret/#23&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>300 seconds, session tickets keys seems to be rotated &lt; daily
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: no
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: no
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
@@ -117,28 +105,29 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-<span style="font-weight:bold;"> Serial                       </span>C04AD535628A7DE92DF69F228BB6DD54 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 1A0E9C47E909869F523E96DE6232D92B8FC61069
-                              SHA256 748515155D83E92E675B3D152EEA96AE4508C90D6DAE63689B8743B091DADBB5
+<span style="font-weight:bold;"> Serial                       </span>92268EFB11CCF284CB5E4BBA3D052973 (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 A518840745CF9AB1E47FAF663E7714E99ED073A4
+                              SHA256 002AB2C418AF7992F58761CB9D11B3D78ED0550FF113E29E76E9778C52DBA53C
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>journal-officiel.gouv.fr </i> (CN in response to request w/o SNI: <i>*.opendatasoft.com </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>journal-officiel.gouv.fr
                               www.journal-officiel.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#e52207;">expires &lt; 30 days (13)</span> (2022-12-26 23:00 --&gt; 2024-01-27 22:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">356 &gt;= 60 days</span> (2024-01-09 23:00 --&gt; 2025-01-08 22:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.dhimyotis.com/servicesca.crl
-                              http://crl.certigna.fr/servicesca.crl
-<span style="font-weight:bold;"> OCSP URI                     </span>http://servicesca.ocsp.certigna.fr
-                              http://servicesca.ocsp.dhimyotis.com
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.certigna.fr/servicesca.crl
+                              http://crl.dhimyotis.com/servicesca.crl
+<span style="font-weight:bold;"> OCSP URI                     </span>http://servicesca.ocsp.dhimyotis.com
+                              http://servicesca.ocsp.certigna.fr
 <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
-<span style="font-weight:bold;"> Certificates provided</span>        2
+<span style="font-weight:bold;"> Certificates provided</span>        3
 <span style="font-weight:bold;"> Issuer                       </span><i>Certigna Services CA</i> (<i>DHIMYOTIS</i> from <i>FR</i>)
 <span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2025-11-22 11:33). <i>Certigna Services CA</i> &lt;-- <i>Certigna</i>
+                              #2: <span style="color:#008817;">ok &gt; 40 days</span> (2027-06-29 15:13). <i>Certigna</i> &lt;-- <i>Certigna</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
@@ -178,7 +167,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=748515155D83E92E675B3D152EEA96AE4508C90D6DAE63689B8743B091DADBB5" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=748515155D83E92E675B3D152EEA96AE4508C90D6DAE63689B8743B091DADBB5</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=002AB2C418AF7992F58761CB9D11B3D78ED0550FF113E29E76E9778C52DBA53C" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=002AB2C418AF7992F58761CB9D11B3D78ED0550FF113E29E76E9778C52DBA53C</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no common prime detected
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -237,10 +226,22 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2024-01-14 12:25:26 [ 168s] --&gt;&gt; 109.232.232.161:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-01-18 10:06:09 [  54s] --&gt;&gt; 109.232.232.161:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>171.33.103.241 109.232.232.161
+<span style="color:white;background-color:black;"> Start 2024-01-18 10:06:09                --&gt;&gt; 171.33.103.241:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
+
+ Further IP addresses:   109.232.232.161 
+ rDNS (171.33.103.241):  ows-171-33-103-241.eu-west-2.compute.outscale.com.<span style="color:#cd00cd;"> Oops: TCP connect problem</span>
+
+<span style="color:#cd00cd;">Unable to open a socket to 171.33.103.241:443. </span>
+<span style="color:#be32d0;font-weight:bold;">Fatal error: Couldn&apos;t connect to 171.33.103.241:443, proceeding with next IP (if any)</span>
+
+
+<span style="color:white;background-color:black;"> Done 2024-01-18 10:08:19 [ 184s] --&gt;&gt; 171.33.103.241:443 (journal-officiel.gouv.fr) &lt;&lt;--</span>
+
+-----------------------------------------------------
+<span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>109.232.232.161 171.33.103.241
 
 </pre>
 </body>

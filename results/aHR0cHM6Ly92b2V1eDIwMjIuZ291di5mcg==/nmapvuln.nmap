@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 20:02:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln voeux2022.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 21:03:05 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln voeux2022.gouv.fr
 Nmap scan report for voeux2022.gouv.fr (217.70.184.55)
-Host is up (0.0055s latency).
+Host is up (0.0066s latency).
 rDNS record for 217.70.184.55: webredir.gandi.net
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE        VERSION
@@ -11,4 +11,4 @@ PORT     STATE  SERVICE        VERSION
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 20:05:02 2024 -- 1 IP address (1 host up) scanned in 167.79 seconds
+# Nmap done at Thu Jan 18 21:05:54 2024 -- 1 IP address (1 host up) scanned in 168.15 seconds

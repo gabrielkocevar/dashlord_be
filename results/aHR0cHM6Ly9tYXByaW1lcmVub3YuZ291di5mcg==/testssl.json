@@ -31,15 +31,15 @@
               "id"           : "TLS1",
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
@@ -123,34 +123,6 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
-          }
-,         {
-              "id"           : "cipher_order-tls1",
-              "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1",
-              "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES256-SHA"
-          }
-,         {
-              "id"           : "cipher_order-tls1_1",
-              "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1_1",
-              "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
               "id"           : "cipher_order-tls1_2",
@@ -367,7 +339,7 @@
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "164 >= 60 days"
+              "finding"      : "160 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -742,7 +714,7 @@
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "supported"
+              "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
@@ -799,22 +771,13 @@
               "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
-              "id"           : "BEAST_CBC_TLS1",
-              "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cve"          : "CVE-2011-3389",
-              "cwe"          : "CWE-20",
-              "finding"      : "ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-AES128-SHA"
-          }
-,         {
               "id"           : "BEAST",
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
-              "severity"     : "LOW",
+              "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
               "cwe"          : "CWE-20",
-              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
           }
 ,         {
               "id"           : "LUCKY13",
@@ -932,7 +895,7 @@
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES256-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
@@ -1009,7 +972,7 @@
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
@@ -1107,14 +1070,14 @@
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "95"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "28"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
@@ -1149,31 +1112,17 @@
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "82"
+              "finding"      : "84"
           }
 ,         {
               "id"           : "overall_grade",
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "B"
+              "severity"     : "OK",
+              "finding"      : "A"
           }
 ,         {
               "id"           : "grade_cap_reason_1",
-              "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.1 offered"
-          }
-,         {
-              "id"           : "grade_cap_reason_2",
-              "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.0 offered"
-          }
-,         {
-              "id"           : "grade_cap_reason_3",
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1184,6 +1133,6 @@
               "ip"           : "maprimerenov.gouv.fr/178.237.111.233",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "40"
+              "finding"      : "38"
           }
 ]

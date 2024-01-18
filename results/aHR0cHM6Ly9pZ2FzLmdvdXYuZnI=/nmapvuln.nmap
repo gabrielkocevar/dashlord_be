@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 10:07:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 08:06:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr
 Nmap scan report for igas.gouv.fr (185.194.83.95)
-Host is up (0.0055s latency).
+Host is up (0.0059s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http-proxy  F5 BIG-IP load balancer http proxy
@@ -15,13 +15,13 @@ PORT     STATE  SERVICE     VERSION
 |     ERROR
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Sun, 14 Jan 2024 10:08:13 GMT
+|     Date: Thu, 18 Jan 2024 08:06:45 GMT
 |     X-Spip-Cache: 86400
-|     Last-Modified: Sun, 14 Jan 2024 10:08:13 GMT
+|     Last-Modified: Thu, 18 Jan 2024 08:06:45 GMT
 |     Vary: Accept-Encoding
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-igas-prod.cegedim.cloud-HTTP=!tmt2K0QSaTBpicpWDPlD0yXzT0UGhopnZb3DbuuRS0ufnsfoIb0WRRfK0jv1OoMmtd25qmHye5GqKN3n6hG7dsX2Ag5t; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-igas-prod.cegedim.cloud-HTTP=!VwnxNiejkJgjucNWDPlD0yXzT0UGhpgDcfh0OVfleENJrn6R1lvxhLCBzm/C9N/SD6MBzbhNewj5M4K+vTEi6l8z0X6F; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr">
@@ -44,32 +44,32 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=65A3B28E%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,11CA,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2014\
-SF:x20Jan\x202024\x2010:08:13\x20GMT\r\nX-Spip-Cache:\x2086400\r\nLast-Mod
-SF:ified:\x20Sun,\x2014\x20Jan\x202024\x2010:08:13\x20GMT\r\nVary:\x20Acce
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/18%Time=65A8DC16%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,3962,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Thu,\x2018\
+SF:x20Jan\x202024\x2008:06:45\x20GMT\r\nX-Spip-Cache:\x2086400\r\nLast-Mod
+SF:ified:\x20Thu,\x2018\x20Jan\x202024\x2008:06:45\x20GMT\r\nVary:\x20Acce
 SF:pt-Encoding\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20c
 SF:harset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-igas-prod\.cegedim\.clou
-SF:d-HTTP=!tmt2K0QSaTBpicpWDPlD0yXzT0UGhopnZb3DbuuRS0ufnsfoIb0WRRfK0jv1OoM
-SF:mtd25qmHye5GqKN3n6hG7dsX2Ag5t;\x20path=/;\x20Httponly;\x20Secure\r\nStr
-SF:ict-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\r
-SF:\n<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20sans_compositio
-SF:n\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t\
-SF:t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\(function\(H\){H\.
-SF:className=H\.className\.replace\(/\\bno-js\\b/,'js'\)}\)\(document\.doc
-SF:umentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\x20http-equiv=\"Co
-SF:ntent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\n\n\t\t<t
-SF:itle>IGAS\x20-\x20Inspection\x20g\xc3\xa9n\xc3\xa9rale\x20des\x20affair
-SF:es\x20sociales</title>\n<meta\x20name=\"description\"\x20content=\"Insp
-SF:ection\x20g\xc3\xa9n\xc3\xa9r")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20F
-SF:orbidden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n403\x20
-SF:ERROR")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\x20Not\x20Found\r\nCon
-SF:nection:\x20close\r\nContent-Length:\x209\r\n\r\n404\x20ERROR")%r(RTSPR
-SF:equest,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r
-SF:\nContent-Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0
-SF:\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x2
-SF:09\r\n\r\n400\x20ERROR");
+SF:d-HTTP=!VwnxNiejkJgjucNWDPlD0yXzT0UGhpgDcfh0OVfleENJrn6R1lvxhLCBzm/C9N/
+SF:SD6MBzbhNewj5M4K\+vTEi6l8z0X6F;\x20path=/;\x20Httponly;\x20Secure\r\nSt
+SF:rict-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\
+SF:r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20sans_compositi
+SF:on\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t
+SF:\t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\(function\(H\){H\
+SF:.className=H\.className\.replace\(/\\bno-js\\b/,'js'\)}\)\(document\.do
+SF:cumentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\x20http-equiv=\"C
+SF:ontent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\n\n\t\t<
+SF:title>IGAS\x20-\x20Inspection\x20g\xc3\xa9n\xc3\xa9rale\x20des\x20affai
+SF:res\x20sociales</title>\n<meta\x20name=\"description\"\x20content=\"Ins
+SF:pection\x20g\xc3\xa9n\xc3\xa9r")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20
+SF:Forbidden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n403\x2
+SF:0ERROR")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\x20Not\x20Found\r\nCo
+SF:nnection:\x20close\r\nContent-Length:\x209\r\n\r\n404\x20ERROR")%r(RTSP
+SF:Request,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\
+SF:r\nContent-Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.
+SF:0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x
+SF:209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 10:10:44 2024 -- 1 IP address (1 host up) scanned in 167.66 seconds
+# Nmap done at Thu Jan 18 08:09:14 2024 -- 1 IP address (1 host up) scanned in 167.40 seconds

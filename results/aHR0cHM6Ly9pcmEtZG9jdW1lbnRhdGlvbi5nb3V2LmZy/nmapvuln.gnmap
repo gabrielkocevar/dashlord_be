@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 11:37:10 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-documentation.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 08:56:03 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-documentation.gouv.fr
 Host: 79.137.30.176 (ip176.ip-79-137-30.eu)	Status: Up
 Host: 79.137.30.176 (ip176.ip-79-137-30.eu)	Ports: 80/open/tcp//http//nginx 1.21.6/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx 1.21.6/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 11:40:04 2024 -- 1 IP address (1 host up) scanned in 173.91 seconds
+# Nmap done at Thu Jan 18 08:58:57 2024 -- 1 IP address (1 host up) scanned in 173.98 seconds

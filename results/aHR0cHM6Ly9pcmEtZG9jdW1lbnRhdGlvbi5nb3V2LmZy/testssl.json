@@ -339,7 +339,7 @@
               "ip"           : "ira-documentation.gouv.fr/79.137.30.176",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "finding"      : "31 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "ira-documentation.gouv.fr/79.137.30.176",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "+5 (± 1.5) seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "ira-documentation.gouv.fr/79.137.30.176",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705232187"
+              "finding"      : "1705568122"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "ira-documentation.gouv.fr/79.137.30.176",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "61"
           }
 ]

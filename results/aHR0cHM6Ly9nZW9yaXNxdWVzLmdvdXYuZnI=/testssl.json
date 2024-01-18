@@ -346,7 +346,7 @@
               "ip"           : "georisques.gouv.fr/193.56.4.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "115 >= 60 days"
+              "finding"      : "111 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "georisques.gouv.fr/193.56.4.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-15828 seconds from localtime"
+              "finding"      : "-13620 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "georisques.gouv.fr/193.56.4.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705209668"
+              "finding"      : "1705549940"
           }
 ,         {
               "id"           : "HSTS",
@@ -564,7 +564,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "Information leakage: F5 cookie BIGipServerpool_georisques_preventix_web_https 1024989356.47873.0000 is default IPv4 pool member 172.24.24.61:443"
+              "finding"      : "Information leakage: F5 cookie BIGipServerpool_georisques_preventix_web_https 1058543788.47873.0000 is default IPv4 pool member 172.24.24.63:443"
           }
 ,         {
               "id"           : "X-Frame-Options",
@@ -1113,6 +1113,6 @@
               "ip"           : "georisques.gouv.fr/193.56.4.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "50"
+              "finding"      : "48"
           }
 ]

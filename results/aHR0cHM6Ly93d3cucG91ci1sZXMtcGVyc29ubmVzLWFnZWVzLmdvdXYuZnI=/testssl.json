@@ -339,7 +339,7 @@
               "ip"           : "www.pour-les-personnes-agees.gouv.fr/160.92.65.170",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "269 >= 60 days"
+              "finding"      : "265 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "www.pour-les-personnes-agees.gouv.fr/160.92.65.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705248604"
+              "finding"      : "1705598056"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1070,6 +1070,6 @@
               "ip"           : "www.pour-les-personnes-agees.gouv.fr/160.92.65.170",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "40"
+              "finding"      : "39"
           }
 ]

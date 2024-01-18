@@ -220,7 +220,7 @@
               "ip"           : "secnumacademie.gouv.fr/148.253.99.103",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "off by 0 seconds from your localtime"
+              "finding"      : "off by -1 seconds from your localtime"
           }
 ,         {
               "id"           : "cert_compression",
@@ -353,7 +353,7 @@
               "ip"           : "secnumacademie.gouv.fr/148.253.99.103",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "218 >= 60 days"
+              "finding"      : "214 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -465,14 +465,14 @@
               "ip"           : "secnumacademie.gouv.fr/148.253.99.103",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-416 seconds from localtime"
+              "finding"      : "-418 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "secnumacademie.gouv.fr/148.253.99.103",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705253643"
+              "finding"      : "1705602733"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1084,6 +1084,6 @@
               "ip"           : "secnumacademie.gouv.fr/148.253.99.103",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "37"
+              "finding"      : "39"
           }
 ]

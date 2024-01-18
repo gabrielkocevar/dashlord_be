@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 13:17:36 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln longuevieauxobjets.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 12:45:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln longuevieauxobjets.gouv.fr
 Nmap scan report for longuevieauxobjets.gouv.fr (91.151.77.101)
-Host is up (0.0045s latency).
+Host is up (0.0051s latency).
 rDNS record for 91.151.77.101: undef-77-101.c-si.fr
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -11,4 +11,4 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 13:20:24 2024 -- 1 IP address (1 host up) scanned in 167.76 seconds
+# Nmap done at Thu Jan 18 12:48:04 2024 -- 1 IP address (1 host up) scanned in 168.00 seconds

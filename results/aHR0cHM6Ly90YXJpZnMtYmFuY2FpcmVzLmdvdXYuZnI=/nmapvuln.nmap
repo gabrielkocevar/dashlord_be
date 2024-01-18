@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Jan 14 19:19:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln tarifs-bancaires.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 20:23:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln tarifs-bancaires.gouv.fr
 Nmap scan report for tarifs-bancaires.gouv.fr (80.87.236.17)
-Host is up (0.017s latency).
+Host is up (0.016s latency).
 rDNS record for 80.87.236.17: svr236017.actimage.net
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -11,4 +11,4 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 19:21:57 2024 -- 1 IP address (1 host up) scanned in 166.97 seconds
+# Nmap done at Thu Jan 18 20:26:06 2024 -- 1 IP address (1 host up) scanned in 167.17 seconds

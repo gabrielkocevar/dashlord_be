@@ -339,7 +339,7 @@
               "ip"           : "sgae.gouv.fr/193.17.19.225",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "201 >= 60 days"
+              "finding"      : "197 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "sgae.gouv.fr/193.17.19.225",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "sgae.gouv.fr/193.17.19.225",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705256154"
+              "finding"      : "1705605852"
           }
 ,         {
               "id"           : "HSTS_multiple",

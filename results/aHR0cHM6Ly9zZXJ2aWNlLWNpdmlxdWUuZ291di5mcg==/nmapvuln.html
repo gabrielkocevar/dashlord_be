@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln service-civique.gouv.fr</pre>
-<p class="lead">Sun Jan 14 18:00:34 2024 – Sun Jan 14 18:03:21 2024<br>1 hosts scanned.
+<p class="lead">Thu Jan 18 18:55:49 2024 – Thu Jan 18 18:58:37 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>34.77.159.134</td>
+<td>109.232.238.175</td>
 <td>service-civique.gouv.fr</td>
-<td>4</td>
+<td>5</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#34-77-159-134"><h3 class="panel-title">34.77.159.134 - service-civique.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="34-77-159-134">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#109-232-238-175"><h3 class="panel-title">109.232.238.175 - service-civique.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="109-232-238-175">
 <h4>Hostnames</h4>
 <ul>
 <li>service-civique.gouv.fr (user)</li>
-<li>134.159.77.34.bc.googleusercontent.com (PTR)</li>
+<li>ows-109-232-238-175.eu-west-2.compute.outscale.com (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -111,13 +111,23 @@
 </tr></thead>
 <tbody>
 <tr class="success">
+<td title="Port">22</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">ssh</td>
+<td title="Product">OpenSSH</td>
+<td title="Version">8.9p1 Ubuntu 3ubuntu0.6</td>
+<td title="Extra Info">Ubuntu Linux; protocol 2.0</td>
+</tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:openbsd:openssh:8.9p1">cpe:/a:openbsd:openssh:8.9p1</a></td></tr>
+<tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
 <td title="Product">nginx</td>
 <td title="Version"></td>
-<td title="Extra Info">reverse proxy</td>
+<td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
 <tr class="active">
@@ -136,7 +146,7 @@
 <td title="Service">http</td>
 <td title="Product">nginx</td>
 <td title="Version"></td>
-<td title="Extra Info">reverse proxy</td>
+<td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
 <tr class="success">
@@ -177,27 +187,37 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>34.77.159.134 - service-civique.gouv.fr</td>
+<td>109.232.238.175 - service-civique.gouv.fr</td>
+<td>22</td>
+<td>tcp</td>
+<td>ssh</td>
+<td>OpenSSH</td>
+<td>8.9p1 Ubuntu 3ubuntu0.6</td>
+<td>cpe:/a:openbsd:openssh:8.9p1</td>
+<td>Ubuntu Linux; protocol 2.0</td>
+</tr>
+<tr>
+<td>109.232.238.175 - service-civique.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
 <td>nginx</td>
 <td></td>
 <td>cpe:/a:igor_sysoev:nginx</td>
-<td>reverse proxy</td>
+<td></td>
 </tr>
 <tr>
-<td>34.77.159.134 - service-civique.gouv.fr</td>
+<td>109.232.238.175 - service-civique.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>http</td>
 <td>nginx</td>
 <td></td>
 <td>cpe:/a:igor_sysoev:nginx</td>
-<td>reverse proxy</td>
+<td></td>
 </tr>
 <tr>
-<td>34.77.159.134 - service-civique.gouv.fr</td>
+<td>109.232.238.175 - service-civique.gouv.fr</td>
 <td>2000</td>
 <td>tcp</td>
 <td>cisco-sccp</td>
@@ -207,7 +227,7 @@
 <td></td>
 </tr>
 <tr>
-<td>34.77.159.134 - service-civique.gouv.fr</td>
+<td>109.232.238.175 - service-civique.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
 <td>sip</td>

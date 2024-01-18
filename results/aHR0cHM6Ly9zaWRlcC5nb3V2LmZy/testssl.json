@@ -199,14 +199,14 @@
               "ip"           : "sidep.gouv.fr/66.22.33.76",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "sidep.gouv.fr/66.22.33.76",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "sidep.gouv.fr/66.22.33.76",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (50)"
+              "finding"      : "expires < 60 days (46)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "sidep.gouv.fr/66.22.33.76",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705256610"
+              "finding"      : "1705606149"
           }
 ,         {
               "id"           : "HSTS",

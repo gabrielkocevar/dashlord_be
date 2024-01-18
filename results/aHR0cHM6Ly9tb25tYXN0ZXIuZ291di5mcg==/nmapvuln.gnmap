@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 14:24:32 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 14:39:58 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
 Host: 185.75.143.22 (men-mutu-proxy01.dedie.ate.info)	Status: Up
-Host: 185.75.143.22 (men-mutu-proxy01.dedie.ate.info)	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//tcpwrapped///	Ignored State: filtered (994)
-# Nmap done at Sun Jan 14 14:24:52 2024 -- 1 IP address (1 host up) scanned in 19.93 seconds
+Host: 185.75.143.22 (men-mutu-proxy01.dedie.ate.info)	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//sip?///	Ignored State: filtered (994)
+# Nmap done at Thu Jan 18 14:41:05 2024 -- 1 IP address (1 host up) scanned in 67.21 seconds

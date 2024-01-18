@@ -1,8 +1,8 @@
-# Nmap 7.92 scan initiated Sun Jan 14 14:24:32 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 14:39:58 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
 Nmap scan report for monmaster.gouv.fr (185.75.143.22)
-Host is up (0.020s latency).
+Host is up (0.027s latency).
 rDNS record for 185.75.143.22: men-mutu-proxy01.dedie.ate.info
-Not shown: 984 filtered tcp ports (no-response), 10 filtered tcp ports (host-prohibited)
+Not shown: 983 filtered tcp ports (no-response), 11 filtered tcp ports (host-prohibited)
 PORT     STATE  SERVICE    VERSION
 22/tcp   open   ssh        OpenSSH 7.4 (protocol 2.0)
 | vulners: 
@@ -35,7 +35,7 @@ PORT     STATE  SERVICE    VERSION
 113/tcp  closed ident
 443/tcp  open   ssl/http   nginx
 2000/tcp open   tcpwrapped
-5060/tcp open   tcpwrapped
+5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jan 14 14:24:52 2024 -- 1 IP address (1 host up) scanned in 19.93 seconds
+# Nmap done at Thu Jan 18 14:41:05 2024 -- 1 IP address (1 host up) scanned in 67.21 seconds

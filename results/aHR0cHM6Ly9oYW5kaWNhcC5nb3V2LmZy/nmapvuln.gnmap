@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 09:50:33 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln handicap.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 07:45:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln handicap.gouv.fr
 Host: 185.194.82.206 ()	Status: Up
 Host: 185.194.82.206 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 09:53:21 2024 -- 1 IP address (1 host up) scanned in 168.35 seconds
+# Nmap done at Thu Jan 18 07:48:04 2024 -- 1 IP address (1 host up) scanned in 168.21 seconds

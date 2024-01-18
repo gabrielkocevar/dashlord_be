@@ -1,5 +1,12 @@
 [
          {
+              "id"           : "scanProblem",
+              "ip"           : "justice.gouv.fr/185.24.185.176",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "Couldn't connect to 185.24.185.176:443, proceeding with next IP (if any)"
+          }
+,         {
               "id"           : "service",
               "ip"           : "justice.gouv.fr/185.24.184.182",
               "port"         : "443",
@@ -339,7 +346,7 @@
               "ip"           : "justice.gouv.fr/185.24.184.182",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "150 >= 60 days"
+              "finding"      : "146 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +549,7 @@
               "ip"           : "justice.gouv.fr/185.24.184.182",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705235295"
+              "finding"      : "1705573171"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1122,17 +1129,10 @@
               "finding"      : "A+"
           }
 ,         {
-              "id"           : "scanProblem",
-              "ip"           : "justice.gouv.fr/185.24.185.176",
-              "port"         : "443",
-              "severity"     : "FATAL",
-              "finding"      : "Couldn't connect to 185.24.185.176:443, proceeding with next IP (if any)"
-          }
-,         {
               "id"           : "scanTime",
-              "ip"           : "justice.gouv.fr/185.24.185.176",
+              "ip"           : "justice.gouv.fr/185.24.184.182",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "176"
+              "finding"      : "179"
           }
 ]

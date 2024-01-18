@@ -56,11 +56,11 @@
               "finding"      : "offered with final"
           }
 ,         {
-              "id"           : "ALPN",
+              "id"           : "ALPN_HTTP2",
               "ip"           : "parcoursup.gouv.fr/45.60.74.33",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not offered"
+              "severity"     : "OK",
+              "finding"      : "h2"
           }
 ,         {
               "id"           : "cipherlist_NULL",
@@ -171,7 +171,7 @@
               "ip"           : "parcoursup.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -339,7 +339,7 @@
               "ip"           : "parcoursup.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "148 >= 60 days"
+              "finding"      : "144 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",

@@ -339,7 +339,7 @@
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "219 >= 60 days"
+              "finding"      : "215 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,21 +535,21 @@
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1704893455"
+              "finding"      : "1704585517"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "354813 seconds"
+              "finding"      : "1012195 seconds"
           }
 ,         {
               "id"           : "HSTS_multiple",
@@ -676,7 +676,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cacheable: YESX-Varnish: 182585733 181742621X-Cache-TTL-Remaining: 2274932.920X-Cache-Age: 354813X-Cache-Hits: 4565"
+              "finding"      : "X-Cacheable: YESX-Varnish: 186166010 183741713X-Cache-TTL-Remaining: 1617550.641X-Cache-Age: 1012195X-Cache-Hits: 14305"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1175,6 +1175,6 @@
               "ip"           : "portailpro.gouv.fr/145.242.17.12",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "59"
           }
 ]

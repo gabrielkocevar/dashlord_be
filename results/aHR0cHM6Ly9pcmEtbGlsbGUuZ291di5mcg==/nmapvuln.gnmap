@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jan 14 11:42:38 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-lille.gouv.fr
+# Nmap 7.92 scan initiated Thu Jan 18 09:01:42 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-lille.gouv.fr
 Host: 51.91.236.193 (cluster028.hosting.ovh.net)	Status: Up
 Host: 51.91.236.193 (cluster028.hosting.ovh.net)	Ports: 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sun Jan 14 11:45:27 2024 -- 1 IP address (1 host up) scanned in 169.52 seconds
+# Nmap done at Thu Jan 18 09:04:32 2024 -- 1 IP address (1 host up) scanned in 170.33 seconds

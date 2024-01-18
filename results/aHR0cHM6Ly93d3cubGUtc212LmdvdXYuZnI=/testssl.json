@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.le-smv.gouv.fr/107.154.50.81",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "60 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (56)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.le-smv.gouv.fr/107.154.50.81",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-03-14 22:59"
           }
 ,         {
@@ -535,14 +535,14 @@
               "ip"           : "www.le-smv.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.le-smv.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705236144"
+              "finding"      : "1705575256"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1182,6 +1182,6 @@
               "ip"           : "www.le-smv.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "57"
+              "finding"      : "59"
           }
 ]

@@ -346,7 +346,7 @@
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.14.211",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "175 >= 60 days"
+              "finding"      : "170 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -514,7 +514,7 @@
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.14.211",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705205443"
+              "finding"      : "1705651568"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1147,6 +1147,6 @@
               "ip"           : "www.cheminsdememoire.gouv.fr/45.60.14.211",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "57"
           }
 ]

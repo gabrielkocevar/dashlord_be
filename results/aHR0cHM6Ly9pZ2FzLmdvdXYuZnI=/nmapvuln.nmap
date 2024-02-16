@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Jan 18 08:06:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 23:54:04 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr
 Nmap scan report for igas.gouv.fr (185.194.83.95)
 Host is up (0.0059s latency).
 Not shown: 995 filtered tcp ports (no-response)
@@ -15,13 +15,13 @@ PORT     STATE  SERVICE     VERSION
 |     ERROR
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Thu, 18 Jan 2024 08:06:45 GMT
+|     Date: Fri, 16 Feb 2024 23:54:21 GMT
 |     X-Spip-Cache: 86400
-|     Last-Modified: Thu, 18 Jan 2024 08:06:45 GMT
+|     Last-Modified: Fri, 16 Feb 2024 23:54:21 GMT
 |     Vary: Accept-Encoding
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-igas-prod.cegedim.cloud-HTTP=!VwnxNiejkJgjucNWDPlD0yXzT0UGhpgDcfh0OVfleENJrn6R1lvxhLCBzm/C9N/SD6MBzbhNewj5M4K+vTEi6l8z0X6F; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-igas-prod.cegedim.cloud-HTTP=!ddBdz8EzHYrjn7ZWDPlD0yXzT0UGhiGc0WCnreqo320MLtgnuwPx6OSp9vgSFUdNzOtGeaZ+OACmzD89t0x98CRa1Rxy; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr">
@@ -44,14 +44,14 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/18%Time=65A8DC16%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,3962,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Thu,\x2018\
-SF:x20Jan\x202024\x2008:06:45\x20GMT\r\nX-Spip-Cache:\x2086400\r\nLast-Mod
-SF:ified:\x20Thu,\x2018\x20Jan\x202024\x2008:06:45\x20GMT\r\nVary:\x20Acce
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/16%Time=65CFF5AD%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,286A,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Fri,\x2016\
+SF:x20Feb\x202024\x2023:54:21\x20GMT\r\nX-Spip-Cache:\x2086400\r\nLast-Mod
+SF:ified:\x20Fri,\x2016\x20Feb\x202024\x2023:54:21\x20GMT\r\nVary:\x20Acce
 SF:pt-Encoding\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20c
 SF:harset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-igas-prod\.cegedim\.clou
-SF:d-HTTP=!VwnxNiejkJgjucNWDPlD0yXzT0UGhpgDcfh0OVfleENJrn6R1lvxhLCBzm/C9N/
-SF:SD6MBzbhNewj5M4K\+vTEi6l8z0X6F;\x20path=/;\x20Httponly;\x20Secure\r\nSt
+SF:d-HTTP=!ddBdz8EzHYrjn7ZWDPlD0yXzT0UGhiGc0WCnreqo320MLtgnuwPx6OSp9vgSFUd
+SF:NzOtGeaZ\+OACmzD89t0x98CRa1Rxy;\x20path=/;\x20Httponly;\x20Secure\r\nSt
 SF:rict-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\
 SF:r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20sans_compositi
 SF:on\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t
@@ -72,4 +72,4 @@ SF:209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Jan 18 08:09:14 2024 -- 1 IP address (1 host up) scanned in 167.40 seconds
+# Nmap done at Fri Feb 16 23:56:51 2024 -- 1 IP address (1 host up) scanned in 167.56 seconds

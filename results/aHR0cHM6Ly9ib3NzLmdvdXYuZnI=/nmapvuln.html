@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln boss.gouv.fr</pre>
-<p class="lead">Wed Jan 17 10:51:29 2024 – Wed Jan 17 10:54:17 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 12:43:15 2024 – Fri Feb 16 12:46:16 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -112,25 +112,33 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product"></td>
+<td title="Product">LB</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">LB</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest, HTTPOptions, RTSPRequest: 
-    HTTP/1.0 301 Moved permanently
+    HTTP/1.0 302 Moved Temporarily
     Location: https:///
+    Server: LB
     Connection: close
-    Cache-Control: no-cache
-    Pragma: no-cache
+    Content-Length: 0
   SIPOptions: 
-    HTTP/1.0 301 Moved permanently
+    HTTP/1.0 302 Moved Temporarily
     Location: https://sip:nm
+    Server: LB
     Connection: close
-    Cache-Control: no-cache
-    Pragma: no-cache</pre>
+    Content-Length: 0
+  TerminalServerCookie: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https://mstshash=nmap
+    Server: LB
+    Connection: close
+    Content-Length: 0</pre>
 </td></tr>
 <tr class="active">
 <td>113</td>
@@ -196,7 +204,7 @@
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td></td>
+<td>LB</td>
 <td></td>
 <td></td>
 <td></td>

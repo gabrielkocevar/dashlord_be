@@ -1,0 +1,167 @@
+# Nmap 7.92 scan initiated Fri Feb 16 17:35:41 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maprimerenov.gouv.fr
+Nmap scan report for maprimerenov.gouv.fr (31.193.53.253)
+Host is up (0.0036s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, SSLSessionReq, X11Probe: 
+|     HTTP/1.0 400 Bad request
+|     cache-control: no-cache
+|     content-type: text/html
+|     <html><body><h1>400 Bad request</h1>
+|     Your browser sent an invalid request.
+|     </body></html>
+|   FourOhFourRequest: 
+|     HTTP/1.1 302 Found
+|     content-length: 0
+|     location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+|     cache-control: no-cache
+|     connection: close
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 302 Found
+|     content-length: 0
+|     location: https:///
+|     cache-control: no-cache
+|_    connection: close
+113/tcp  closed ident
+443/tcp  open   ssl/https   Apache
+|_http-server-header: Apache
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     date: Fri, 16 Feb 2024 17:36:06 GMT
+|     server: Apache
+|     content-length: 196
+|     content-type: text/html; charset=iso-8859-1
+|     strict-transport-security: max-age=16000000;includeSubDomains;
+|     x-frame-options: SAMEORIGIN
+|     x-content-type-options: nosniff
+|     referrer-policy: no-referrer-when-downgrade
+|     x-xss-protection: 1 ;mode=block
+|     connection: close
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>404 Not Found</title>
+|     </head><body>
+|     <h1>Not Found</h1>
+|     <p>The requested URL was not found on this server.</p>
+|     </body></html>
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     date: Fri, 16 Feb 2024 17:36:06 GMT
+|     server: Apache
+|     upgrade: h2
+|     connection: Upgrade
+|     last-modified: Thu, 05 Nov 2020 13:26:56 GMT
+|     etag: "272-5b35c0cc2a800"
+|     accept-ranges: bytes
+|     content-length: 626
+|     vary: Accept-Encoding
+|     content-type: text/html
+|     strict-transport-security: max-age=16000000;includeSubDomains;
+|     x-frame-options: SAMEORIGIN
+|     x-content-type-options: nosniff
+|     referrer-policy: no-referrer-when-downgrade
+|     x-xss-protection: 1 ;mode=block
+|     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+|     "http://www.w3.org/TR/html4/loose.dtd">
+|     <html>
+|     <head>
+|     <title>Title</title>
+|     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+|     <link rel="stylesheet" href="assets/style.css">
+|     </head>
+|     <body>
+|     <div class="main">
+|     <div class="logo-eolas"><img src="assets/logo_eolas
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     date: Fri, 16 Feb 2024 17:36:06 GMT
+|     server: Apache
+|     upgrade: h2
+|     connection: Upgrade
+|     allow: GET,POST,OPTIONS,HEAD
+|     content-length: 0
+|     content-type: text/html
+|     strict-transport-security: max-age=16000000;includeSubDomains;
+|     x-frame-options: SAMEORIGIN
+|     x-content-type-options: nosniff
+|     referrer-policy: no-referrer-when-downgrade
+|_    x-xss-protection: 1 ;mode=block
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=2/16%Time=65CF9D00%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,6A,"HTTP/1\.1\x20302\x20Found\r\ncontent-length:\x200\r\nlo
+SF:cation:\x20https:///\r\ncache-control:\x20no-cache\r\nconnection:\x20cl
+SF:ose\r\n\r\n")%r(HTTPOptions,6A,"HTTP/1\.1\x20302\x20Found\r\ncontent-le
+SF:ngth:\x200\r\nlocation:\x20https:///\r\ncache-control:\x20no-cache\r\nc
+SF:onnection:\x20close\r\n\r\n")%r(RTSPRequest,6A,"HTTP/1\.1\x20302\x20Fou
+SF:nd\r\ncontent-length:\x200\r\nlocation:\x20https:///\r\ncache-control:\
+SF:x20no-cache\r\nconnection:\x20close\r\n\r\n")%r(X11Probe,A9,"HTTP/1\.0\
+SF:x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r\ncontent-type:
+SF:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x
+SF:20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n")%r
+SF:(FourOhFourRequest,8D,"HTTP/1\.1\x20302\x20Found\r\ncontent-length:\x20
+SF:0\r\nlocation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\ncach
+SF:e-control:\x20no-cache\r\nconnection:\x20close\r\n\r\n")%r(RPCCheck,A9,
+SF:"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r\nco
+SF:ntent-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</
+SF:h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></ht
+SF:ml>\n\n")%r(DNSVersionBindReqTCP,A9,"HTTP/1\.0\x20400\x20Bad\x20request
+SF:\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<ht
+SF:ml><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\
+SF:x20invalid\x20request\.\n</body></html>\n\n")%r(DNSStatusRequestTCP,A9,
+SF:"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r\nco
+SF:ntent-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</
+SF:h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></ht
+SF:ml>\n\n")%r(Help,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-contro
+SF:l:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>400
+SF:\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20re
+SF:quest\.\n</body></html>\n\n")%r(SSLSessionReq,A9,"HTTP/1\.0\x20400\x20B
+SF:ad\x20request\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/ht
+SF:ml\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x
+SF:20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/16%Time=65CF9D06%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,44C,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Fri,\x2016\x
+SF:20Feb\x202024\x2017:36:06\x20GMT\r\nserver:\x20Apache\r\nupgrade:\x20h2
+SF:\r\nconnection:\x20Upgrade\r\nlast-modified:\x20Thu,\x2005\x20Nov\x2020
+SF:20\x2013:26:56\x20GMT\r\netag:\x20\"272-5b35c0cc2a800\"\r\naccept-range
+SF:s:\x20bytes\r\ncontent-length:\x20626\r\nvary:\x20Accept-Encoding\r\nco
+SF:ntent-type:\x20text/html\r\nstrict-transport-security:\x20max-age=16000
+SF:000;includeSubDomains;\r\nx-frame-options:\x20SAMEORIGIN\r\nx-content-t
+SF:ype-options:\x20nosniff\r\nreferrer-policy:\x20no-referrer-when-downgra
+SF:de\r\nx-xss-protection:\x201\x20;mode=block\r\n\r\n<!DOCTYPE\x20HTML\x2
+SF:0PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20Transitional//EN\"\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\"http://www\.w3\.org/TR/html4/loose\.dtd\">\
+SF:n<html>\n\x20\x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<title
+SF:>Title</title>\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20href=\"https:/
+SF:/fonts\.googleapis\.com/css2\?family=Sora:wght@600&display=swap\"\x20re
+SF:l=\"stylesheet\">\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20rel=\"style
+SF:sheet\"\x20href=\"assets/style\.css\">\n\x20\x20\x20\x20</head>\n\x20\x
+SF:20\x20\x20<body>\n\x20\x20\x20\x20<div\x20class=\"main\">\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20<div\x20class=\"logo-eolas\"><img\x20src=\"assets/l
+SF:ogo_eolas")%r(HTTPOptions,180,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Fri,\
+SF:x2016\x20Feb\x202024\x2017:36:06\x20GMT\r\nserver:\x20Apache\r\nupgrade
+SF::\x20h2\r\nconnection:\x20Upgrade\r\nallow:\x20GET,POST,OPTIONS,HEAD\r\
+SF:ncontent-length:\x200\r\ncontent-type:\x20text/html\r\nstrict-transport
+SF:-security:\x20max-age=16000000;includeSubDomains;\r\nx-frame-options:\x
+SF:20SAMEORIGIN\r\nx-content-type-options:\x20nosniff\r\nreferrer-policy:\
+SF:x20no-referrer-when-downgrade\r\nx-xss-protection:\x201\x20;mode=block\
+SF:r\n\r\n")%r(FourOhFourRequest,234,"HTTP/1\.1\x20404\x20Not\x20Found\r\n
+SF:date:\x20Fri,\x2016\x20Feb\x202024\x2017:36:06\x20GMT\r\nserver:\x20Apa
+SF:che\r\ncontent-length:\x20196\r\ncontent-type:\x20text/html;\x20charset
+SF:=iso-8859-1\r\nstrict-transport-security:\x20max-age=16000000;includeSu
+SF:bDomains;\r\nx-frame-options:\x20SAMEORIGIN\r\nx-content-type-options:\
+SF:x20nosniff\r\nreferrer-policy:\x20no-referrer-when-downgrade\r\nx-xss-p
+SF:rotection:\x201\x20;mode=block\r\nconnection:\x20close\r\n\r\n<!DOCTYPE
+SF:\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><hea
+SF:d>\n<title>404\x20Not\x20Found</title>\n</head><body>\n<h1>Not\x20Found
+SF:</h1>\n<p>The\x20requested\x20URL\x20was\x20not\x20found\x20on\x20this\
+SF:x20server\.</p>\n</body></html>\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 17:38:37 2024 -- 1 IP address (1 host up) scanned in 175.49 seconds

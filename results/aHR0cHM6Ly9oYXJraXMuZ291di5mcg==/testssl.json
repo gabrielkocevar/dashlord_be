@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "82 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (52)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-04-09 21:59"
           }
 ,         {
@@ -493,21 +493,21 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+71 seconds from localtime"
+              "finding"      : "+100 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705564205"
+              "finding"      : "1708121873"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "71 seconds"
+              "finding"      : "100 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -559,13 +559,6 @@
               "finding"      : "SAMEORIGIN"
           }
 ,         {
-              "id"           : "X-Content-Type-Options_multiple",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Content-Type-Options headers. Using first header: nosniff"
-          }
-,         {
               "id"           : "X-Content-Type-Options",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
@@ -587,13 +580,6 @@
               "finding"      : "1; mode=block"
           }
 ,         {
-              "id"           : "X-UA-Compatible",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "IE=edge"
-          }
-,         {
               "id"           : "Cache-Control",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
@@ -606,7 +592,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 1915274 1590600X-Cache: HITX-Cache-Hits: 5"
+              "finding"      : "X-Varnish: 12296677 13143481X-Cache: HITX-Cache-Hits: 4"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1112,6 +1098,6 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "40"
+              "finding"      : "50"
           }
 ]

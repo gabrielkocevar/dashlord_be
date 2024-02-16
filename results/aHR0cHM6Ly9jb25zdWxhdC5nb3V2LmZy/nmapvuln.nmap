@@ -1,14 +1,13 @@
-# Nmap 7.92 scan initiated Wed Jan 17 13:47:22 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln consulat.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 15:34:37 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln consulat.gouv.fr
 Nmap scan report for consulat.gouv.fr (51.254.177.49)
-Host is up (0.0074s latency).
+Host is up (0.011s latency).
 rDNS record for 51.254.177.49: ip49.ip-51-254-177.eu
-Not shown: 995 filtered tcp ports (no-response)
+Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
-80/tcp   open   http        nginx
 113/tcp  closed ident
 443/tcp  open   ssl/http    nginx
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jan 17 13:50:10 2024 -- 1 IP address (1 host up) scanned in 167.59 seconds
+# Nmap done at Fri Feb 16 15:37:24 2024 -- 1 IP address (1 host up) scanned in 167.33 seconds

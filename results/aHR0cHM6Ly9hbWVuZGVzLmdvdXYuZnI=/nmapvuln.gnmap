@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jan 17 09:48:04 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln amendes.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 10:55:24 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln amendes.gouv.fr
 Host: 160.92.148.108 (prod-tai-tfi-as.ca-zne-tlp.as8677.net)	Status: Up
 Host: 160.92.148.108 (prod-tai-tfi-as.ca-zne-tlp.as8677.net)	Ports: 443/open/tcp//ssl|https///, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//tcpwrapped///	Ignored State: closed (997)
-# Nmap done at Wed Jan 17 09:50:21 2024 -- 1 IP address (1 host up) scanned in 137.12 seconds
+# Nmap done at Fri Feb 16 10:57:41 2024 -- 1 IP address (1 host up) scanned in 137.44 seconds

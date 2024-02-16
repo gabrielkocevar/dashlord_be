@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jan 17 14:20:15 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cyberveille-sante.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 16:18:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cyberveille-sante.gouv.fr
 Host: 37.59.27.107 (ns405136.ip-37-59-27.eu)	Status: Up
 Host: 37.59.27.107 (ns405136.ip-37-59-27.eu)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//Apache/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Wed Jan 17 14:23:02 2024 -- 1 IP address (1 host up) scanned in 167.76 seconds
+# Nmap done at Fri Feb 16 16:21:15 2024 -- 1 IP address (1 host up) scanned in 168.69 seconds

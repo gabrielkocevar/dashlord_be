@@ -374,7 +374,7 @@
               "ip"           : "education.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "130 >= 60 days"
+              "finding"      : "100 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -577,14 +577,14 @@
               "ip"           : "education.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "education.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705506886"
+              "finding"      : "1708108100"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1147,6 +1147,6 @@
               "ip"           : "education.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "170"
+              "finding"      : "52"
           }
 ]

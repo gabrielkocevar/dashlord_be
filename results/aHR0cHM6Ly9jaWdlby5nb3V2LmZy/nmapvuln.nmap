@@ -1,85 +1,14 @@
-# Nmap 7.92 scan initiated Wed Jan 17 12:33:13 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cigeo.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 14:11:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cigeo.gouv.fr
 Nmap scan report for cigeo.gouv.fr (79.137.76.37)
-Host is up (0.0079s latency).
+Host is up (0.011s latency).
 rDNS record for 79.137.76.37: vps381334.ovh.net
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
-80/tcp   open   http
-| fingerprint-strings: 
-|   FourOhFourRequest, GetRequest, HTTPOptions: 
-|     HTTP/1.1 401 Unauthorized
-|     Date: Wed, 17 Jan 2024 12:33:24 GMT
-|     Content-Type: text/html
-|     Content-Length: 172
-|     Connection: close
-|     WWW-Authenticate: Basic realm="Ecedi access restrictions"
-|     Strict-Transport-Security: max-age=63072000
-|     <html>
-|     <head><title>401 Authorization Required</title></head>
-|     <body>
-|     <center><h1>401 Authorization Required</h1></center>
-|     <hr><center>nginx</center>
-|     </body>
-|     </html>
-|   RTSPRequest: 
-|     <html>
-|     <head><title>400 Bad Request</title></head>
-|     <body>
-|     <center><h1>400 Bad Request</h1></center>
-|     <hr><center>nginx</center>
-|     </body>
-|     </html>
-|   X11Probe: 
-|     HTTP/1.1 400 Bad Request
-|     Date: Wed, 17 Jan 2024 12:33:24 GMT
-|     Content-Type: text/html
-|     Content-Length: 150
-|     Connection: close
-|     Strict-Transport-Security: max-age=63072000
-|     <html>
-|     <head><title>400 Bad Request</title></head>
-|     <body>
-|     <center><h1>400 Bad Request</h1></center>
-|     <hr><center>nginx</center>
-|     </body>
-|_    </html>
+80/tcp   open   http        nginx (reverse proxy)
 113/tcp  closed ident
-443/tcp  open   ssl/https?
+443/tcp  open   ssl/http    nginx (reverse proxy)
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
-1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=1/17%Time=65A7C914%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,197,"HTTP/1\.1\x20401\x20Unauthorized\r\nDate:\x20Wed,\x201
-SF:7\x20Jan\x202024\x2012:33:24\x20GMT\r\nContent-Type:\x20text/html\r\nCo
-SF:ntent-Length:\x20172\r\nConnection:\x20close\r\nWWW-Authenticate:\x20Ba
-SF:sic\x20realm=\"Ecedi\x20access\x20restrictions\"\r\nStrict-Transport-Se
-SF:curity:\x20max-age=63072000\r\n\r\n<html>\r\n<head><title>401\x20Author
-SF:ization\x20Required</title></head>\r\n<body>\r\n<center><h1>401\x20Auth
-SF:orization\x20Required</h1></center>\r\n<hr><center>nginx</center>\r\n</
-SF:body>\r\n</html>\r\n")%r(HTTPOptions,197,"HTTP/1\.1\x20401\x20Unauthori
-SF:zed\r\nDate:\x20Wed,\x2017\x20Jan\x202024\x2012:33:24\x20GMT\r\nContent
-SF:-Type:\x20text/html\r\nContent-Length:\x20172\r\nConnection:\x20close\r
-SF:\nWWW-Authenticate:\x20Basic\x20realm=\"Ecedi\x20access\x20restrictions
-SF:\"\r\nStrict-Transport-Security:\x20max-age=63072000\r\n\r\n<html>\r\n<
-SF:head><title>401\x20Authorization\x20Required</title></head>\r\n<body>\r
-SF:\n<center><h1>401\x20Authorization\x20Required</h1></center>\r\n<hr><ce
-SF:nter>nginx</center>\r\n</body>\r\n</html>\r\n")%r(RTSPRequest,96,"<html
-SF:>\r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<ce
-SF:nter><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>nginx</cent
-SF:er>\r\n</body>\r\n</html>\r\n")%r(X11Probe,145,"HTTP/1\.1\x20400\x20Bad
-SF:\x20Request\r\nDate:\x20Wed,\x2017\x20Jan\x202024\x2012:33:24\x20GMT\r\
-SF:nContent-Type:\x20text/html\r\nContent-Length:\x20150\r\nConnection:\x2
-SF:0close\r\nStrict-Transport-Security:\x20max-age=63072000\r\n\r\n<html>\
-SF:r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<cent
-SF:er><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>nginx</center
-SF:>\r\n</body>\r\n</html>\r\n")%r(FourOhFourRequest,197,"HTTP/1\.1\x20401
-SF:\x20Unauthorized\r\nDate:\x20Wed,\x2017\x20Jan\x202024\x2012:33:24\x20G
-SF:MT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20172\r\nConnectio
-SF:n:\x20close\r\nWWW-Authenticate:\x20Basic\x20realm=\"Ecedi\x20access\x2
-SF:0restrictions\"\r\nStrict-Transport-Security:\x20max-age=63072000\r\n\r
-SF:\n<html>\r\n<head><title>401\x20Authorization\x20Required</title></head
-SF:>\r\n<body>\r\n<center><h1>401\x20Authorization\x20Required</h1></cente
-SF:r>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jan 17 12:36:09 2024 -- 1 IP address (1 host up) scanned in 176.25 seconds
+# Nmap done at Fri Feb 16 14:14:07 2024 -- 1 IP address (1 host up) scanned in 168.14 seconds

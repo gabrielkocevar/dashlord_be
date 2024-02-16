@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln conseiller-numerique.gouv.fr</pre>
-<p class="lead">Wed Jan 17 13:39:38 2024 – Wed Jan 17 13:42:43 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 15:28:33 2024 – Fri Feb 16 15:31:12 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>91.208.207.216</td>
 <td>conseiller-numerique.gouv.fr</td>
-<td>15</td>
+<td>11</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -180,25 +180,17 @@
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   Kerberos: 
-    \xf1dA
-    k~"&gt;M
-    EALJ7
-    9{z7,!^
-    I|sR
+    MT8&lt;y
   SMBProgNeg: 
-    \x92F
-    \xc4
-    kcloh
-    !er[ |
-    \x85|
-    BLYpK
-    k@FwwR
+    m!_V
   TLSSessionReq: 
-    Q2),
-    -+'r
-    ti{O
-    IL]Vu
-    X&amp;fD</pre>
+    k\x9f,Ll
+    F&amp;nuO6
+    n;mF?
+    {9*s
+    m\x137S
+    \x08vObx
+    VT)`</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">5002</td>
@@ -226,32 +218,12 @@
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="success">
-<td title="Port">5225</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">hp-server</td>
-<td title="Product"></td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
-<tr class="success">
-<td title="Port">5357</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">wsdapi</td>
-<td title="Product"></td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
-<tr class="success">
 <td title="Port">5800</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">amqp</td>
 <td title="Product">RabbitMQ</td>
-<td title="Version">3.12.6</td>
+<td title="Version">3.12.12</td>
 <td title="Extra Info">0-9</td>
 </tr>
 <tr><td colspan="7">
@@ -267,36 +239,16 @@
     authentication_failure_close: YES
     per_consumer_qos: YES
     direct_reply_to: YES
-  cluster_name: rabbit@393e6ca4ac36
-  copyright: Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+  cluster_name: rabbit@4633d40aa9c6
+  copyright: Copyright (c) 2007-2023 Broadcom Inc and/or its subsidiaries
   information: Licensed under the MPL 2.0. Website: https://rabbitmq.com
-  platform: Erlang/OTP 25.3.2.7
+  platform: Erlang/OTP 25.3.2.8
   product: RabbitMQ
-  version: 3.12.6
-  mechanisms: AMQPLAIN PLAIN
+  version: 3.12.12
+  mechanisms: PLAIN AMQPLAIN
   locales: en_US
 </pre>
 </td></tr>
-<tr class="success">
-<td title="Port">5811</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">unknown</td>
-<td title="Product"></td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
-<tr class="success">
-<td title="Port">5911</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">JBoss Enterprise Application Platform</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:redhat:jboss_enterprise_application_platform">cpe:/a:redhat:jboss_enterprise_application_platform</a></td></tr>
 <tr class="success">
 <td title="Port">5962</td>
 <td title="Protocol">tcp</td>
@@ -416,53 +368,13 @@
 </tr>
 <tr>
 <td>91.208.207.216 - conseiller-numerique.gouv.fr</td>
-<td>5225</td>
-<td>tcp</td>
-<td>hp-server</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>91.208.207.216 - conseiller-numerique.gouv.fr</td>
-<td>5357</td>
-<td>tcp</td>
-<td>wsdapi</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>91.208.207.216 - conseiller-numerique.gouv.fr</td>
 <td>5800</td>
 <td>tcp</td>
 <td>amqp</td>
 <td>RabbitMQ</td>
-<td>3.12.6</td>
+<td>3.12.12</td>
 <td></td>
 <td>0-9</td>
-</tr>
-<tr>
-<td>91.208.207.216 - conseiller-numerique.gouv.fr</td>
-<td>5811</td>
-<td>tcp</td>
-<td>unknown</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>91.208.207.216 - conseiller-numerique.gouv.fr</td>
-<td>5911</td>
-<td>tcp</td>
-<td>http</td>
-<td>JBoss Enterprise Application Platform</td>
-<td></td>
-<td>cpe:/a:redhat:jboss_enterprise_application_platform</td>
-<td></td>
 </tr>
 <tr>
 <td>91.208.207.216 - conseiller-numerique.gouv.fr</td>

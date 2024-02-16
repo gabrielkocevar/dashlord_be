@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Jan 19 08:18:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 21:07:34 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr
 Nmap scan report for garde-nationale.gouv.fr (185.209.55.179)
-Host is up (0.0065s latency).
+Host is up (0.0086s latency).
 rDNS record for 185.209.55.179: vm3194.jn-hebergement.com
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -36,10 +36,11 @@ PORT     STATE  SERVICE     VERSION
 |_    </body></html>
 113/tcp  closed ident
 443/tcp  open   ssl/https   Apache
+|_http-server-header: Apache
 | fingerprint-strings: 
-|   FourOhFourRequest, HTTPOptions: 
+|   FourOhFourRequest: 
 |     HTTP/1.1 403 Forbidden
-|     date: Fri, 19 Jan 2024 08:19:12 GMT
+|     date: Fri, 16 Feb 2024 21:07:51 GMT
 |     server: Apache
 |     x-content-type-options: nosniff
 |     x-xss-protection: 1; mode=block
@@ -56,9 +57,9 @@ PORT     STATE  SERVICE     VERSION
 |     <h1>Forbidden</h1>
 |     <p>You don't have permission to access this resource.</p>
 |     </body></html>
-|   GetRequest: 
+|   GetRequest, HTTPOptions: 
 |     HTTP/1.1 403 Forbidden
-|     date: Fri, 19 Jan 2024 08:19:11 GMT
+|     date: Fri, 16 Feb 2024 21:07:50 GMT
 |     server: Apache
 |     x-content-type-options: nosniff
 |     x-xss-protection: 1; mode=block
@@ -84,12 +85,11 @@ PORT     STATE  SERVICE     VERSION
 |     <html><body><h1>408 Request Time-out</h1>
 |     Your browser didn't send a complete request in time.
 |_    </body></html>
-|_http-server-header: Apache
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/19%Time=65AA3079%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=2/16%Time=65CFCEA0%P=x86_64-alpine-linux-musl%r
 SF:(NULL,E9,"HTTP/1\.1\x20408\x20Request\x20Time-out\r\nContent-length:\x2
 SF:0110\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-T
 SF:ype:\x20text/html\r\n\r\n<html><body><h1>408\x20Request\x20Time-out</h1
@@ -123,13 +123,13 @@ SF:ction:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>40
 SF:0\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20r
 SF:equest\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/19%Time=65AA307F%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/16%Time=65CFCEA6%P=x86_64-alpine-linux
 SF:-musl%r(NULL,E9,"HTTP/1\.1\x20408\x20Request\x20Time-out\r\nContent-len
 SF:gth:\x20110\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nCo
 SF:ntent-Type:\x20text/html\r\n\r\n<html><body><h1>408\x20Request\x20Time-
 SF:out</h1>\nYour\x20browser\x20didn't\x20send\x20a\x20complete\x20request
 SF:\x20in\x20time\.\n</body></html>\n")%r(GetRequest,217,"HTTP/1\.1\x20403
-SF:\x20Forbidden\r\ndate:\x20Fri,\x2019\x20Jan\x202024\x2008:19:11\x20GMT\
+SF:\x20Forbidden\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2021:07:50\x20GMT\
 SF:r\nserver:\x20Apache\r\nx-content-type-options:\x20nosniff\r\nx-xss-pro
 SF:tection:\x201;\x20mode=block\r\nx-frame-options:\x20SAMEORIGIN\r\nx-per
 SF:mitted-cross-domain-policies:\x20none\r\nexpect-ct:\x20enforce,\x20max-
@@ -139,7 +139,7 @@ SF:PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>4
 SF:03\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20d
 SF:on't\x20have\x20permission\x20to\x20access\x20this\x20resource\.</p>\n<
 SF:/body></html>\n")%r(HTTPOptions,217,"HTTP/1\.1\x20403\x20Forbidden\r\nd
-SF:ate:\x20Fri,\x2019\x20Jan\x202024\x2008:19:12\x20GMT\r\nserver:\x20Apac
+SF:ate:\x20Fri,\x2016\x20Feb\x202024\x2021:07:50\x20GMT\r\nserver:\x20Apac
 SF:he\r\nx-content-type-options:\x20nosniff\r\nx-xss-protection:\x201;\x20
 SF:mode=block\r\nx-frame-options:\x20SAMEORIGIN\r\nx-permitted-cross-domai
 SF:n-policies:\x20none\r\nexpect-ct:\x20enforce,\x20max-age=604800\r\ncont
@@ -149,7 +149,7 @@ SF:F//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>403\x20Forbidden</t
 SF:itle>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20don't\x20have\x20pe
 SF:rmission\x20to\x20access\x20this\x20resource\.</p>\n</body></html>\n")%
 SF:r(FourOhFourRequest,217,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Fri,
-SF:\x2019\x20Jan\x202024\x2008:19:12\x20GMT\r\nserver:\x20Apache\r\nx-cont
+SF:\x2016\x20Feb\x202024\x2021:07:51\x20GMT\r\nserver:\x20Apache\r\nx-cont
 SF:ent-type-options:\x20nosniff\r\nx-xss-protection:\x201;\x20mode=block\r
 SF:\nx-frame-options:\x20SAMEORIGIN\r\nx-permitted-cross-domain-policies:\
 SF:x20none\r\nexpect-ct:\x20enforce,\x20max-age=604800\r\ncontent-length:\
@@ -160,4 +160,4 @@ SF:d><body>\n<h1>Forbidden</h1>\n<p>You\x20don't\x20have\x20permission\x20
 SF:to\x20access\x20this\x20resource\.</p>\n</body></html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Jan 19 08:21:43 2024 -- 1 IP address (1 host up) scanned in 167.73 seconds
+# Nmap done at Fri Feb 16 21:10:22 2024 -- 1 IP address (1 host up) scanned in 168.13 seconds

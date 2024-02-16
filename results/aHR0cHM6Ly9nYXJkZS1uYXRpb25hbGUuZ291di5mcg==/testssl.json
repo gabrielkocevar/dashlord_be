@@ -346,7 +346,7 @@
               "ip"           : "garde-nationale.gouv.fr/185.209.55.179",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "84 >= 30 days"
+              "finding"      : "56 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,14 +542,14 @@
               "ip"           : "garde-nationale.gouv.fr/185.209.55.179",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-924340 seconds from localtime"
+              "finding"      : "-102015 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "garde-nationale.gouv.fr/185.209.55.179",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1704727969"
+              "finding"      : "1708015608"
           }
 ,         {
               "id"           : "HSTS",
@@ -1147,6 +1147,6 @@
               "ip"           : "garde-nationale.gouv.fr/185.209.55.179",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "39"
+              "finding"      : "49"
           }
 ]

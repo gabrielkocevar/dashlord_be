@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Jan 19 08:18:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 21:07:34 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr
 Host: 185.209.55.179 (vm3194.jn-hebergement.com)	Status: Up
 Host: 185.209.55.179 (vm3194.jn-hebergement.com)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//Apache/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Fri Jan 19 08:21:43 2024 -- 1 IP address (1 host up) scanned in 167.73 seconds
+# Nmap done at Fri Feb 16 21:10:22 2024 -- 1 IP address (1 host up) scanned in 168.13 seconds

@@ -1,0 +1,16 @@
+# Nmap 7.92 scan initiated Fri Feb 16 14:14:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-documentation.gouv.fr
+Nmap scan report for ira-documentation.gouv.fr (79.137.30.176)
+Host is up (0.0098s latency).
+rDNS record for 79.137.30.176: ip176.ip-79-137-30.eu
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        nginx 1.21.6
+|_http-server-header: nginx/1.21.6
+113/tcp  closed ident
+443/tcp  open   ssl/http    nginx 1.21.6
+|_http-server-header: nginx/1.21.6
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 14:17:39 2024 -- 1 IP address (1 host up) scanned in 176.28 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Feb 16 10:14:35 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln aisne.gouv.fr
+Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Status: Up
+Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Ports: 80/open/tcp//http//Apache/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//Apache/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
+# Nmap done at Fri Feb 16 10:17:23 2024 -- 1 IP address (1 host up) scanned in 168.27 seconds

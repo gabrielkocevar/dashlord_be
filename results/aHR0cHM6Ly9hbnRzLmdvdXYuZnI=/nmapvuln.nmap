@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Wed Jan 17 10:10:48 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 11:13:03 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr
 Nmap scan report for ants.gouv.fr (66.22.33.160)
-Host is up (0.046s latency).
+Host is up (0.035s latency).
 Not shown: 991 closed tcp ports (reset)
 PORT     STATE    SERVICE    VERSION
 20/tcp   filtered ftp-data
@@ -12,7 +12,7 @@ PORT     STATE    SERVICE    VERSION
 |   FourOhFourRequest: 
 |     HTTP/1.1 301 Moved Permanently
 |     Server: rdwr
-|     Date: Wed, 17 Jan 2024 10:10:56 GMT
+|     Date: Fri, 16 Feb 2024 11:13:12 GMT
 |     Content-Type: text/html
 |     Content-Length: 161
 |     Connection: close
@@ -27,7 +27,7 @@ PORT     STATE    SERVICE    VERSION
 |   GetRequest, HTTPOptions: 
 |     HTTP/1.1 301 Moved Permanently
 |     Server: rdwr
-|     Date: Wed, 17 Jan 2024 10:10:56 GMT
+|     Date: Fri, 16 Feb 2024 11:13:12 GMT
 |     Content-Type: text/html
 |     Content-Length: 161
 |     Connection: close
@@ -42,7 +42,7 @@ PORT     STATE    SERVICE    VERSION
 |   RTSPRequest, X11Probe: 
 |     HTTP/1.1 400 Bad Request
 |     Server: rdwr
-|     Date: Wed, 17 Jan 2024 10:10:56 GMT
+|     Date: Fri, 16 Feb 2024 11:13:12 GMT
 |     Content-Type: text/html
 |     Content-Length: 149
 |     Connection: close
@@ -56,73 +56,72 @@ PORT     STATE    SERVICE    VERSION
 161/tcp  filtered snmp
 179/tcp  filtered bgp
 443/tcp  open     ssl/https
+|_http-trane-info: ERROR: Script execution failed (use -d to debug)
+|_hnap-info: ERROR: Script execution failed (use -d to debug)
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 200 OK
 |     Content-Type: text/html; charset=utf-8
-|     Content-Length: 967933
+|     Content-Length: 2625063
 |     Connection: close
 |     X-Frame-Options: SAMEORIGIN
-|     Content-Security-Policy: default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-7d207453-4a3d-4a42-861d-2fae0d99a44c';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'
+|     Content-Security-Policy: default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-14f9a10c-32d4-463b-ac2f-792e34b34eaa';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'
 |     Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 |     X-XSS-Protection: 0
 |     X-Content-Type-Options: nosniff
 |     Referrer-Policy: no-referrer
 |     Permissions-Policy: geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()
-|     ETag: W/"ec4fd-JIr8pbJX5MZAcgnyveDpRtWxdAw"
-|     Vary: Accept-E
+|     ETag: W/"280e27-Ff8ju2FDPOEVe4SmbzU
 |   HTTPOptions: 
 |     HTTP/1.1 303 Found
 |     Content-Type: text/html
 |     Content-Length: 650
 |     Connection: close
 |     Cache-Control: no-cache, private, no-store, must-revalidate
-|     Location: https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037
+|     Location: https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406
 |     <html>
 |     <head>
 |     <title>Security Page redirect</title>
-|     <meta http-equiv="refresh" content="3;url=https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037">
+|     <meta http-equiv="refresh" content="3;url=https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406">
 |     <script type="text/javascript">
-|     function GoSecure() { location.href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037";}
+|     function GoSecure() { location.href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406";}
 |     function SetDelay() { setTimeout("GoSecure();",2000);}
 |     </script>
 |     </head>
 |     <body onLoad="SetDelay();">
-|     align="center">Click <a href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037">Here</a> to continue.</h2>
+|     align="center">Click <a href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406">Here</a> to continue.</h2>
 |_    </body
-|_hnap-info: ERROR: Script execution failed (use -d to debug)
-|_http-trane-info: ERROR: Script execution failed (use -d to debug)
 2000/tcp open     tcpwrapped
 5060/tcp open     tcpwrapped
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/17%Time=65A7A7B0%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=2/16%Time=65CF4348%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,15E,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nServer:\x2
-SF:0rdwr\r\nDate:\x20Wed,\x2017\x20Jan\x202024\x2010:10:56\x20GMT\r\nConte
+SF:0rdwr\r\nDate:\x20Fri,\x2016\x20Feb\x202024\x2011:13:12\x20GMT\r\nConte
 SF:nt-Type:\x20text/html\r\nContent-Length:\x20161\r\nConnection:\x20close
 SF:\r\nLocation:\x20https://ants-2\.gouv\.fr:443/\r\n\r\n<html>\r\n<head><
 SF:title>301\x20Moved\x20Permanently</title></head>\r\n<body>\r\n<center><
 SF:h1>301\x20Moved\x20Permanently</h1></center>\r\n<hr><center>rdwr</cente
 SF:r>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,15E,"HTTP/1\.1\x20301\x20M
-SF:oved\x20Permanently\r\nServer:\x20rdwr\r\nDate:\x20Wed,\x2017\x20Jan\x2
-SF:02024\x2010:10:56\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Lengt
+SF:oved\x20Permanently\r\nServer:\x20rdwr\r\nDate:\x20Fri,\x2016\x20Feb\x2
+SF:02024\x2011:13:12\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Lengt
 SF:h:\x20161\r\nConnection:\x20close\r\nLocation:\x20https://ants-2\.gouv\
 SF:.fr:443/\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20Permanently</tit
 SF:le></head>\r\n<body>\r\n<center><h1>301\x20Moved\x20Permanently</h1></c
 SF:enter>\r\n<hr><center>rdwr</center>\r\n</body>\r\n</html>\r\n")%r(RTSPR
 SF:equest,125,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20rdwr\r\nDa
-SF:te:\x20Wed,\x2017\x20Jan\x202024\x2010:10:56\x20GMT\r\nContent-Type:\x2
+SF:te:\x20Fri,\x2016\x20Feb\x202024\x2011:13:12\x20GMT\r\nContent-Type:\x2
 SF:0text/html\r\nContent-Length:\x20149\r\nConnection:\x20close\r\n\r\n<ht
 SF:ml>\r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<
 SF:center><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>rdwr</cen
 SF:ter>\r\n</body>\r\n</html>\r\n")%r(X11Probe,125,"HTTP/1\.1\x20400\x20Ba
-SF:d\x20Request\r\nServer:\x20rdwr\r\nDate:\x20Wed,\x2017\x20Jan\x202024\x
-SF:2010:10:56\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x201
+SF:d\x20Request\r\nServer:\x20rdwr\r\nDate:\x20Fri,\x2016\x20Feb\x202024\x
+SF:2011:13:12\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x201
 SF:49\r\nConnection:\x20close\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20
 SF:Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</
 SF:h1></center>\r\n<hr><center>rdwr</center>\r\n</body>\r\n</html>\r\n")%r
 SF:(FourOhFourRequest,181,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nSer
-SF:ver:\x20rdwr\r\nDate:\x20Wed,\x2017\x20Jan\x202024\x2010:10:56\x20GMT\r
+SF:ver:\x20rdwr\r\nDate:\x20Fri,\x2016\x20Feb\x202024\x2011:13:12\x20GMT\r
 SF:\nContent-Type:\x20text/html\r\nContent-Length:\x20161\r\nConnection:\x
 SF:20close\r\nLocation:\x20https://ants-2\.gouv\.fr:443/nice%20ports%2C/Tr
 SF:i%6Eity\.txt%2ebak\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20Perman
@@ -130,38 +129,38 @@ SF:ently</title></head>\r\n<body>\r\n<center><h1>301\x20Moved\x20Permanent
 SF:ly</h1></center>\r\n<hr><center>rdwr</center>\r\n</body>\r\n</html>\r\n
 SF:");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/17%Time=65A7A7B6%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20tex
-SF:t/html;\x20charset=utf-8\r\nContent-Length:\x20967933\r\nConnection:\x2
-SF:0close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x2
-SF:0default-src\x20'self';style-src\x20'self'\x20'unsafe-inline';script-sr
-SF:c\x20'self'\x20https://tag\.aticdn\.net\x20https://\*\.ants\.gouv\.fr\x
-SF:20'nonce-7d207453-4a3d-4a42-861d-2fae0d99a44c';frame-src\x20'self'\x20h
-SF:ttps://www\.youtube\.com/\x20https://www\.dailymotion\.com/;connect-src
-SF:\x20'self'\x20https://geo\.api\.gouv\.fr\x20https://\*\.xiti\.com;font-
-SF:src\x20'self'\x20https://fonts\.gstatic\.com\x20data:;img-src\x20'self'
-SF:\x20https:\x20data:;object-src\x20'none';base-uri\x20'self';form-action
-SF:\x20'self'\r\nStrict-Transport-Security:\x20max-age=63072000;\x20includ
-SF:eSubDomains;\x20preload\r\nX-XSS-Protection:\x200\r\nX-Content-Type-Opt
-SF:ions:\x20nosniff\r\nReferrer-Policy:\x20no-referrer\r\nPermissions-Poli
-SF:cy:\x20geolocation=\(self\),\x20autoplay=\(\),\x20camera=\(\),\x20fulls
-SF:creen=\(\),\x20microphone=\(\),\x20payment=\(\)\r\nETag:\x20W/\"ec4fd-J
-SF:Ir8pbJX5MZAcgnyveDpRtWxdAw\"\r\nVary:\x20Accept-E")%r(HTTPOptions,38E,"
-SF:HTTP/1\.1\x20303\x20Found\r\nContent-Type:\x20text/html\r\nContent-Leng
-SF:th:\x20650\r\nConnection:\x20close\r\nCache-Control:\x20no-cache,\x20pr
-SF:ivate,\x20no-store,\x20must-revalidate\r\nLocation:\x20https://csirt\.d
-SF:ocapost\.fr/index\.php/Information_de_s%C3%A9curit%C3%A9_ANTS\?_event_t
-SF:ransid=1071081037\r\n\r\n<html>\n<head>\n<title>Security\x20Page\x20red
-SF:irect</title>\n<meta\x20http-equiv=\"refresh\"\x20content=\"3;url=https
-SF:://csirt\.docapost\.fr/index\.php/Information_de_s%C3%A9curit%C3%A9_ANT
-SF:S\?_event_transid=1071081037\">\n<script\x20type=\"text/javascript\">\n
-SF:function\x20GoSecure\(\)\x20{\x20location\.href=\"https://csirt\.docapo
-SF:st\.fr/index\.php/Information_de_s%C3%A9curit%C3%A9_ANTS\?_event_transi
-SF:d=1071081037\";}\nfunction\x20SetDelay\(\)\x20{\x20setTimeout\(\"GoSecu
-SF:re\(\);\",2000\);}\n</script>\n</head>\n<body\x20onLoad=\"SetDelay\(\);
-SF:\">\n<h2\x20align=\"center\">Click\x20<a\x20href=\"https://csirt\.docap
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/16%Time=65CF434F%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,8000,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20tex
+SF:t/html;\x20charset=utf-8\r\nContent-Length:\x202625063\r\nConnection:\x
+SF:20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x
+SF:20default-src\x20'self';style-src\x20'self'\x20'unsafe-inline';script-s
+SF:rc\x20'self'\x20https://tag\.aticdn\.net\x20https://\*\.ants\.gouv\.fr\
+SF:x20'nonce-14f9a10c-32d4-463b-ac2f-792e34b34eaa';frame-src\x20'self'\x20
+SF:https://www\.youtube\.com/\x20https://www\.dailymotion\.com/;connect-sr
+SF:c\x20'self'\x20https://geo\.api\.gouv\.fr\x20https://\*\.xiti\.com\x20h
+SF:ttps://\*\.ants\.gouv\.fr;font-src\x20'self'\x20https://fonts\.gstatic\
+SF:.com\x20data:;img-src\x20'self'\x20https:\x20data:;object-src\x20'none'
+SF:;base-uri\x20'self';form-action\x20'self'\r\nStrict-Transport-Security:
+SF:\x20max-age=63072000;\x20includeSubDomains;\x20preload\r\nX-XSS-Protect
+SF:ion:\x200\r\nX-Content-Type-Options:\x20nosniff\r\nReferrer-Policy:\x20
+SF:no-referrer\r\nPermissions-Policy:\x20geolocation=\(self\),\x20autoplay
+SF:=\(\),\x20camera=\(\),\x20fullscreen=\(\),\x20microphone=\(\),\x20payme
+SF:nt=\(\)\r\nETag:\x20W/\"280e27-Ff8ju2FDPOEVe4SmbzU")%r(HTTPOptions,38E,
+SF:"HTTP/1\.1\x20303\x20Found\r\nContent-Type:\x20text/html\r\nContent-Len
+SF:gth:\x20650\r\nConnection:\x20close\r\nCache-Control:\x20no-cache,\x20p
+SF:rivate,\x20no-store,\x20must-revalidate\r\nLocation:\x20https://csirt\.
+SF:docapost\.fr/index\.php/Information_de_s%C3%A9curit%C3%A9_ANTS\?_event_
+SF:transid=1089488406\r\n\r\n<html>\n<head>\n<title>Security\x20Page\x20re
+SF:direct</title>\n<meta\x20http-equiv=\"refresh\"\x20content=\"3;url=http
+SF:s://csirt\.docapost\.fr/index\.php/Information_de_s%C3%A9curit%C3%A9_AN
+SF:TS\?_event_transid=1089488406\">\n<script\x20type=\"text/javascript\">\
+SF:nfunction\x20GoSecure\(\)\x20{\x20location\.href=\"https://csirt\.docap
 SF:ost\.fr/index\.php/Information_de_s%C3%A9curit%C3%A9_ANTS\?_event_trans
-SF:id=1071081037\">Here</a>\x20to\x20continue\.</h2>\n</body");
+SF:id=1089488406\";}\nfunction\x20SetDelay\(\)\x20{\x20setTimeout\(\"GoSec
+SF:ure\(\);\",2000\);}\n</script>\n</head>\n<body\x20onLoad=\"SetDelay\(\)
+SF:;\">\n<h2\x20align=\"center\">Click\x20<a\x20href=\"https://csirt\.doca
+SF:post\.fr/index\.php/Information_de_s%C3%A9curit%C3%A9_ANTS\?_event_tran
+SF:sid=1089488406\">Here</a>\x20to\x20continue\.</h2>\n</body");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jan 17 10:11:10 2024 -- 1 IP address (1 host up) scanned in 22.34 seconds
+# Nmap done at Fri Feb 16 11:13:27 2024 -- 1 IP address (1 host up) scanned in 23.27 seconds

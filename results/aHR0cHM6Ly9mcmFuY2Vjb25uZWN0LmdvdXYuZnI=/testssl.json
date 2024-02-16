@@ -339,7 +339,7 @@
               "ip"           : "franceconnect.gouv.fr/148.253.96.161",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "265 >= 60 days"
+              "finding"      : "235 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "franceconnect.gouv.fr/148.253.96.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705514167"
+              "finding"      : "1708115763"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1070,6 +1070,6 @@
               "ip"           : "franceconnect.gouv.fr/148.253.96.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "43"
+              "finding"      : "52"
           }
 ]

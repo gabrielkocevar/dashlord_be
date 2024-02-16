@@ -339,7 +339,7 @@
               "ip"           : "esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "368 >= 60 days"
+              "finding"      : "338 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705510714"
+              "finding"      : "1708109859"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "esante.gouv.fr/37.59.26.43",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "45"
+              "finding"      : "57"
           }
 ]

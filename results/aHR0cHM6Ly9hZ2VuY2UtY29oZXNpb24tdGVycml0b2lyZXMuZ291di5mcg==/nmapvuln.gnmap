@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jan 17 08:58:41 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln agence-cohesion-territoires.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 09:43:44 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln agence-cohesion-territoires.gouv.fr
 Host: 217.115.162.32 (prod1-datar-cger-anct.integra.fr)	Status: Up
 Host: 217.115.162.32 (prod1-datar-cger-anct.integra.fr)	Ports: 80/open/tcp//http//Apache httpd/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//Apache httpd/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Wed Jan 17 09:01:38 2024 -- 1 IP address (1 host up) scanned in 176.70 seconds
+# Nmap done at Fri Feb 16 09:46:40 2024 -- 1 IP address (1 host up) scanned in 176.39 seconds

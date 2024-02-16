@@ -297,7 +297,7 @@
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9E8D6E7517054698ECDE0DEE7AA6DDAC"
+              "finding"      : "75D0FA92CC4E97EE68840EE122824457"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F3269C8530E21A270D1E7D3E90AB133B46FF618B"
+              "finding"      : "2B5A4E458D35EDD9F0C1AC922EF875C3BE8C26A4"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9EFAA7723BE1A40965DA1565254F9192734DB492EF6016601EB0E63EE3C42CCC"
+              "finding"      : "37ED446ACD7B9870CB2E3FC9EE94F932FBB319EB630412E5B414021E6A00EC4F"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,7 +346,7 @@
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "etudiant.gouv.fr back.etudiant.gouv.fr etudiants.gouv.fr isoprod.back.etudiant.gouv.fr isoprod.etudiant.gouv.fr santepsy.etudiant.gouv.fr test.back.etudiant.gouv.fr test.etudiant.gouv.fr www.etudiant.gouv.fr www.etudiants.gouv.fr"
+              "finding"      : "etudiant.gouv.fr back.etudiant.gouv.fr etudiants.gouv.fr isoprod.back.etudiant.gouv.fr isoprod.etudiant.gouv.fr test.back.etudiant.gouv.fr test.etudiant.gouv.fr www.etudiant.gouv.fr www.etudiants.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -373,22 +373,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (24)"
+              "severity"     : "OK",
+              "finding"      : "345 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-02-10 00:00"
+              "finding"      : "2024-02-05 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-02-10 23:59"
+              "severity"     : "OK",
+              "finding"      : "2025-01-26 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -584,7 +584,7 @@
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705511424"
+              "finding"      : "1708111423"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -771,7 +771,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9EFAA7723BE1A40965DA1565254F9192734DB492EF6016601EB0E63EE3C42CCC"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=37ED446ACD7B9870CB2E3FC9EE94F932FBB319EB630412E5B414021E6A00EC4F"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1147,6 +1147,6 @@
               "ip"           : "etudiant.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "52"
           }
 ]

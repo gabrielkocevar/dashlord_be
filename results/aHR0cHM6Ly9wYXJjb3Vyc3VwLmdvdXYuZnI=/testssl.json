@@ -1,0 +1,1061 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 7200 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0166D729912D391935F823A4675C21B3"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "B85025CE87B30BD900CF9AB7CA863BEE636F8587"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "EE39D588A9E0939A5CB8A9480599381E18CF2F7A69DCEA94DB1721E19AA8525E"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "imperva.com"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "imperva.com"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ac-paris.fr *.ac-paris.fr *.parcoursup.gouv.fr *.education.gouv.fr parcoursup.gouv.fr education.gouv.fr imperva.com"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "177 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-02-14 07:34"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2024-08-12 07:34"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.globalsign.com/ca/gsatlasr3dvtlsca2024q1.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2024q1"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GlobalSign Atlas R3 DV TLS CA 2024 Q1 (GlobalSign nv-sa from BE)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEjzCCA3egAwIBAgIQf7ag6lXijARMlS6V1jSfXDANBgkqhkiG9w0BAQsFADBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjAeFw0yMzEwMTgwNDA5MzJaFw0yNTEwMTgwMDAwMDBaMFgxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMS4wLAYDVQQDEyVHbG9iYWxTaWduIEF0bGFzIFIzIERWIFRMUyBDQSAyMDI0IFExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlEaiVBcFLmhwCb+9eZUNyxuo3ddf1qAqoS9HRUp6bHv50DrPPENoni9Ix4JVu0OUJRv08POUqwGG+UJrt0V9/UMxb90o2IRIDK/QuNurr36GObMYW+K8bNMG0RKGIlyKVqZMqFaBPjjGmWZEPslwWDj8qbtywoO2TMnMppxNOymms6M0lilQnBK1yaYiXRjQjO8EwkOM95iKlXx0axJHUZS5nPkEvrqpyjgiskDK2ETb4xpmE2RAQXAXxM3Fpnn9kxMi1at8AhsWxCM/pNucU6rb4uqibp9KbbAdhDyd+sI6vPZDS+RtOmv+bTdaAPUDeDc4AV7/N0dOVMggCp4gDwIDAQABo4IBXzCCAVswDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBRmwMejms3+8+rOS1MLYV6vMwWz4TAfBgNVHSMEGDAWgBSP8Et/qC5FJK5NUPpjmove4t0bvDB7BggrBgEFBQcBAQRvMG0wLgYIKwYBBQUHMAGGImh0dHA6Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9yb290cjMwOwYIKwYBBQUHMAKGL2h0dHA6Ly9zZWN1cmUuZ2xvYmFsc2lnbi5jb20vY2FjZXJ0L3Jvb3QtcjMuY3J0MDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jcmwuZ2xvYmFsc2lnbi5jb20vcm9vdC1yMy5jcmwwIQYDVR0gBBowGDAIBgZngQwBAgEwDAYKKwYBBAGgMgoBAzANBgkqhkiG9w0BAQsFAAOCAQEAHVoRr5g39Y/9HMV8B8Vp/gC4sq+jTIaIJwpIPRc0DncvjxJwDUcrhKSMC+LxZP0HxCcef+7iXQwzM/RW4DP0Ao6+vhl1iLfFxdB7atqm3pPAxsiMvvPklqzlmw2enCfjta5jA5fqiSii8TXJ8WeG1QxEizqNsq7C+7y9OYlyGXdAYAA4u8Hb4gu559zaOwX8vZTCmjG3u4wrp2/1QTM4qrzWT9ckRtoEBzGImh+q5J3CnjBPX90q2X2KqRP+xiPsF1tCGmrc7AnYpi+qy65PGhVoIO7Ev9zI7Ucl68I/3rmqBahLR/KB1isYCs0c57XG+pMmZ14Kr4WCLuEfXEM8sQ==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0152F86354FCA9525B280C233F7DA6CF8B5F2373C42644723226AE67238DB190"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-10-18 04:09"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-10-18 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GlobalSign Atlas R3 DV TLS CA 2024 Q1 <-- GlobalSign"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Got no HTTP time, maybe try different URL?"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=EE39D588A9E0939A5CB8A9480599381E18CF2F7A69DCEA94DB1721E19AA8525E"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "81"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "parcoursup.gouv.fr/45.60.74.33",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "61"
+          }
+]

@@ -339,7 +339,7 @@
               "ip"           : "complementaire-sante-solidaire.gouv.fr/213.186.33.40",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "89 >= 30 days"
+              "finding"      : "59 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "complementaire-sante-solidaire.gouv.fr/213.186.33.40",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705497192"
+              "finding"      : "1708095655"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "complementaire-sante-solidaire.gouv.fr/213.186.33.40",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "37"
+              "finding"      : "48"
           }
 ]

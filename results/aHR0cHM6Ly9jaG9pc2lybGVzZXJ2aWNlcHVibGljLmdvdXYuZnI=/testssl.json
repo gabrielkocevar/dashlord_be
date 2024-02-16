@@ -213,7 +213,7 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -276,7 +276,7 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "037B16D962C64AD7B89D6626C075C908A91E"
+              "finding"      : "04E8F44FA0A4E33B857CFE2314CF106F6B25"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -290,21 +290,21 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "70A2634404AED2501A24040FA3D23F79FEABC9B1"
+              "finding"      : "914DD9B81E219C49C8F6921DAA6411425CFF0340"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1FFEBD9907245D6B9E2CC9CF60C9204D60083C804F8882F9F24658A032B85B17"
+              "finding"      : "F056B19C6640D6C69EBA392901CF142863FECA1ACF180722B1BA3655961CDB0A"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -353,21 +353,21 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "43 >= 30 days"
+              "finding"      : "73 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-12-02 00:00"
+              "finding"      : "2024-01-30 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-03-01 00:00"
+              "finding"      : "2024-04-29 23:00"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -549,14 +549,14 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705494620"
+              "finding"      : "1708092471"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -799,7 +799,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1FFEBD9907245D6B9E2CC9CF60C9204D60083C804F8882F9F24658A032B85B17"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F056B19C6640D6C69EBA392901CF142863FECA1ACF180722B1BA3655961CDB0A"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1175,6 +1175,6 @@
               "ip"           : "choisirleservicepublic.gouv.fr/54.38.250.204",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "53"
           }
 ]

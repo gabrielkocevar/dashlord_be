@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jan 17 09:27:05 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln alim-confiance.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 10:20:33 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln alim-confiance.gouv.fr
 Host: 185.161.46.229 ()	Status: Up
 Host: 185.161.46.229 ()	Ports: 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Wed Jan 17 09:29:53 2024 -- 1 IP address (1 host up) scanned in 167.69 seconds
+# Nmap done at Fri Feb 16 10:23:21 2024 -- 1 IP address (1 host up) scanned in 167.26 seconds

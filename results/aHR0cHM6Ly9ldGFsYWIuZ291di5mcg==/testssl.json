@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "46 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (16)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-03-03 22:02"
           }
 ,         {
@@ -556,7 +556,7 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705511002"
+              "finding"      : "1708111038"
           }
 ,         {
               "id"           : "HSTS",
@@ -1126,6 +1126,6 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "65"
           }
 ]

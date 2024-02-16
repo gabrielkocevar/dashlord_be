@@ -1,0 +1,20 @@
+# Nmap 7.92 scan initiated Fri Feb 16 13:33:44 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln imagesdefense.gouv.fr
+Nmap scan report for imagesdefense.gouv.fr (104.22.34.188)
+Host is up (0.0087s latency).
+Other addresses for imagesdefense.gouv.fr (not scanned): 104.22.35.188 172.67.4.14 2606:4700:10::6816:22bc 2606:4700:10::6816:23bc 2606:4700:10::ac43:40e
+Not shown: 993 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        Cloudflare http proxy
+|_http-server-header: cloudflare
+113/tcp  closed ident
+443/tcp  open   ssl/http    Cloudflare http proxy
+|_http-server-header: cloudflare
+2000/tcp open   cisco-sccp?
+5060/tcp open   sip?
+8080/tcp open   http        Cloudflare http proxy
+|_http-server-header: cloudflare
+8443/tcp open   ssl/http    Cloudflare http proxy
+|_http-server-header: cloudflare
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 13:36:33 2024 -- 1 IP address (1 host up) scanned in 168.70 seconds

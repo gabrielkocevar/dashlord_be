@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jan 17 17:43:06 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln france-renov.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 20:21:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln france-renov.gouv.fr
 Host: 31.193.53.253 ()	Status: Up
-Host: 31.193.53.253 ()	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//nginx|1.21.6/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Wed Jan 17 17:45:55 2024 -- 1 IP address (1 host up) scanned in 169.32 seconds
+Host: 31.193.53.253 ()	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//Apache/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
+# Nmap done at Fri Feb 16 20:24:31 2024 -- 1 IP address (1 host up) scanned in 168.06 seconds

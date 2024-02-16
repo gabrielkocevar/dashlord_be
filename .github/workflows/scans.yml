@@ -7,29 +7,12 @@ on:
         description: "Single url to scan or scan all urls"
         required: false
         default: ""
-      tool:
-        description: "Single tool to run or use all tools"
-        type: choice
-        default: all
-        options:
-          - all
-          - codescan
-          - dependabot
-          - ecoindex
-          - lighthouse
-          - sonarcloud
-          - trivy
-          - zap
-          - ecoindex
-          - dsfr
-          - declaration-a11y
-          - declaration-rgpd
   schedule:
     - cron: "0 0 * * 0" # At 00:00 on Sunday
 
 jobs:
   init:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Prepare
     outputs:
       sites: ${{ steps.init.outputs.sites }}
@@ -37,16 +20,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: init
-        uses: "SocialGouv/dashlord-actions/init@v1"
+        uses: "SocialGouv/dashlord-actions/init@main"
         with:
           url: ${{ github.event.inputs.url }}
-          tool: ${{ github.event.inputs.tool }}
-      - id: updown-init
-        uses: "SocialGouv/dashlord-actions/updown-init@v1"
-        env:
-          UPDOWNIO_API_KEY: ${{ secrets.UPDOWNIO_API_KEY }}
+
   scans:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Scan
     needs: init
     continue-on-error: true
@@ -56,7 +35,7 @@ jobs:
       matrix:
         sites: ${{ fromJson(needs.init.outputs.sites) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
 
       - run: |
           mkdir scans
@@ -65,24 +44,6 @@ jobs:
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-
-      - name: dsfr
-        continue-on-error: true
-        timeout-minutes: 10
-        uses: "socialgouv/dashlord-actions/dsfr@v1"
-        if: ${{ matrix.sites.tools.dsfr }}
-        with:
-          url: ${{ matrix.sites.url }}
-          output: scans/dsfr.json
-
-      - name: eco-index
-        continue-on-error: true
-        timeout-minutes: 10
-        uses: "socialgouv/dashlord-actions/ecoindex@v1"
-        if: ${{ matrix.sites.tools.ecoindex }}
-        with:
-          url: ${{ matrix.sites.url }}
-          output: scans/ecoindex.json
 
       - name: Screenshot Website
         if: ${{ matrix.sites.tools.screenshot }}
@@ -143,7 +104,7 @@ jobs:
         with:
           url: "${{ matrix.sites.url }}"
           output: "scans/http.json"
-
+          
       - name: Mozilla HTTP Observatory retry
         if: steps.http.outcome=='failure'
         continue-on-error: true
@@ -165,6 +126,7 @@ jobs:
 
       - name: Déclaration RGPD
         continue-on-error: true
+        timeout-minutes: 10
         uses: SocialGouv/dashlord-actions/declaration-rgpd@v1
         if: ${{ matrix.sites.tools['declaration-rgpd'] }}
         with:
@@ -220,7 +182,7 @@ jobs:
           apiKey: ${{ secrets.UPDOWNIO_API_KEY }}
           url: ${{ matrix.sites.url }}
           output: scans/updownio.json
-
+      
       - name: Betagouv API scan
         if: ${{ matrix.sites.tools.betagouv }}
         continue-on-error: true
@@ -239,6 +201,8 @@ jobs:
         with:
           url: ${{ steps.betagouv.outputs.stats_url }}
           output: scans/stats.json
+          minExpectedRegex: ^stat
+          exactExpectedRegex: ^stats$
 
       - name: Budget page
         continue-on-error: true
@@ -248,6 +212,7 @@ jobs:
         with:
           url: ${{ steps.betagouv.outputs.budget_url }}
           output: scans/budget_page.json
+          exactExpectedRegex: ^budget$
 
       - name: Open Github repository
         continue-on-error: true
@@ -277,17 +242,15 @@ jobs:
           token: ${{ secrets.CODESCANALERTS_TOKEN }}
           repositories: ${{ join(matrix.sites.repositories) }}
           output: scans/codescanalerts.json
+          
 
-      - uses: SocialGouv/dashlord-actions/save@v1
+      - uses: SocialGouv/dashlord-actions/save@main
         with:
           url: ${{ matrix.sites.url }}
-          # only clean up previous stats when all tools runned
-          cleanup: ${{ github.event.inputs.tool == 'all' && true || false }}
 
-      - uses: EndBug/add-and-commit@v9
+      - uses: EndBug/add-and-commit@v7
         with:
-          add: "results"
-          author_name: "DashlordBetaGouvBot"
+          add: '["results"]'
+          author_name: "DashlordBetaGouvBot "
           author_email: "DashlordBetaGouvBot@incubateur.net"
           message: "update: ${{ matrix.sites.url }}"
-          

@@ -339,7 +339,7 @@
               "ip"           : "data.gouv.fr/37.59.183.93",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "336 >= 60 days"
+              "finding"      : "306 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1091,6 +1091,6 @@
               "ip"           : "data.gouv.fr/37.59.183.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "69"
           }
 ]

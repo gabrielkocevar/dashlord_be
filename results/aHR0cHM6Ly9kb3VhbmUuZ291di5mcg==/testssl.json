@@ -339,7 +339,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "238 >= 60 days"
+              "finding"      : "208 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705505000"
+              "finding"      : "1708104933"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "48"
+              "finding"      : "59"
           }
 ]

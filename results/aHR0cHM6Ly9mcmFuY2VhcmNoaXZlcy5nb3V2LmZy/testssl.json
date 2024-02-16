@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "46 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (16)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-03-04 07:03"
           }
 ,         {
@@ -542,21 +542,21 @@
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+3069 seconds from localtime"
+              "finding"      : "+15448 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705514009"
+              "finding"      : "1708115583"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3069 seconds"
+              "finding"      : "15448 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -634,7 +634,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 755252731 759172795Via: 1.1 varnish (Varnish/6.1)"
+              "finding"      : "X-Varnish: 30540166 1959033Via: 1.1 varnish (Varnish/6.5)"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1133,6 +1133,6 @@
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "38"
+              "finding"      : "51"
           }
 ]

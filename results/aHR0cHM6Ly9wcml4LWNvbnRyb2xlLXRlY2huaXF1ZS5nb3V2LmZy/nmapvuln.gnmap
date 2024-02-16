@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Feb 16 23:24:10 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln prix-controle-technique.gouv.fr
+Host: 94.23.6.91 (ns367849.ip-94-23-6.eu)	Status: Up
+Host: 94.23.6.91 (ns367849.ip-94-23-6.eu)	Ports: 22/filtered/tcp//ssh///, 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//tcpwrapped///, 3000/filtered/tcp//ppp///, 3001/filtered/tcp//nessus///, 5060/open/tcp//tcpwrapped///, 8080/filtered/tcp//http-proxy///	Ignored State: closed (992)
+# Nmap done at Fri Feb 16 23:24:27 2024 -- 1 IP address (1 host up) scanned in 16.80 seconds

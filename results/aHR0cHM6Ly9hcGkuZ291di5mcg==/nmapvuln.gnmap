@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jan 17 10:13:37 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln api.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 11:16:08 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln api.gouv.fr
 Host: 149.202.190.28 ()	Status: Up
 Host: 149.202.190.28 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx 1.18.0 (Ubuntu)/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (994)
-# Nmap done at Wed Jan 17 10:16:25 2024 -- 1 IP address (1 host up) scanned in 168.07 seconds
+# Nmap done at Fri Feb 16 11:18:59 2024 -- 1 IP address (1 host up) scanned in 171.10 seconds

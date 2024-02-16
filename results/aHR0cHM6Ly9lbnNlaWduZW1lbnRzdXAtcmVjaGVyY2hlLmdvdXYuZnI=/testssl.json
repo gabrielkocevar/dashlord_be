@@ -374,7 +374,7 @@
               "ip"           : "enseignementsup-recherche.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "317 >= 60 days"
+              "finding"      : "287 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,7 +584,7 @@
               "ip"           : "enseignementsup-recherche.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705509389"
+              "finding"      : "1708109148"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1147,6 +1147,6 @@
               "ip"           : "enseignementsup-recherche.gouv.fr/185.75.143.93",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "46"
+              "finding"      : "54"
           }
 ]

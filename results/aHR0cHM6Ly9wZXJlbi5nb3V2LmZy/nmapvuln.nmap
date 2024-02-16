@@ -1,0 +1,30 @@
+# Nmap 7.92 scan initiated Fri Feb 16 22:07:41 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln peren.gouv.fr
+Nmap scan report for peren.gouv.fr (51.159.170.2)
+Host is up (0.035s latency).
+Other addresses for peren.gouv.fr (not scanned): 2001:bc8:1204:d00d::1
+rDNS record for 51.159.170.2: 2-170-159-51.instances.scw.cloud
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 9.2p1 Debian 2+deb12u2 (protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:9.2p1: 
+|     	SSV:92579	7.5	https://vulners.com/seebug/SSV:92579	*EXPLOIT*
+|     	PRION:CVE-2023-38408	7.5	https://vulners.com/prion/PRION:CVE-2023-38408
+|     	PRION:CVE-2023-28531	7.5	https://vulners.com/prion/PRION:CVE-2023-28531
+|     	PACKETSTORM:173661	7.5	https://vulners.com/packetstorm/PACKETSTORM:173661	*EXPLOIT*
+|     	F0979183-AE88-53B4-86CF-3AF0523F3807	7.5	https://vulners.com/githubexploit/F0979183-AE88-53B4-86CF-3AF0523F3807	*EXPLOIT*
+|     	CVE-2023-38408	7.5	https://vulners.com/cve/CVE-2023-38408
+|     	CVE-2023-28531	7.5	https://vulners.com/cve/CVE-2023-28531
+|     	B8190CDB-3EB9-5631-9828-8064A1575B23	7.5	https://vulners.com/githubexploit/B8190CDB-3EB9-5631-9828-8064A1575B23	*EXPLOIT*
+|     	1337DAY-ID-26576	7.5	https://vulners.com/zdt/1337DAY-ID-26576	*EXPLOIT*
+|     	PRION:CVE-2023-51385	6.4	https://vulners.com/prion/PRION:CVE-2023-51385
+|     	CVE-2023-51385	6.4	https://vulners.com/cve/CVE-2023-51385
+|_    	PACKETSTORM:140261	0.0	https://vulners.com/packetstorm/PACKETSTORM:140261	*EXPLOIT*
+80/tcp   open  http       nginx
+443/tcp  open  ssl/http   nginx
+2000/tcp open  tcpwrapped
+5060/tcp open  tcpwrapped
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 22:07:55 2024 -- 1 IP address (1 host up) scanned in 13.70 seconds

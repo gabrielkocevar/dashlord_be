@@ -353,7 +353,7 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "261 >= 60 days"
+              "finding"      : "231 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,21 +549,21 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+55 seconds from localtime"
+              "finding"      : "+178 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705483231"
+              "finding"      : "1708077698"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55 seconds"
+              "finding"      : "178 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -698,10 +698,10 @@
               "id"           : "secure_client_renego",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
-              "severity"     : "HIGH",
+              "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
               "cwe"          : "CWE-310",
-              "finding"      : "VULNERABLE, DoS threat"
+              "finding"      : "not vulnerable, mitigated"
           }
 ,         {
               "id"           : "CRIME_TLS",

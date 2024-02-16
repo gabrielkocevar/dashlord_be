@@ -1,12 +1,13 @@
-# Nmap 7.92 scan initiated Thu Jan 18 07:55:02 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln haut-conseil-egalite.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 22:23:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln haut-conseil-egalite.gouv.fr
 Nmap scan report for haut-conseil-egalite.gouv.fr (185.194.83.18)
-Host is up (0.0049s latency).
+Host is up (0.0062s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http-proxy  F5 BIG-IP load balancer http proxy
 |_http-server-header: BigIP
 113/tcp  closed ident
 443/tcp  open   ssl/https
+|_http-trane-info: Problem with XML parsing of /evox/about
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.0 404 Not Found
@@ -15,15 +16,15 @@ PORT     STATE  SERVICE     VERSION
 |     ERROR
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Thu, 18 Jan 2024 07:55:18 GMT
+|     Date: Fri, 16 Feb 2024 22:23:30 GMT
 |     X-Outils-CS: 
 |     Vary: Cookie,Accept-Encoding
-|     Composed-By: SPIP 4.1.13 @ www.spip.net + https://https:/local/config.txt
+|     Composed-By: SPIP 4.2.8 @ www.spip.net + https://https:/local/config.txt
 |     X-Spip-Cache: 86400
-|     Last-Modified: Thu, 18 Jan 2024 07:55:18 GMT
+|     Last-Modified: Fri, 16 Feb 2024 22:23:30 GMT
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-dgcs-hautconseilegalite2.cegedim.cloud-HTTP=!SsMR8mLBieY8FV9WDPlD0yXzT0UGhlpdL6MntNmrC7mVk1CFA2BaFM228AvpcPw7UejnkFIWqM9w9hUZaSgsVZ8TMk8=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dgcs-hautconseilegalite2.cegedim.cloud-HTTP=!szUdFz0O8roHT/NWDPlD0yXzT0UGhtMZ3DGt8MkDjApFoyj/xIvxra6GdjaN2MYOoEXB3KEdYICHW+TXBJUPyw3hAsI=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 |     <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
@@ -31,7 +32,7 @@ PORT     STATE  SERVICE     VERSION
 |     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 |     <title>Haut Conseil 
 |     galit
-|     entre les femmes et les hommes</t
+|     entre les femmes et les hommes</ti
 |   HTTPOptions: 
 |     HTTP/1.0 403 Forbidden
 |     Connection: close
@@ -42,20 +43,19 @@ PORT     STATE  SERVICE     VERSION
 |     Connection: close
 |     Content-Length: 9
 |_    ERROR
-|_http-trane-info: Problem with XML parsing of /evox/about
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/18%Time=65A8D966%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,11D9,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Thu,\x2018\
-SF:x20Jan\x202024\x2007:55:18\x20GMT\r\nX-Outils-CS:\x20\r\nVary:\x20Cooki
-SF:e,Accept-Encoding\r\nComposed-By:\x20SPIP\x204\.1\.13\x20@\x20www\.spip
-SF:\.net\x20\+\x20https://https:/local/config\.txt\r\nX-Spip-Cache:\x20864
-SF:00\r\nLast-Modified:\x20Thu,\x2018\x20Jan\x202024\x2007:55:18\x20GMT\r\
-SF:nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r
-SF:\nSet-Cookie:\x20BIGipServerpool-dgcs-hautconseilegalite2\.cegedim\.clo
-SF:ud-HTTP=!SsMR8mLBieY8FV9WDPlD0yXzT0UGhlpdL6MntNmrC7mVk1CFA2BaFM228AvpcP
-SF:w7UejnkFIWqM9w9hUZaSgsVZ8TMk8=;\x20path=/;\x20Httponly;\x20Secure\r\nSt
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/16%Time=65CFE062%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,11D9,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Fri,\x2016\
+SF:x20Feb\x202024\x2022:23:30\x20GMT\r\nX-Outils-CS:\x20\r\nVary:\x20Cooki
+SF:e,Accept-Encoding\r\nComposed-By:\x20SPIP\x204\.2\.8\x20@\x20www\.spip\
+SF:.net\x20\+\x20https://https:/local/config\.txt\r\nX-Spip-Cache:\x208640
+SF:0\r\nLast-Modified:\x20Fri,\x2016\x20Feb\x202024\x2022:23:30\x20GMT\r\n
+SF:Connection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\
+SF:nSet-Cookie:\x20BIGipServerpool-dgcs-hautconseilegalite2\.cegedim\.clou
+SF:d-HTTP=!szUdFz0O8roHT/NWDPlD0yXzT0UGhtMZ3DGt8MkDjApFoyj/xIvxra6GdjaN2MY
+SF:OoEXB3KEdYICHW\+TXBJUPyw3hAsI=;\x20path=/;\x20Httponly;\x20Secure\r\nSt
 SF:rict-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\
 SF:r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Tra
 SF:nsitional//EN\"\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitio
@@ -63,15 +63,15 @@ SF:nal\.dtd\">\r\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20lan
 SF:g=\"fr\"\x20xml:lang=\"fr\">\r\n<head>\r\n\t<meta\x20http-equiv=\"Conte
 SF:nt-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\r\n\t<title>
 SF:Haut\x20Conseil\x20\xc3\xa0\x20l'\xc3\x89galit\xc3\xa9\x20entre\x20les\
-SF:x20femmes\x20et\x20les\x20hommes</t")%r(HTTPOptions,49,"HTTP/1\.0\x2040
-SF:3\x20Forbidden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n4
-SF:03\x20ERROR")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\x20Not\x20Found\
-SF:r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n404\x20ERROR")%r
-SF:(RTSPRequest,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20c
-SF:lose\r\nContent-Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTT
-SF:P/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Leng
-SF:th:\x209\r\n\r\n400\x20ERROR");
+SF:x20femmes\x20et\x20les\x20hommes</ti")%r(HTTPOptions,49,"HTTP/1\.0\x204
+SF:03\x20Forbidden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n
+SF:403\x20ERROR")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\x20Not\x20Found
+SF:\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n404\x20ERROR")%
+SF:r(RTSPRequest,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20
+SF:close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HT
+SF:TP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Len
+SF:gth:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Jan 18 07:57:49 2024 -- 1 IP address (1 host up) scanned in 167.02 seconds
+# Nmap done at Fri Feb 16 22:26:01 2024 -- 1 IP address (1 host up) scanned in 167.23 seconds

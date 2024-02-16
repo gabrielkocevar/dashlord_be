@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jan 17 14:48:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln demission-reconversion.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 16 16:43:32 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln demission-reconversion.gouv.fr
 Host: 40.114.143.169 ()	Status: Up
 Host: 40.114.143.169 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///, 7777/closed/tcp//cbt///, 7778/closed/tcp//interwise///, 7800/closed/tcp//asr///, 8443/closed/tcp//https-alt///	Ignored State: filtered (990)
-# Nmap done at Wed Jan 17 14:51:27 2024 -- 1 IP address (1 host up) scanned in 167.03 seconds
+# Nmap done at Fri Feb 16 16:46:20 2024 -- 1 IP address (1 host up) scanned in 167.65 seconds

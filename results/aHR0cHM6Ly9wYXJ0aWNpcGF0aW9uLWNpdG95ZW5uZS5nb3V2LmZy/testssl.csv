@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"optimal_proto","participation-citoyenne.gouv.fr/51.68.27.186","443","WARN","participation-citoyenne.gouv.fr:443 appears to support TLS 1.3 ONLY, but /home/testssl/bin/openssl.Linux.x86_64 does not support TLS 1.3","",""

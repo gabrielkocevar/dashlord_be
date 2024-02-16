@@ -339,7 +339,7 @@
               "ip"           : "handicap.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "292 >= 60 days"
+              "finding"      : "263 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,21 +493,21 @@
               "ip"           : "handicap.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-133481 seconds from localtime"
+              "finding"      : "-67203 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "handicap.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705423217"
+              "finding"      : "1708050286"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "handicap.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7186 seconds"
+              "finding"      : "4036 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -607,7 +607,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: HITX-Cache-Hits: 37"
+              "finding"      : "X-Cache: HITX-Cache-Hits: 33"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1113,6 +1113,6 @@
               "ip"           : "handicap.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "40"
+              "finding"      : "45"
           }
 ]

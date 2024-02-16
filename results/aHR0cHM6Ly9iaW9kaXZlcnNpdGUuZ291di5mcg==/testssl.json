@@ -269,7 +269,7 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "32EA4A7D1D9EDF4ADCDDA1BB9531F9B2"
+              "finding"      : "ACA5A3E0F3AC366D74DFCCE9BEF8ACFF"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B0CFE770E586380F19E7CCA87D4F51F05E0B3379"
+              "finding"      : "FC9B013863AAB761A14193DEA91366775DA4D187"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "21DD5F3F3003DAF95FBD3F6FE1B2E2112B4006BC35DC4A8BB1A5FACEC382E1C8"
+              "finding"      : "D1AFDD8893A01A80F0E52F5256CF24C9BED60EAA5A322AA408056A2EAC7759CE"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "biodiversite.gouv.fr www.biodiversite.gouv.fr"
+              "finding"      : "www.biodiversite.gouv.fr biodiversite.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (15)"
+              "severity"     : "OK",
+              "finding"      : "350 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-01-29 23:00"
+              "finding"      : "2024-01-16 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-02-01 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-01-31 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -507,7 +507,7 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705488354"
+              "finding"      : "1708087022"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -757,7 +757,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=21DD5F3F3003DAF95FBD3F6FE1B2E2112B4006BC35DC4A8BB1A5FACEC382E1C8"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=D1AFDD8893A01A80F0E52F5256CF24C9BED60EAA5A322AA408056A2EAC7759CE"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1133,6 +1133,6 @@
               "ip"           : "biodiversite.gouv.fr/54.36.182.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "38"
+              "finding"      : "49"
           }
 ]

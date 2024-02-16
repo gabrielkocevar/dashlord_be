@@ -339,7 +339,7 @@
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "358 >= 60 days"
+              "finding"      : "328 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -524,6 +524,13 @@
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
+              "id"           : "insecure_redirect",
+              "ip"           : "dgse.gouv.fr/107.154.50.81",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "Redirect to insecure URL: 'http://dgse.gouv.fr/fr'"
+          }
+,         {
               "id"           : "HTTP_status_code",
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
@@ -535,14 +542,14 @@
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-3002027 seconds from localtime"
+              "finding"      : "-2487555 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1702501638"
+              "finding"      : "1705615541"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1154,6 +1161,6 @@
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "57"
           }
 ]

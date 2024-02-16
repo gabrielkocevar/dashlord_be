@@ -1,37 +1,111 @@
-# Nmap 7.92 scan initiated Wed Jan 17 18:13:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr
-Nmap scan report for francetnp.gouv.fr (87.252.16.12)
-Host is up (0.0094s latency).
-rDNS record for 87.252.16.12: mae-divers-web.oxyd.net
-Not shown: 983 filtered tcp ports (no-response)
-PORT     STATE  SERVICE      VERSION
-25/tcp   open   smtp         Postfix smtpd
-53/tcp   open   domain       (unknown banner: none)
+# Nmap 7.92 scan initiated Fri Feb 16 20:54:12 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr
+Nmap scan report for francetnp.gouv.fr (178.33.22.59)
+Host is up (0.043s latency).
+rDNS record for 178.33.22.59: ip59.ip-178-33-22.eu
+Not shown: 992 filtered tcp ports (port-unreach), 3 filtered tcp ports (no-response)
+PORT     STATE  SERVICE    VERSION
+80/tcp   open   http
 | fingerprint-strings: 
+|   DNSStatusRequestTCP: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Fri, 16 Feb 2024 20:54:32 GMT
+|     connection: close
+|     Request
 |   DNSVersionBindReqTCP: 
-|     version
-|     bind
-|_    none
-80/tcp   open   http         nginx
-106/tcp  open   tcpwrapped
-110/tcp  open   pop3         Dovecot pop3d
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Fri, 16 Feb 2024 20:54:31 GMT
+|     connection: close
+|     Request
+|   FourOhFourRequest: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Fri, 16 Feb 2024 20:54:24 GMT
+|     connection: close
+|     content-length: 0
+|   GetRequest: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Fri, 16 Feb 2024 20:54:20 GMT
+|     connection: close
+|     content-length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Fri, 16 Feb 2024 20:54:21 GMT
+|     connection: close
+|     content-length: 0
+|   Help: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Fri, 16 Feb 2024 20:54:34 GMT
+|     connection: close
+|     Request
+|   RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Fri, 16 Feb 2024 20:54:30 GMT
+|     connection: close
+|     Request
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Fri, 16 Feb 2024 20:54:22 GMT
+|     connection: close
+|     Request
+|   SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Fri, 16 Feb 2024 20:54:35 GMT
+|     connection: close
+|     Request
+|   X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Fri, 16 Feb 2024 20:54:23 GMT
+|     connection: close
+|_    Request
 113/tcp  closed ident
-139/tcp  closed netbios-ssn
-143/tcp  open   imap         Dovecot imapd
-443/tcp  open   ssl/http     nginx
-445/tcp  closed microsoft-ds
-465/tcp  open   ssl/smtp     Postfix smtpd
-587/tcp  closed submission
-993/tcp  open   ssl/imap     Dovecot imapd
-995/tcp  open   ssl/pop3     Dovecot pop3d
-2000/tcp open   cisco-sccp?
-5060/tcp open   sip?
-5432/tcp closed postgresql
+443/tcp  open   ssl/https
+|_http-server-header: nginx
+2000/tcp open   tcpwrapped
+5060/tcp open   tcpwrapped
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port53-TCP:V=7.92%I=7%D=1/17%Time=65A818F3%P=x86_64-alpine-linux-musl%r
-SF:(DNSVersionBindReqTCP,3F,"\0=\0\x06\x85\0\0\x01\0\x01\0\x01\0\0\x07vers
-SF:ion\x04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\x05\x04none\xc0
-SF:\x0c\0\x02\0\x03\0\0\0\0\0\x02\xc0\x0c");
-Service Info: Host:  mae-divers-web.oxyd.net
+SF-Port80-TCP:V=7.92%I=7%D=2/16%Time=65CFCB7D%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,6C,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x20Fri
+SF:,\x2016\x20Feb\x202024\x2020:54:20\x20GMT\r\nconnection:\x20close\r\nco
+SF:ntent-length:\x200\r\n\r\n")%r(HTTPOptions,6C,"HTTP/1\.1\x20426\x20Upgr
+SF:ade\x20Required\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2020:54:21\x20GM
+SF:T\r\nconnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(RTSPReque
+SF:st,8D,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\nc
+SF:ontent-type:\x20text/plain\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2020:
+SF:54:22\x20GMT\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(X11Probe
+SF:,8D,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncon
+SF:tent-type:\x20text/plain\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2020:54
+SF::23\x20GMT\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(FourOhFour
+SF:Request,6C,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x20Fri,\x2
+SF:016\x20Feb\x202024\x2020:54:24\x20GMT\r\nconnection:\x20close\r\nconten
+SF:t-length:\x200\r\n\r\n")%r(RPCCheck,8D,"HTTP/1\.1\x20400\x20Bad\x20Requ
+SF:est\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x2
+SF:0Fri,\x2016\x20Feb\x202024\x2020:54:30\x20GMT\r\nconnection:\x20close\r
+SF:\n\r\nBad\x20Request")%r(DNSVersionBindReqTCP,8D,"HTTP/1\.1\x20400\x20B
+SF:ad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r
+SF:\ndate:\x20Fri,\x2016\x20Feb\x202024\x2020:54:31\x20GMT\r\nconnection:\
+SF:x20close\r\n\r\nBad\x20Request")%r(DNSStatusRequestTCP,8D,"HTTP/1\.1\x2
+SF:0400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20tex
+SF:t/plain\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2020:54:32\x20GMT\r\ncon
+SF:nection:\x20close\r\n\r\nBad\x20Request")%r(Help,8D,"HTTP/1\.1\x20400\x
+SF:20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plai
+SF:n\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2020:54:34\x20GMT\r\nconnectio
+SF:n:\x20close\r\n\r\nBad\x20Request")%r(SSLSessionReq,8D,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/p
+SF:lain\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2020:54:35\x20GMT\r\nconnec
+SF:tion:\x20close\r\n\r\nBad\x20Request");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jan 17 18:16:43 2024 -- 1 IP address (1 host up) scanned in 167.64 seconds
+# Nmap done at Fri Feb 16 20:54:57 2024 -- 1 IP address (1 host up) scanned in 45.77 seconds

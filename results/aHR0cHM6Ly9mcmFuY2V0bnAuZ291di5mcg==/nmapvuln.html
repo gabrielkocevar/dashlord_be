@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr</pre>
-<p class="lead">Wed Jan 17 18:13:55 2024 – Wed Jan 17 18:16:43 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 20:54:12 2024 – Fri Feb 16 20:54:57 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>87.252.16.12</td>
+<td>178.33.22.59</td>
 <td>francetnp.gouv.fr</td>
-<td>12</td>
+<td>4</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#87-252-16-12"><h3 class="panel-title">87.252.16.12 - francetnp.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="87-252-16-12">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#178-33-22-59"><h3 class="panel-title">178.33.22.59 - francetnp.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="178-33-22-59">
 <h4>Hostnames</h4>
 <ul>
 <li>francetnp.gouv.fr (user)</li>
-<li>mae-divers-web.oxyd.net (PTR)</li>
+<li>ip59.ip-178-33-22.eu (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -111,62 +111,82 @@
 </tr></thead>
 <tbody>
 <tr class="success">
-<td title="Port">25</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">smtp</td>
-<td title="Product">Postfix smtpd</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:postfix:postfix">cpe:/a:postfix:postfix</a></td></tr>
-<tr class="success">
-<td title="Port">53</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">domain</td>
-<td title="Product"></td>
-<td title="Version"></td>
-<td title="Extra Info">unknown banner: none</td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSVersionBindReqTCP: 
-    version
-    bind
-    none</pre>
-</td></tr>
-<tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
-<tr class="success">
-<td title="Port">106</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
-<tr class="success">
-<td title="Port">110</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">pop3</td>
-<td title="Product">Dovecot pop3d</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  DNSStatusRequestTCP: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Fri, 16 Feb 2024 20:54:32 GMT
+    connection: close
+    Request
+  DNSVersionBindReqTCP: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Fri, 16 Feb 2024 20:54:31 GMT
+    connection: close
+    Request
+  FourOhFourRequest: 
+    HTTP/1.1 426 Upgrade Required
+    date: Fri, 16 Feb 2024 20:54:24 GMT
+    connection: close
+    content-length: 0
+  GetRequest: 
+    HTTP/1.1 426 Upgrade Required
+    date: Fri, 16 Feb 2024 20:54:20 GMT
+    connection: close
+    content-length: 0
+  HTTPOptions: 
+    HTTP/1.1 426 Upgrade Required
+    date: Fri, 16 Feb 2024 20:54:21 GMT
+    connection: close
+    content-length: 0
+  Help: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Fri, 16 Feb 2024 20:54:34 GMT
+    connection: close
+    Request
+  RPCCheck: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Fri, 16 Feb 2024 20:54:30 GMT
+    connection: close
+    Request
+  RTSPRequest: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Fri, 16 Feb 2024 20:54:22 GMT
+    connection: close
+    Request
+  SSLSessionReq: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Fri, 16 Feb 2024 20:54:35 GMT
+    connection: close
+    Request
+  X11Probe: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Fri, 16 Feb 2024 20:54:23 GMT
+    connection: close
+    Request</pre>
+</td></tr>
 <tr class="active">
 <td>113</td>
 <td>tcp</td>
@@ -176,88 +196,24 @@
 <td></td>
 <td></td>
 </tr>
-<tr class="active">
-<td>139</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>netbios-ssn</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="success">
-<td title="Port">143</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">imap</td>
-<td title="Product">Dovecot imapd</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Service">https</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
-<tr class="active">
-<td>445</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>microsoft-ds</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="success">
-<td title="Port">465</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">smtp</td>
-<td title="Product">Postfix smtpd</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:postfix:postfix">cpe:/a:postfix:postfix</a></td></tr>
-<tr class="active">
-<td>587</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>submission</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="success">
-<td title="Port">993</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">imap</td>
-<td title="Product">Dovecot imapd</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
-<tr class="success">
-<td title="Port">995</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">pop3</td>
-<td title="Product">Dovecot pop3d</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx</pre>
+</td></tr>
 <tr class="success">
 <td title="Port">2000</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">cisco-sccp</td>
+<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
@@ -267,21 +223,12 @@
 <td title="Port">5060</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">sip</td>
+<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
-<tr class="active">
-<td>5432</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>postgresql</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 </tbody>
 </table></div>
 </div>
@@ -300,38 +247,28 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>25</td>
-<td>tcp</td>
-<td>smtp</td>
-<td>Postfix smtpd</td>
-<td></td>
-<td>cpe:/a:postfix:postfix</td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>53</td>
-<td>tcp</td>
-<td>domain</td>
-<td></td>
-<td></td>
-<td></td>
-<td>unknown banner: none</td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
+<td>178.33.22.59 - francetnp.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>106</td>
+<td>178.33.22.59 - francetnp.gouv.fr</td>
+<td>443</td>
+<td>tcp</td>
+<td>https</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>178.33.22.59 - francetnp.gouv.fr</td>
+<td>2000</td>
 <td>tcp</td>
 <td>tcpwrapped</td>
 <td></td>
@@ -340,80 +277,10 @@
 <td></td>
 </tr>
 <tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>110</td>
-<td>tcp</td>
-<td>pop3</td>
-<td>Dovecot pop3d</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>143</td>
-<td>tcp</td>
-<td>imap</td>
-<td>Dovecot imapd</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>443</td>
-<td>tcp</td>
-<td>http</td>
-<td>nginx</td>
-<td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>465</td>
-<td>tcp</td>
-<td>smtp</td>
-<td>Postfix smtpd</td>
-<td></td>
-<td>cpe:/a:postfix:postfix</td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>993</td>
-<td>tcp</td>
-<td>imap</td>
-<td>Dovecot imapd</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>995</td>
-<td>tcp</td>
-<td>pop3</td>
-<td>Dovecot pop3d</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
-<td>2000</td>
-<td>tcp</td>
-<td>cisco-sccp</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>87.252.16.12 - francetnp.gouv.fr</td>
+<td>178.33.22.59 - francetnp.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
-<td>sip</td>
+<td>tcpwrapped</td>
 <td></td>
 <td></td>
 <td></td>

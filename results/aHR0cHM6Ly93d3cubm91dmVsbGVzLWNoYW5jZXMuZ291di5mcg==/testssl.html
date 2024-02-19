@@ -25,7 +25,7 @@
  (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
 
 
-<span style="color:white;background-color:black;"> Start 2024-02-16 20:25:42                --&gt;&gt; 213.91.3.170:443 (www.nouvelles-chances.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-02-19 17:04:05                --&gt;&gt; 213.91.3.170:443 (www.nouvelles-chances.gouv.fr) &lt;&lt;--</span>
 
  rDNS (213.91.3.170):    onisep.fr.
  Service detected:       HTTP
@@ -108,7 +108,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">285 &gt;= 60 days</span> (2023-11-28 00:00 --&gt; 2024-11-27 23:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">282 &gt;= 60 days</span> (2023-11-28 00:00 --&gt; 2024-11-27 23:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://GEANT.crl.sectigo.com/GEANTOVRSACA4.crl
 <span style="font-weight:bold;"> OCSP URI                     </span>http://GEANT.ocsp.sectigo.com
@@ -127,15 +127,41 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
 <span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          231
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          710
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#c05600;">6307200 s = 73 days is too short ( &gt;= 15552000 seconds recommended)</span><span style="color:#008817;">, includeSubDomains</span><span style="color:#008817;">, preload</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>(no &quot;Server&quot; line in header, interesting!)
 <span style="font-weight:bold;"> Application banner           </span>x-powered-by: Ibexa Experience v<span style="color:#8a7237;">4</span>
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;)
-<span style="font-weight:bold;"> Security headers             </span>Cache-Control: public, s-maxage=600,
+<span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">Content-Security-Policy</span>: frame-ancestors &apos;self&apos;
+                                *.onisep.fr *.onisep-preprod.fr *.gouv.fr
+                                www.meformerenregion.fr;block-all-mixed-content;script-src 
+                                self&apos; &apos;report-sample&apos; &apos;unsafe-inline&apos;
+                                &apos;unsafe-eval&apos; *.onisep.fr *.onisep-preprod.fr
+                                tag.aticdn.net https://*.googletagservices.com
+                                https://*.googlesyndication.com
+                                https://*.google.com
+                                https://*.googleadservices.com
+                                https://*.doubleclick.net https://m.youtube.com
+                                https://maps.googleapis.com
+                                https://maps.google.com
+                                https://securepubads.g.doubleclick.net
+                                https://www.youtube.com;style-src &apos;self&apos;
+                                &apos;report-sample&apos; &apos;unsafe-inline&apos; *.google.com
+                                fonts.googleapis.com;object-src
+                                *.googlesyndication.com;child-src &apos;self&apos; blob:
+                                *.onisep.fr *.onisep-preprod.fr *.gouv.fr
+                                *.google.com www.dailymotion.com v.calameo.com
+                                view.genial.ly *.doubleclick.net
+                                *.googlesyndication.com *.googleadservices.com
+                                www.youtube.com www.youtube-nocookie.com
+                                player.vimeo.com livee.com;base-uri
+                                &apos;self&apos;;form-action &apos;self&apos;
+                                *.google.com;worker-src &apos;self&apos; blob:
+                                www.google.com
+                              Cache-Control: public, s-maxage=600,
                                 stale-while-revalidate=300, stale-if-error=300
-<span style="font-weight:bold;"> Reverse Proxy banner         </span>x-varnish: <span style="color:#8a7237;">7</span><span style="color:#8a7237;">2</span><span style="color:#8a7237;">7</span><span style="color:#8a7237;">4</span><span style="color:#8a7237;">6</span><span style="color:#8a7237;">9</span><span style="color:#8a7237;">3</span><span style="color:#8a7237;">4</span> <span style="color:#8a7237;">6</span><span style="color:#8a7237;">9</span><span style="color:#8a7237;">5</span><span style="color:#8a7237;">8</span><span style="color:#8a7237;">1</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">6</span><span style="color:#8a7237;">4</span>
+<span style="font-weight:bold;"> Reverse Proxy banner         </span>x-varnish: <span style="color:#8a7237;">1</span><span style="color:#8a7237;">2</span><span style="color:#8a7237;">2</span><span style="color:#8a7237;">9</span><span style="color:#8a7237;">8</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">9</span><span style="color:#8a7237;">9</span><span style="color:#8a7237;">8</span> <span style="color:#8a7237;">1</span><span style="color:#8a7237;">2</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">5</span><span style="color:#8a7237;">7</span><span style="color:#8a7237;">6</span><span style="color:#8a7237;">6</span><span style="color:#8a7237;">7</span><span style="color:#8a7237;">3</span>
                               via: <span style="color:#8a7237;">1</span>.<span style="color:#8a7237;">1</span> varnish (Varnish/<span style="color:#8a7237;">6</span>.<span style="color:#8a7237;">2</span>)
 
 
@@ -217,7 +243,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS max-age is too short
 
-<span style="color:white;background-color:black;"> Done 2024-02-16 20:26:47 [  68s] --&gt;&gt; 213.91.3.170:443 (www.nouvelles-chances.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-02-19 17:05:31 [  89s] --&gt;&gt; 213.91.3.170:443 (www.nouvelles-chances.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>

@@ -339,7 +339,7 @@
               "ip"           : "insp.gouv.fr/46.105.203.79",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "51 >= 30 days"
+              "finding"      : "48 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "insp.gouv.fr/46.105.203.79",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1708092499"
+              "finding"      : "1708340519"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -1148,6 +1148,6 @@
               "ip"           : "insp.gouv.fr/46.105.203.79",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "51"
+              "finding"      : "70"
           }
 ]

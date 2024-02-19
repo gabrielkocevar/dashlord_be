@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Feb 16 21:41:23 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln participation-citoyenne.gouv.fr
+# Nmap 7.92 scan initiated Mon Feb 19 18:29:01 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln participation-citoyenne.gouv.fr
 Host: 51.68.27.186 (ip186.ip-51-68-27.eu)	Status: Up
 Host: 51.68.27.186 (ip186.ip-51-68-27.eu)	Ports: 22/open/tcp//ssh//OpenSSH 7.8 (protocol 2.0)/, 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (994)
-# Nmap done at Fri Feb 16 21:44:11 2024 -- 1 IP address (1 host up) scanned in 167.12 seconds
+# Nmap done at Mon Feb 19 18:31:49 2024 -- 1 IP address (1 host up) scanned in 168.12 seconds

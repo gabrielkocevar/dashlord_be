@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Feb 16 18:25:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln merlittoral2030.gouv.fr
+# Nmap 7.92 scan initiated Mon Feb 19 14:53:28 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln merlittoral2030.gouv.fr
 Nmap scan report for merlittoral2030.gouv.fr (79.137.76.37)
-Host is up (0.012s latency).
+Host is up (0.0096s latency).
 rDNS record for 79.137.76.37: vps381334.ovh.net
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -11,4 +11,4 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Feb 16 18:28:07 2024 -- 1 IP address (1 host up) scanned in 167.95 seconds
+# Nmap done at Mon Feb 19 14:56:16 2024 -- 1 IP address (1 host up) scanned in 168.09 seconds

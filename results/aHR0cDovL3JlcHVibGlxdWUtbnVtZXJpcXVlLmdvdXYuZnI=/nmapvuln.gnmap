@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Feb 16 23:50:13 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln republique-numerique.gouv.fr
+# Nmap 7.92 scan initiated Mon Feb 19 22:13:32 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln republique-numerique.gouv.fr
 Host: 217.70.184.38 (webredir.vip.gandi.net)	Status: Up
 Host: 217.70.184.38 (webredir.vip.gandi.net)	Ports: 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/closed/tcp//https///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Fri Feb 16 23:53:00 2024 -- 1 IP address (1 host up) scanned in 167.33 seconds
+# Nmap done at Mon Feb 19 22:16:19 2024 -- 1 IP address (1 host up) scanned in 167.71 seconds

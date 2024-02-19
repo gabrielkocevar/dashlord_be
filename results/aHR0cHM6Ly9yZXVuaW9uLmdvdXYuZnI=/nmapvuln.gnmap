@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Feb 17 00:01:54 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln reunion.gouv.fr
+# Nmap 7.92 scan initiated Mon Feb 19 22:27:24 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln reunion.gouv.fr
 Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Status: Up
 Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Ports: 80/open/tcp//http//Apache/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//Apache/, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Sat Feb 17 00:04:42 2024 -- 1 IP address (1 host up) scanned in 168.03 seconds
+# Nmap done at Mon Feb 19 22:30:11 2024 -- 1 IP address (1 host up) scanned in 167.79 seconds

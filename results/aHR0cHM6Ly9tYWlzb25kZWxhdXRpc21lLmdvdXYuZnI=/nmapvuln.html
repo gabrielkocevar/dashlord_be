@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maisondelautisme.gouv.fr</pre>
-<p class="lead">Fri Feb 16 17:23:39 2024 – Fri Feb 16 17:26:27 2024<br>1 hosts scanned.
+<p class="lead">Mon Feb 19 13:41:42 2024 – Mon Feb 19 13:44:32 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>20.74.14.77</td>
+<td>94.23.123.122</td>
 <td>maisondelautisme.gouv.fr</td>
-<td>4</td>
+<td>5</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,10 +91,13 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#20-74-14-77"><h3 class="panel-title">20.74.14.77 - maisondelautisme.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="20-74-14-77">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#94-23-123-122"><h3 class="panel-title">94.23.123.122 - maisondelautisme.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="94-23-123-122">
 <h4>Hostnames</h4>
-<ul><li>maisondelautisme.gouv.fr (user)</li></ul>
+<ul>
+<li>maisondelautisme.gouv.fr (user)</li>
+<li>ip122.ip-94-23-123.eu (PTR)</li>
+</ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -108,15 +111,45 @@
 </tr></thead>
 <tbody>
 <tr class="success">
+<td title="Port">22</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">ssh</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info">protocol 2.0</td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  NULL: 
+    SSH-2.0-Platform.sh</pre>
+</td></tr>
+<tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Service">http-proxy</td>
+<td title="Product"></td>
 <td title="Version"></td>
-<td title="Extra Info">reverse proxy</td>
+<td title="Extra Info">bad gateway</td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest, GetRequest, HTTPOptions: 
+    HTTP/1.0 502 Bad Gateway
+    Cache-Control: private, max-age=0
+    Content-Type: application/json
+    Date: Mon, 19 Feb 2024 13:41:53 GMT
+    Content-Length: 47
+    {"status":502,"message":"No route known for "}
+  GenericLines, Help, NessusTPv10, RTSPRequest, SSLSessionReq, Socks5: 
+    HTTP/1.1 400 Bad Request
+    Content-Type: text/plain; charset=utf-8
+    Connection: close
+    Request</pre>
+</td></tr>
 <tr class="active">
 <td>113</td>
 <td>tcp</td>
@@ -130,12 +163,27 @@
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Service">http-proxy</td>
+<td title="Product"></td>
 <td title="Version"></td>
-<td title="Extra Info">reverse proxy</td>
+<td title="Extra Info">bad gateway</td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest, GetRequest, HTTPOptions: 
+    HTTP/1.0 502 Bad Gateway
+    Cache-Control: private, max-age=0
+    Content-Type: application/json
+    Date: Mon, 19 Feb 2024 13:41:59 GMT
+    Content-Length: 47
+    {"status":502,"message":"No route known for "}
+  GenericLines, Help, NessusTPv10, RTSPRequest, SSLSessionReq, Socks5: 
+    HTTP/1.1 400 Bad Request
+    Content-Type: text/plain; charset=utf-8
+    Connection: close
+    Request</pre>
+</td></tr>
 <tr class="success">
 <td title="Port">2000</td>
 <td title="Protocol">tcp</td>
@@ -174,27 +222,37 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>20.74.14.77 - maisondelautisme.gouv.fr</td>
+<td>94.23.123.122 - maisondelautisme.gouv.fr</td>
+<td>22</td>
+<td>tcp</td>
+<td>ssh</td>
+<td></td>
+<td></td>
+<td></td>
+<td>protocol 2.0</td>
+</tr>
+<tr>
+<td>94.23.123.122 - maisondelautisme.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
+<td>http-proxy</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td>reverse proxy</td>
+<td></td>
+<td></td>
+<td>bad gateway</td>
 </tr>
 <tr>
-<td>20.74.14.77 - maisondelautisme.gouv.fr</td>
+<td>94.23.123.122 - maisondelautisme.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
+<td>http-proxy</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td>reverse proxy</td>
+<td></td>
+<td></td>
+<td>bad gateway</td>
 </tr>
 <tr>
-<td>20.74.14.77 - maisondelautisme.gouv.fr</td>
+<td>94.23.123.122 - maisondelautisme.gouv.fr</td>
 <td>2000</td>
 <td>tcp</td>
 <td>cisco-sccp</td>
@@ -204,7 +262,7 @@
 <td></td>
 </tr>
 <tr>
-<td>20.74.14.77 - maisondelautisme.gouv.fr</td>
+<td>94.23.123.122 - maisondelautisme.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
 <td>sip</td>

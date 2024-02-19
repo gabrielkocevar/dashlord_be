@@ -339,7 +339,7 @@
               "ip"           : "modernisation.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "267 >= 60 days"
+              "finding"      : "264 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "modernisation.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1708109573"
+              "finding"      : "1708356383"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1063,6 +1063,6 @@
               "ip"           : "modernisation.gouv.fr/80.87.236.17",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "76"
           }
 ]

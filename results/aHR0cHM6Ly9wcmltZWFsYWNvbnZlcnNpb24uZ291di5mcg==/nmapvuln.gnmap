@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Feb 16 23:04:38 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln primealaconversion.gouv.fr
+# Nmap 7.92 scan initiated Mon Feb 19 21:20:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln primealaconversion.gouv.fr
 Host: 217.109.233.87 (d96de957.fsp.oleane.fr)	Status: Up
 Host: 217.109.233.87 (d96de957.fsp.oleane.fr)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https?///, 2000/open/tcp//cisco-sccp?///, 5060/open/tcp//sip?///	Ignored State: filtered (995)
-# Nmap done at Fri Feb 16 23:07:53 2024 -- 1 IP address (1 host up) scanned in 195.10 seconds
+# Nmap done at Mon Feb 19 21:23:57 2024 -- 1 IP address (1 host up) scanned in 194.52 seconds

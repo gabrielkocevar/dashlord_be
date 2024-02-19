@@ -339,7 +339,7 @@
               "ip"           : "ivg.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "85 >= 60 days"
+              "finding"      : "82 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,21 +493,21 @@
               "ip"           : "ivg.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-456211 seconds from localtime"
+              "finding"      : "-102928 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "ivg.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1707630193"
+              "finding"      : "1708237027"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "ivg.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7920 seconds"
+              "finding"      : "1854 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -607,7 +607,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: HITX-Cache-Hits: 94"
+              "finding"      : "X-Cache: HITX-Cache-Hits: 29"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1113,6 +1113,6 @@
               "ip"           : "ivg.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "48"
+              "finding"      : "62"
           }
 ]

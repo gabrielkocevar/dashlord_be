@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Feb 16 14:39:21 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ivg.gouv.fr
+# Nmap 7.92 scan initiated Mon Feb 19 11:24:15 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ivg.gouv.fr
 Nmap scan report for ivg.gouv.fr (185.194.82.206)
-Host is up (0.0062s latency).
+Host is up (0.0052s latency).
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
 80/tcp   open   http-proxy  F5 BIG-IP load balancer http proxy
@@ -10,7 +10,7 @@ PORT     STATE  SERVICE     VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest, GetRequest, HTTPOptions: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Fri, 16 Feb 2024 14:39:39 GMT
+|     Date: Mon, 19 Feb 2024 11:24:32 GMT
 |     Content-Length: 226
 |     Content-Type: text/html; charset=iso-8859-1
 |     Age: 0
@@ -29,9 +29,9 @@ PORT     STATE  SERVICE     VERSION
 2000/tcp open   cisco-sccp?
 5060/tcp open   sip?
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/16%Time=65CF73AB%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/19%Time=65D33A70%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20
-SF:Fri,\x2016\x20Feb\x202024\x2014:39:39\x20GMT\r\nContent-Length:\x20226\
+SF:Mon,\x2019\x20Feb\x202024\x2011:24:32\x20GMT\r\nContent-Length:\x20226\
 SF:r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-
 SF:Cache:\x20MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Coo
 SF:kie:\x20BIGipServerpool-handicap-v2\.cegedim\.cloud-HTTP=3468974346\.20
@@ -40,8 +40,8 @@ SF:20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title
 SF:>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>\
 SF:n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20server\x
 SF:20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(HTT
-SF:POptions,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Fri,\x2016
-SF:\x20Feb\x202024\x2014:39:39\x20GMT\r\nContent-Length:\x20226\r\nContent
+SF:POptions,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Mon,\x2019
+SF:\x20Feb\x202024\x2011:24:32\x20GMT\r\nContent-Length:\x20226\r\nContent
 SF:-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-Cache:\x20
 SF:MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Cookie:\x20BI
 SF:GipServerpool-handicap-v2\.cegedim\.cloud-HTTP=3468974346\.20480\.0000;
@@ -50,8 +50,8 @@ SF:20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Ba
 SF:d\x20Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x
 SF:20browser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x2
 SF:0not\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(FourOhFourReq
-SF:uest,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Fri,\x2016\x20
-SF:Feb\x202024\x2014:39:39\x20GMT\r\nContent-Length:\x20226\r\nContent-Typ
+SF:uest,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Mon,\x2019\x20
+SF:Feb\x202024\x2011:24:32\x20GMT\r\nContent-Length:\x20226\r\nContent-Typ
 SF:e:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-Cache:\x20MISS
 SF:\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Cookie:\x20BIGipS
 SF:erverpool-handicap-v2\.cegedim\.cloud-HTTP=3468974346\.20480\.0000;\x20
@@ -63,4 +63,4 @@ SF:\x20understand\.<br\x20/>\n</p>\n</body></html>\n");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Feb 16 14:42:10 2024 -- 1 IP address (1 host up) scanned in 168.93 seconds
+# Nmap done at Mon Feb 19 11:27:03 2024 -- 1 IP address (1 host up) scanned in 168.86 seconds

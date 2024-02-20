@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cybermalveillance.gouv.fr</pre>
-<p class="lead">Wed Jan 17 14:14:45 2024 – Wed Jan 17 14:17:33 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 16:12:37 2024 – Fri Feb 16 16:15:24 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -267,18 +267,16 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">sw-cp-server</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 404 Not Found
     Server: sw-cp-server
-    Date: Wed, 17 Jan 2024 14:15:02 GMT
+    Date: Fri, 16 Feb 2024 16:12:53 GMT
     Content-Type: text/html
     Content-Length: 906
     Connection: close
-    ETag: "6580179b-38a"
+    ETag: "65afd86e-38a"
     &lt;!DOCTYPE html&gt;
     &lt;!-- Copyright 1999-2023. Plesk International GmbH. All rights reserved. --&gt;
     &lt;html lang="en" dir="ltr"&gt;
@@ -298,11 +296,11 @@
   GetRequest: 
     HTTP/1.1 303 See Other
     Server: sw-cp-server
-    Date: Wed, 17 Jan 2024 14:15:02 GMT
+    Date: Fri, 16 Feb 2024 16:12:53 GMT
     Content-Type: text/html; charset=UTF-8
     Connection: close
     Expires: Fri, 28 May 1999 00:00:00 GMT
-    Last-Modified: Wed, 17 Jan 2024 14:15:02 GMT
+    Last-Modified: Fri, 16 Feb 2024 16:12:53 GMT
     Cache-Control: no-store, no-cache, must-revalidate
     Cache-Control: post-check=0, pre-check=0
     Pragma: no-cache
@@ -310,14 +308,15 @@
     X-Frame-Options: SAMEORIGIN
     X-XSS-Protection: 1; mode=block
     Location: https://localhost:8443/login.php
+    X-Content-Type-Options: nosniff
   HTTPOptions: 
     HTTP/1.1 405 Not Allowed
     Server: sw-cp-server
-    Date: Wed, 17 Jan 2024 14:15:02 GMT
+    Date: Fri, 16 Feb 2024 16:12:53 GMT
     Content-Type: text/html
     Content-Length: 914
     Connection: close
-    ETag: "6580179b-392"
+    ETag: "65afd86e-392"
     &lt;!DOCTYPE html&gt;
     &lt;!-- Copyright 1999-2023. Plesk International GmbH. All rights reserved. --&gt;
     &lt;html lang="en" dir="ltr"&gt;
@@ -333,6 +332,8 @@
     &lt;script src="/error_docs/uat.js?v3"&gt;&lt;/script&gt;
     &lt;link href="/error_docs/app.css?a8338f528ed5fc952063" rel="stylesheet"&gt;&lt;/head&gt;
     &lt;body&gt;</pre>
+<h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">sw-cp-server</pre>
 </td></tr>
 </tbody>
 </table></div>

@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln devenirenseignant.gouv.fr</pre>
-<p class="lead">Wed Jan 17 14:58:14 2024 – Wed Jan 17 14:59:04 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 16:59:58 2024 – Fri Feb 16 17:02:46 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>185.75.143.93</td>
 <td>devenirenseignant.gouv.fr</td>
-<td>5</td>
+<td>4</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -110,25 +110,6 @@
 <th>Extra Info</th>
 </tr></thead>
 <tbody>
-<tr class="success">
-<td title="Port">22</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">ssh</td>
-<td title="Product">OpenSSH</td>
-<td title="Version">8.0</td>
-<td title="Extra Info">protocol 2.0</td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:openbsd:openssh:8.0">cpe:/a:openbsd:openssh:8.0</a><h5>vulners</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:openbsd:openssh:8.0: 
-    	CVE-2020-15778	6.8	https://vulners.com/cve/CVE-2020-15778
-    	C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	6.8	https://vulners.com/githubexploit/C94132FD-1FA5-5342-B6EE-0DAF45EEFFE3	*EXPLOIT*
-    	10213DBE-F683-58BB-B6D3-353173626207	6.8	https://vulners.com/githubexploit/10213DBE-F683-58BB-B6D3-353173626207	*EXPLOIT*
-    	PRION:CVE-2016-20012	5.0	https://vulners.com/prion/PRION:CVE-2016-20012
-    	PRION:CVE-2010-4816	5.0	https://vulners.com/prion/PRION:CVE-2010-4816</pre>
-</td></tr>
 <tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
@@ -178,7 +159,7 @@
 <td title="Port">5060</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
+<td title="Service">sip</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
@@ -201,16 +182,6 @@
 <th>Extra info</th>
 </tr></thead>
 <tbody>
-<tr>
-<td>185.75.143.93 - devenirenseignant.gouv.fr</td>
-<td>22</td>
-<td>tcp</td>
-<td>ssh</td>
-<td>OpenSSH</td>
-<td>8.0</td>
-<td>cpe:/a:openbsd:openssh:8.0</td>
-<td>protocol 2.0</td>
-</tr>
 <tr>
 <td>185.75.143.93 - devenirenseignant.gouv.fr</td>
 <td>80</td>
@@ -245,7 +216,7 @@
 <td>185.75.143.93 - devenirenseignant.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
-<td>tcpwrapped</td>
+<td>sip</td>
 <td></td>
 <td></td>
 <td></td>

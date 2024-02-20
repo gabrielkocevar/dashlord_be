@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln drdjscs.gouv.fr</pre>
-<p class="lead">Wed Jan 17 15:29:09 2024 – Wed Jan 17 15:29:53 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 17:47:49 2024 – Fri Feb 16 17:50:36 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>185.75.143.22</td>
 <td>drdjscs.gouv.fr</td>
-<td>5</td>
+<td>4</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -110,44 +110,6 @@
 <th>Extra Info</th>
 </tr></thead>
 <tbody>
-<tr class="success">
-<td title="Port">22</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">ssh</td>
-<td title="Product">OpenSSH</td>
-<td title="Version">7.4</td>
-<td title="Extra Info">protocol 2.0</td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:openbsd:openssh:7.4">cpe:/a:openbsd:openssh:7.4</a><h5>vulners</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:openbsd:openssh:7.4: 
-    	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
-    	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
-    	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
-    	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
-    	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
-    	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
-    	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
-    	SSH_ENUM	5.0	https://vulners.com/canvas/SSH_ENUM	*EXPLOIT*
-    	PRION:CVE-2018-15919	5.0	https://vulners.com/prion/PRION:CVE-2018-15919
-    	PRION:CVE-2018-15473	5.0	https://vulners.com/prion/PRION:CVE-2018-15473
-    	PRION:CVE-2017-15906	5.0	https://vulners.com/prion/PRION:CVE-2017-15906
-    	PACKETSTORM:150621	5.0	https://vulners.com/packetstorm/PACKETSTORM:150621	*EXPLOIT*
-    	EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0	5.0	https://vulners.com/exploitpack/EXPLOITPACK:F957D7E8A0CC1E23C3C649B764E13FB0	*EXPLOIT*
-    	EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283	5.0	https://vulners.com/exploitpack/EXPLOITPACK:EBDBC5685E3276D648B4D14B75563283	*EXPLOIT*
-    	EDB-ID:45939	5.0	https://vulners.com/exploitdb/EDB-ID:45939	*EXPLOIT*
-    	EDB-ID:45233	5.0	https://vulners.com/exploitdb/EDB-ID:45233	*EXPLOIT*
-    	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
-    	CVE-2018-15473	5.0	https://vulners.com/cve/CVE-2018-15473
-    	CVE-2017-15906	5.0	https://vulners.com/cve/CVE-2017-15906
-    	CVE-2016-10708	5.0	https://vulners.com/cve/CVE-2016-10708
-    	1337DAY-ID-31730	5.0	https://vulners.com/zdt/1337DAY-ID-31730	*EXPLOIT*
-    	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
-    	MSF:AUXILIARY-SCANNER-SSH-SSH_ENUMUSERS-	0.0	https://vulners.com/metasploit/MSF:AUXILIARY-SCANNER-SSH-SSH_ENUMUSERS-	*EXPLOIT*
-    	1337DAY-ID-30937	0.0	https://vulners.com/zdt/1337DAY-ID-30937	*EXPLOIT*</pre>
-</td></tr>
 <tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
@@ -191,7 +153,7 @@
 <td title="Port">5060</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
+<td title="Service">sip</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
@@ -214,16 +176,6 @@
 <th>Extra info</th>
 </tr></thead>
 <tbody>
-<tr>
-<td>185.75.143.22 - drdjscs.gouv.fr</td>
-<td>22</td>
-<td>tcp</td>
-<td>ssh</td>
-<td>OpenSSH</td>
-<td>7.4</td>
-<td>cpe:/a:openbsd:openssh:7.4</td>
-<td>protocol 2.0</td>
-</tr>
 <tr>
 <td>185.75.143.22 - drdjscs.gouv.fr</td>
 <td>80</td>
@@ -258,7 +210,7 @@
 <td>185.75.143.22 - drdjscs.gouv.fr</td>
 <td>5060</td>
 <td>tcp</td>
-<td>tcpwrapped</td>
+<td>sip</td>
 <td></td>
 <td></td>
 <td></td>

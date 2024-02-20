@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln france-renov.gouv.fr</pre>
-<p class="lead">Wed Jan 17 17:43:06 2024 – Wed Jan 17 17:45:55 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 20:21:43 2024 – Fri Feb 16 20:24:31 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -153,29 +153,78 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">nginx/1.21.6</td>
+<td title="Product">Apache</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx/1.21.6</pre>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  Apache
+  nginx/1.21.6</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP, DNSVersionBindReqTCP, RPCCheck, tor-versions: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
+  FourOhFourRequest: 
+    HTTP/1.1 404 Not Found
+    date: Fri, 16 Feb 2024 20:22:01 GMT
+    server: Apache
+    content-length: 196
+    content-type: text/html; charset=iso-8859-1
+    strict-transport-security: max-age=16000000;includeSubDomains;
+    x-frame-options: SAMEORIGIN
+    x-content-type-options: nosniff
+    referrer-policy: no-referrer-when-downgrade
+    x-xss-protection: 1 ;mode=block
+    connection: close
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;404 Not Found&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Not Found&lt;/h1&gt;
+    &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;
-  FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest: 
-    HTTP/1.0 503 Service Unavailable
-    cache-control: no-cache
+  GetRequest: 
+    HTTP/1.1 200 OK
+    date: Fri, 16 Feb 2024 20:22:01 GMT
+    server: Apache
+    upgrade: h2
+    connection: Upgrade
+    last-modified: Thu, 05 Nov 2020 13:26:56 GMT
+    etag: "272-5b35c0cc2a800"
+    accept-ranges: bytes
+    content-length: 626
+    vary: Accept-Encoding
     content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;503 Service Unavailable&lt;/h1&gt;
-    server is available to handle this request.
-    &lt;/body&gt;&lt;/html&gt;</pre>
+    strict-transport-security: max-age=16000000;includeSubDomains;
+    x-frame-options: SAMEORIGIN
+    x-content-type-options: nosniff
+    referrer-policy: no-referrer-when-downgrade
+    x-xss-protection: 1 ;mode=block
+    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd"&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Title&lt;/title&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&amp;display=swap" rel="stylesheet"&gt;
+    &lt;link rel="stylesheet" href="assets/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;div class="main"&gt;
+    &lt;div class="logo-eolas"&gt;&lt;img src="assets/logo_eolas
+  HTTPOptions: 
+    HTTP/1.1 200 OK
+    date: Fri, 16 Feb 2024 20:22:01 GMT
+    server: Apache
+    upgrade: h2
+    connection: Upgrade
+    allow: GET,POST,OPTIONS,HEAD
+    content-length: 0
+    content-type: text/html
+    strict-transport-security: max-age=16000000;includeSubDomains;
+    x-frame-options: SAMEORIGIN
+    x-content-type-options: nosniff
+    referrer-policy: no-referrer-when-downgrade
+    x-xss-protection: 1 ;mode=block</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">2000</td>
@@ -229,7 +278,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>nginx/1.21.6</td>
+<td>Apache</td>
 <td></td>
 <td></td>
 <td></td>

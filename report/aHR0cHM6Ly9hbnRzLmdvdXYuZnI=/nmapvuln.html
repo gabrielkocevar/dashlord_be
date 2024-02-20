@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr</pre>
-<p class="lead">Wed Jan 17 10:10:48 2024 – Wed Jan 17 10:11:10 2024<br>1 hosts scanned.
+<p class="lead">Fri Feb 16 11:13:03 2024 – Fri Feb 16 11:13:27 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -151,7 +151,7 @@
   FourOhFourRequest: 
     HTTP/1.1 301 Moved Permanently
     Server: rdwr
-    Date: Wed, 17 Jan 2024 10:10:56 GMT
+    Date: Fri, 16 Feb 2024 11:13:12 GMT
     Content-Type: text/html
     Content-Length: 161
     Connection: close
@@ -166,7 +166,7 @@
   GetRequest, HTTPOptions: 
     HTTP/1.1 301 Moved Permanently
     Server: rdwr
-    Date: Wed, 17 Jan 2024 10:10:56 GMT
+    Date: Fri, 16 Feb 2024 11:13:12 GMT
     Content-Type: text/html
     Content-Length: 161
     Connection: close
@@ -181,7 +181,7 @@
   RTSPRequest, X11Probe: 
     HTTP/1.1 400 Bad Request
     Server: rdwr
-    Date: Wed, 17 Jan 2024 10:10:56 GMT
+    Date: Fri, 16 Feb 2024 11:13:12 GMT
     Content-Type: text/html
     Content-Length: 149
     Connection: close
@@ -221,45 +221,44 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-trane-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
+<h5>hnap-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.1 200 OK
     Content-Type: text/html; charset=utf-8
-    Content-Length: 967933
+    Content-Length: 2625063
     Connection: close
     X-Frame-Options: SAMEORIGIN
-    Content-Security-Policy: default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-7d207453-4a3d-4a42-861d-2fae0d99a44c';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'
+    Content-Security-Policy: default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-14f9a10c-32d4-463b-ac2f-792e34b34eaa';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'
     Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
     X-XSS-Protection: 0
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer
     Permissions-Policy: geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()
-    ETag: W/"ec4fd-JIr8pbJX5MZAcgnyveDpRtWxdAw"
-    Vary: Accept-E
+    ETag: W/"280e27-Ff8ju2FDPOEVe4SmbzU
   HTTPOptions: 
     HTTP/1.1 303 Found
     Content-Type: text/html
     Content-Length: 650
     Connection: close
     Cache-Control: no-cache, private, no-store, must-revalidate
-    Location: https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037
+    Location: https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406
     &lt;html&gt;
     &lt;head&gt;
     &lt;title&gt;Security Page redirect&lt;/title&gt;
-    &lt;meta http-equiv="refresh" content="3;url=https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037"&gt;
+    &lt;meta http-equiv="refresh" content="3;url=https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406"&gt;
     &lt;script type="text/javascript"&gt;
-    function GoSecure() { location.href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037";}
+    function GoSecure() { location.href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406";}
     function SetDelay() { setTimeout("GoSecure();",2000);}
     &lt;/script&gt;
     &lt;/head&gt;
     &lt;body onLoad="SetDelay();"&gt;
-    align="center"&gt;Click &lt;a href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1071081037"&gt;Here&lt;/a&gt; to continue.&lt;/h2&gt;
+    align="center"&gt;Click &lt;a href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1089488406"&gt;Here&lt;/a&gt; to continue.&lt;/h2&gt;
     &lt;/body</pre>
-<h5>hnap-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
-<h5>http-trane-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">2000</td>

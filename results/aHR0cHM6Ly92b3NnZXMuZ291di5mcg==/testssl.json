@@ -1,0 +1,1068 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'extended master secret/#23'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no -- no lifetime advertised"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "C604F4954F9FE223EF7B9F80D29E5071"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "B7F0354BD193CBC248945A5A85BC70FCFB24553F"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "569FA7159EE9A80688674AA18A68E6D8C7A28F16FF9D2981E1CAEBBF0B519259"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "www.vosges.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "default.phi67.zd-est.pref.gouv.fr"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "vosges.gouv.fr www.vosges.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "317 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-01-03 23:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-01-02 22:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-22 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1708402669"
+          }
+,         {
+              "id"           : "HTTP_headerAge",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Apache"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "max-age=1"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "x-cache: Miss"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "no session ticket extension"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=569FA7159EE9A80688674AA18A68E6D8C7A28F16FF9D2981E1CAEBBF0B519259"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "HAProxy"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "81"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "vosges.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "68"
+          }
+]

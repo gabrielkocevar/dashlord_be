@@ -1,0 +1,1019 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered + downgraded to weaker protocol"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'heartbeat/#15'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 3600 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "cert_compression",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "N/A"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "C7D0C1488A4E3676D19102C5482DA626"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "CAEDFC0F8A7FCEEA7C915C0AD0330939B0BAF9D9"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "37846B532B8B443AD51647E25F13421391CC966BDD16EB861A9AF2D89A73E5C7"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "sevagaz.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "sevagaz.gouv.fr"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "monitoring.sevagaz.gouv.fr monitoring.preprod.sevagaz.gouv.fr preprod.sevagaz.gouv.fr service.preprod.sevagaz.gouv.fr sevagaz.gouv.fr recette.sevagaz.gouv.fr service.sevagaz.gouv.fr monitoring.recette.sevagaz.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN and CN (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "failed (chain incomplete)."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "339 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-01-25 23:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-01-24 22:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "issue=certigna.fr"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Got no HTTP time, maybe try different URL?"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=37846B532B8B443AD51647E25F13421391CC966BDD16EB861A9AF2D89A73E5C7"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "T"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to T. Issues with the chain of trust (chain incomplete)"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "sevagaz.gouv.fr/51.254.145.84",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "82"
+          }
+]

@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Fri Feb 16 13:56:24 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln indre-et-loire.gouv.fr
+# Nmap 7.92 scan initiated Tue Feb 20 07:46:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln indre-et-loire.gouv.fr
 Nmap scan report for indre-et-loire.gouv.fr (77.159.252.140)
-Host is up (0.018s latency).
+Host is up (0.011s latency).
 rDNS record for 77.159.252.140: 140.252.159.77.rev.sfr.net
 Not shown: 995 filtered tcp ports (no-response)
 PORT     STATE  SERVICE     VERSION
@@ -9,7 +9,7 @@ PORT     STATE  SERVICE     VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest, HTTPOptions: 
 |     HTTP/1.1 403 Forbidden
-|     date: Fri, 16 Feb 2024 13:56:36 GMT
+|     date: Tue, 20 Feb 2024 07:46:42 GMT
 |     server: Apache
 |     cache-control: no-cache
 |     content-type: text/html
@@ -21,7 +21,7 @@ PORT     STATE  SERVICE     VERSION
 |     </body></html>
 |   GetRequest: 
 |     HTTP/1.1 403 Forbidden
-|     date: Fri, 16 Feb 2024 13:56:36 GMT
+|     date: Tue, 20 Feb 2024 07:46:42 GMT
 |     server: Apache
 |     cache-control: no-cache
 |     content-type: text/html
@@ -42,7 +42,7 @@ PORT     STATE  SERVICE     VERSION
 |     </body></html>
 |   RTSPRequest: 
 |     HTTP/1.1 400 Bad Request
-|     date: Fri, 16 Feb 2024 13:56:36 GMT
+|     date: Tue, 20 Feb 2024 07:46:42 GMT
 |     server: Apache
 |     content-length: 226
 |     content-type: text/html; charset=iso-8859-1
@@ -61,7 +61,7 @@ PORT     STATE  SERVICE     VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest, GetRequest, HTTPOptions: 
 |     HTTP/1.1 403 Forbidden
-|     date: Fri, 16 Feb 2024 13:56:42 GMT
+|     date: Tue, 20 Feb 2024 07:46:48 GMT
 |     server: Apache
 |     cache-control: no-cache
 |     content-type: text/html
@@ -80,7 +80,7 @@ PORT     STATE  SERVICE     VERSION
 |     </body></html>
 |   RTSPRequest: 
 |     HTTP/1.1 400 Bad Request
-|     date: Fri, 16 Feb 2024 13:56:47 GMT
+|     date: Tue, 20 Feb 2024 07:46:53 GMT
 |     server: Apache
 |     content-length: 226
 |     content-type: text/html; charset=iso-8859-1
@@ -97,20 +97,20 @@ PORT     STATE  SERVICE     VERSION
 5060/tcp open   sip?
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=2/16%Time=65CF6994%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,13D,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Fri,\x2016\x
-SF:20Feb\x202024\x2013:56:36\x20GMT\r\nserver:\x20Apache\r\ncache-control:
+SF-Port80-TCP:V=7.92%I=7%D=2/20%Time=65D458E2%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,13D,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Tue,\x2020\x
+SF:20Feb\x202024\x2007:46:42\x20GMT\r\nserver:\x20Apache\r\ncache-control:
 SF:\x20no-cache\r\ncontent-type:\x20text/html\r\nage:\x200\r\nx-cache:\x20
 SF:Miss\r\ncontent-length:\x2094\r\nkeep-alive:\x20timeout=5,\x20max=100\r
 SF:\nconnection:\x20close\r\n\r\n<html><body><h1>403\x20Forbidden</h1>\nRe
 SF:quest\x20forbidden\x20by\x20administrative\x20rules\.\n</body></html>\n
-SF:\n")%r(HTTPOptions,109,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Fri,\
-SF:x2016\x20Feb\x202024\x2013:56:36\x20GMT\r\nserver:\x20Apache\r\ncache-c
+SF:\n")%r(HTTPOptions,109,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Tue,\
+SF:x2020\x20Feb\x202024\x2007:46:42\x20GMT\r\nserver:\x20Apache\r\ncache-c
 SF:ontrol:\x20no-cache\r\ncontent-type:\x20text/html\r\nage:\x200\r\nx-cac
 SF:he:\x20Miss\r\nconnection:\x20close\r\n\r\n<html><body><h1>403\x20Forbi
 SF:dden</h1>\nRequest\x20forbidden\x20by\x20administrative\x20rules\.\n</b
 SF:ody></html>\n\n")%r(RTSPRequest,188,"HTTP/1\.1\x20400\x20Bad\x20Request
-SF:\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2013:56:36\x20GMT\r\nserver:\x2
+SF:\r\ndate:\x20Tue,\x2020\x20Feb\x202024\x2007:46:42\x20GMT\r\nserver:\x2
 SF:0Apache\r\ncontent-length:\x20226\r\ncontent-type:\x20text/html;\x20cha
 SF:rset=iso-8859-1\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUB
 SF:LIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\
@@ -121,7 +121,7 @@ SF:,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r
 SF:\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20reque
 SF:st</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body>
 SF:</html>\n\n")%r(FourOhFourRequest,109,"HTTP/1\.1\x20403\x20Forbidden\r\
-SF:ndate:\x20Fri,\x2016\x20Feb\x202024\x2013:56:36\x20GMT\r\nserver:\x20Ap
+SF:ndate:\x20Tue,\x2020\x20Feb\x202024\x2007:46:42\x20GMT\r\nserver:\x20Ap
 SF:ache\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\nage
 SF::\x200\r\nx-cache:\x20Miss\r\nconnection:\x20close\r\n\r\n<html><body><
 SF:h1>403\x20Forbidden</h1>\nRequest\x20forbidden\x20by\x20administrative\
@@ -130,19 +130,19 @@ SF:\x20request\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html
 SF:\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20
 SF:sent\x20an\x20invalid\x20request\.\n</body></html>\n\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/16%Time=65CF699A%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,109,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Fri,\
-SF:x2016\x20Feb\x202024\x2013:56:42\x20GMT\r\nserver:\x20Apache\r\ncache-c
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/20%Time=65D458E8%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,109,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Tue,\
+SF:x2020\x20Feb\x202024\x2007:46:48\x20GMT\r\nserver:\x20Apache\r\ncache-c
 SF:ontrol:\x20no-cache\r\ncontent-type:\x20text/html\r\nage:\x200\r\nx-cac
 SF:he:\x20Miss\r\nconnection:\x20close\r\n\r\n<html><body><h1>403\x20Forbi
 SF:dden</h1>\nRequest\x20forbidden\x20by\x20administrative\x20rules\.\n</b
 SF:ody></html>\n\n")%r(HTTPOptions,109,"HTTP/1\.1\x20403\x20Forbidden\r\nd
-SF:ate:\x20Fri,\x2016\x20Feb\x202024\x2013:56:42\x20GMT\r\nserver:\x20Apac
+SF:ate:\x20Tue,\x2020\x20Feb\x202024\x2007:46:48\x20GMT\r\nserver:\x20Apac
 SF:he\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\nage:\
 SF:x200\r\nx-cache:\x20Miss\r\nconnection:\x20close\r\n\r\n<html><body><h1
 SF:>403\x20Forbidden</h1>\nRequest\x20forbidden\x20by\x20administrative\x2
 SF:0rules\.\n</body></html>\n\n")%r(FourOhFourRequest,109,"HTTP/1\.1\x2040
-SF:3\x20Forbidden\r\ndate:\x20Fri,\x2016\x20Feb\x202024\x2013:56:42\x20GMT
+SF:3\x20Forbidden\r\ndate:\x20Tue,\x2020\x20Feb\x202024\x2007:46:48\x20GMT
 SF:\r\nserver:\x20Apache\r\ncache-control:\x20no-cache\r\ncontent-type:\x2
 SF:0text/html\r\nage:\x200\r\nx-cache:\x20Miss\r\nconnection:\x20close\r\n
 SF:\r\n<html><body><h1>403\x20Forbidden</h1>\nRequest\x20forbidden\x20by\x
@@ -151,7 +151,7 @@ SF:TP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r\nconte
 SF:nt-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>
 SF:\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>
 SF:\n\n")%r(RTSPRequest,188,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ndate:\x
-SF:20Fri,\x2016\x20Feb\x202024\x2013:56:47\x20GMT\r\nserver:\x20Apache\r\n
+SF:20Tue,\x2020\x20Feb\x202024\x2007:46:53\x20GMT\r\nserver:\x20Apache\r\n
 SF:content-length:\x20226\r\ncontent-type:\x20text/html;\x20charset=iso-88
 SF:59-1\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-/
 SF:/IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20R
@@ -164,4 +164,4 @@ SF:ur\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n
 SF:");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Fri Feb 16 13:59:12 2024 -- 1 IP address (1 host up) scanned in 168.67 seconds
+# Nmap done at Tue Feb 20 07:49:18 2024 -- 1 IP address (1 host up) scanned in 167.79 seconds

@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"optimal_proto","seine-saint-denis.gouv.fr/77.159.252.140","443","WARN","77.159.252.140:443 doesn't seem to be a TLS/SSL enabled server.","",""
